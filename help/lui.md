@@ -1,11 +1,11 @@
 ---
 title: LUI
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -16,36 +16,35 @@ Alte Benutzeroberfläche
 
 ## Hintergrund {#background}
 
-`LUI` identifiziert die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM als Cloud Service nicht empfohlen oder nicht unterstützt werden.
+`LUI` steht für die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden.
 
-Untertypen werden verwendet, um die verschiedenen Typen von Elementen der Benutzeroberfläche zu identifizieren, die aktualisiert werden sollten oder müssen:
+Um die verschiedenen Arten von Elementen der Benutzeroberfläche, die aktualisiert werden sollen oder müssen, zu unterscheiden, werden folgende Untertypen verwendet:
 
-* `legacy.dialog.classic`: Classic UI-Dialogfelder, die auf ExtJS basieren, müssen in Koral geändert werden.
-   * Dies wird erkannt, wenn der Name des Dialogfelds &quot;dialog&quot;oder &quot;design_dialog&quot;lautet und wenn
-der Wert der Eigenschaft `jcr:primaryType` oder der Wert der Eigenschaft `xtype` lautet &quot;cq:Dialog&quot;.
-* `legacy.dialog.coral2`: Koral 2 Dialoge, sollten aktualisiert werden, um Coral 3 zu verwenden.
-   * Dies wird erkannt, wenn der Dialog und die zugehörigen Node-Namen für den untergeordneten Inhalt &quot;cq:dialog/content&quot;sind.
-&quot;cq:design_dialog/content&quot;, &quot;cq:dialog.coral2/content&quot;oder &quot;cq:design_dialog.coral2/content&quot;
-und der `sling:resourceType`-Eigenschaftswert enthält nicht
-&quot;granite/ui/components/coral/foundation&quot;.
-* `legacy.custom.component`: Komponenten, die von  `foundation/components`übernehmen, sollten aktualisiert werden, um Kernkomponenten zu verwenden.
-   * Dies wird erkannt, wenn der `jcr:primaryType`-Eigenschaftswert &quot;cq:Component&quot;und der Wert
-      `sling:resourceSuperType` Eigenschaftswert enthält &quot;Stiftung/Komponenten&quot;oder eine der
-      `sling:resourceSuperType` Eigenschaftswerte der Kette von Komponenten des Supertyps enthalten &quot;Stiftung/Komponenten&quot;.
-* `legacy.static.template`: Statische Vorlagen sollten auf Bearbeitbare Vorlagen aktualisiert werden.
-   * Dies wird erkannt, wenn der `jcr:primaryType`-Eigenschaftswert &quot;cq:Template&quot;lautet.
+* `legacy.dialog.classic`: Dialoge aus der klassischen Benutzeroberfläche, die auf ExtJS basieren, müssen auf Coral umgestellt werden.
+   * Dies wird erkannt, wenn der Name des Dialogs „dialog“ oder „design_dialog“ ist und wenn der Wert der Eigenschaft `jcr:primaryType` oder der Wert der Eigenschaft `xtype` „cq:Dialog“ lautet.
+* `legacy.dialog.coral2`: Coral 2-Dialoge, die zur Verwendung von Coral 3 aktualisiert werden sollten.
+   * Dies wird erkannt, wenn der Dialog und seine untergeordneten Inhaltsknotennamen „cq:dialog/content“,
+„cq:design_dialog/content“, „cq:dialog.coral2/content“ oder „cq:design_dialog.coral2/content“ sind
+und der Eigenschaftswert von `sling:resourceType` nicht
+„granite/ui/components/coral/foundation“ enthält.
+* `legacy.custom.component`: Komponenten, die von `foundation/components` erben, sollten aktualisiert werden, sodass sie Kernkomponenten verwenden.
+   * Dies wird erkannt, wenn der Eigenschaftswert von `jcr:primaryType` „cq:Component“ und der
+      Eigenschaftswert von `sling:resourceSuperType` „foundation/components“ enthält oder einer der
+      Eigenschaftswerte von `sling:resourceSuperType` der Kette vom Übertyp „Komponenten“ „foundation/components“ enthält.
+* `legacy.static.template`: Statische Vorlagen, die zu bearbeitbaren Vorlagen aktualisiert werden sollten.
+   * Dies wird erkannt, wenn der Eigenschaftswert von `jcr:primaryType` „cq:Template“ lautet.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Die klassische Benutzeroberfläche ist in AEM als Cloud Service nicht mehr verfügbar. Die Standard-Benutzeroberfläche für das Authoring ist die Touch-fähige Benutzeroberfläche.
-* Die Nutzung älterer benutzerdefinierter Komponenten kann die Wartungskosten im Laufe der Zeit erhöhen.
+* Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
+* Die weitere Verwendung von veralteten, kundenspezifischen Komponenten kann die Wartungskosten mit der Zeit erhöhen.
 
 ## Mögliche Lösungen {#solutions}
 
-* Verwenden Sie die [AEM Moderationstools-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
-   * Classic-Dialoge (ExtJS) zu Coral-Dialogen
-   * Foundation-Komponenten in Kernkomponenten
-   * Statische Vorlagen und Spaltensteuerung für bearbeitbare Vorlagen und interaktives Raster
-   * Entwürfe und Designdialoge zu Richtlinien für bearbeitbare Vorlagen
-* Überprüfen Sie nach Möglichkeit die benutzerdefinierte Komponentenbibliothek und Transition Ihres Projekts auf den Satz standardisierter [Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de), um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Anwendungen zu reduzieren.
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Verwenden Sie die [AEM-Modernisierungs-Tool-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
+   * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
+   * Basiskomponenten zu Kernkomponenten
+   * Statischen Vorlagen und Spaltensteuerung zu bearbeitbaren Vorlagen und responsivem Raster
+   * Designs und Design-Dialogen zu Richtlinien für bearbeitbare Vorlagen
+* Überprüfen Sie die Bibliothek der benutzerdefinierten Komponenten Ihres Projekts und wechseln Sie, wenn möglich, zum Satz der standardisierten [Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de), um die Entwicklungszeit zu beschleunigen und die Wartungskosten für Ihre Programme zu reduzieren.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
