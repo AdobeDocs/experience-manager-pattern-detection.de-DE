@@ -1,11 +1,11 @@
 ---
 title: PCX
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ Seitenkomplexität
 
 ## Hintergrund {#background}
 
-`PCX` identifiziert Seiten, die eine große Anzahl von Knoten in ihrer Struktur enthalten.
+`PCX` Steht für Seiten, die eine große Anzahl von Knoten in ihrer Struktur enthalten.
 
-Untertypen werden zur Identifizierung der verschiedenen Arten von Informationen verwendet:
+Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 
-* `page.complexity.medium`: Eine Seite enthält eine relativ hohe Anzahl von Knoten, die die Renderleistung beeinträchtigen können.
-* `page.complexity.high`: Eine Seite enthält eine sehr hohe Anzahl von Knoten, die sich wahrscheinlich auf die Renderleistung auswirken werden.
+* `page.complexity.medium`: Eine Seite enthält eine mäßig hohe Anzahl von Knoten, was die Rendering-Leistung beeinträchtigen kann.
+* `page.complexity.high`: Eine Seite enthält eine sehr hohe Anzahl von Knoten, was sich wahrscheinlich auf die Rendering-Leistung auswirken wird.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Eine große Anzahl von Knoten auf einer Seite kann sich auf ihre Renderleistung auswirken.
+* Eine große Anzahl von Knoten innerhalb einer Seite kann deren Rendering-Leistung beeinträchtigen.
 
 ## Mögliche Lösungen {#solutions}
 
-* Führen Sie Schritte zur Verringerung der Gesamtzahl von Knoten auf einer Seite durch, darunter:
+* Ergreifen Sie Maßnahmen, um die Gesamtzahl der Knoten innerhalb einer Seite zu reduzieren, darunter:
    * Stellen Sie sicher, dass es keine unnötigen Container gibt.
    * Testen Sie, ob dasselbe Layout mit weniger Containern erreicht werden kann.
    * Vereinfachen Sie den Seiteninhalt.
    * Verringern Sie die Tiefe der Knotenstruktur.
-   * Machen Sie alle enthaltenen Erlebnisfragmente zur Einfachheit neu.
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+   * Refaktorisieren Sie der Einfachheit halber alle enthaltenen Experience Fragments.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
