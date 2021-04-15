@@ -1,11 +1,11 @@
 ---
 title: VORLAGE
-description: Vorlage für die Codeseite des Musterdetektors
-translation-type: tm+mt
+description: Vorlage für die Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: 79561c1f0f5bab7c070557e3fd950c728c33e79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -17,21 +17,21 @@ Vorlage
 ## Hintergrund {#background}
 
 Geben Sie eine Beschreibung des Problems ein, das dieser Code darstellt.
-Beantworten Sie die Frage: &quot;Was ist das?&quot;
+Beantworten Sie die Frage: „Was ist das?“
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken, die entstehen, wenn nichts dagegen unternommen wird.
-Beantworten Sie die Frage: &quot;Warum sollte es mir wichtig sein?&quot;
+Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken an, die entstehen, wenn nichts dagegen unternommen wird.
+Beantworten Sie die Frage: „Warum sollte es mir wichtig sein?“
 
 * Implikation oder Risiko 1
 * Implikation oder Risiko 2
 
 ## Mögliche Lösungen {#solutions}
 
-Geben Sie eine Beschreibung der möglichen Schritte ein, die das Problem mildern oder beheben. Vermeiden Sie Duplizierungen von Informationen, die sich an anderer Stelle befinden - verweisen Sie nach Möglichkeit auf die Dokumentation zur öffentlichen Adobe.
-Beantworten Sie die Frage: &quot;Was kann ich dagegen tun?&quot;
+Beschreiben Sie mögliche Schritte, mit denen das Problem gemildert oder gelöst werden kann. Vermeiden Sie es, Informationen zu duplizieren, die an anderer Stelle zu finden sind – verweisen Sie, wann immer möglich, auf die öffentliche Adobe-Dokumentation.
+Beantworten Sie die Frage: „Was kann ich dagegen tun?“
 
-* mögliche Lösung Nr. 1
-* mögliche Lösung Nr. 2
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Mögliche Lösung Nr. 1
+* Mögliche Lösung Nr. 2
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
