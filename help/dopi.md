@@ -1,31 +1,31 @@
 ---
 title: DOPI
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: ae3e162da40441fba39e6e9d283c495d15f40ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # DOPI {#dopi}
 
-Veralteter Index für bestellte Eigenschaften
+Veralteter Index für sortierte Eigenschaften
 
 ## Hintergrund {#background}
 
-`DOPI` identifiziert die Verwendung von Indexdefinitionen für die geordnete Eigenschaft (`primaryType=oak:QueryIndexDefinition` AND  `type="ordered"`), die seit 6.1 nicht mehr unterstützt und in 6.2 entfernt wurden.
+`DOPI` steht für die Verwendung von Indexdefinitionen für sortierte Eigenschaften (`primaryType=oak:QueryIndexDefinition` UND `type="ordered"`), die seit 6.1 veraltet sind und in 6.2 entfernt wurden.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
 * Einige Abfragen reagieren möglicherweise nicht.
-* Die Kundenfunktionalität funktioniert möglicherweise nicht ordnungsgemäß.
-* Traversal Warnungen oder sogar Fehler und erhebliche Leistungsstrafen, da die veralteten Indizes keine Auswirkungen haben.
+* Kundenspezifische Funktionen funktionieren möglicherweise nicht korrekt.
+* Überschreitungs-Warnungen oder sogar -Fehler und erhebliche Performance-Einbußen, da die veralteten Indizes keine Wirkung haben.
 
 ## Mögliche Lösungen {#solutions}
 
-* Ändern Sie die Indexdefinition so, dass sie zu einer unterstützten Indexdefinition wird oder durch sie ersetzt wird. (Siehe [Oak-Abfragen und Indizierung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
-* Überprüfen Sie das Projekt [work-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) und verstehen Sie, wie [DOPI-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) korrigiert und mit AEM als Cloud Service kompatibel gemacht werden können.
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Ändern Sie die Indexdefinition so, dass sie zu einer unterstützten Indexdefinition wird, oder ersetzen Sie sie durch eine solche. (Siehe [Oak-Abfragen und Indizierung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=de)).
+* Überprüfen Sie das Projekt [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) und verstehen Sie, wie [DOPI-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) korrigiert und mit AEM as a Cloud Service kompatibel gemacht werden können.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
