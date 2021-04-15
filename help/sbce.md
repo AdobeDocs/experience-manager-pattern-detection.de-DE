@@ -1,11 +1,11 @@
 ---
 title: SBCE
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
