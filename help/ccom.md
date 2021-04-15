@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ Benutzerdefinierte Komponente
 
 ## Hintergrund {#background}
 
-`CCOM` identifiziert benutzerdefinierte Komponenten, die auf AEM installiert wurden. Diese Informationen werden für die Zwecke der Bewertung bewährter Verfahren bereitgestellt.
+`CCOM` steht für benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
-Ein Untertyp wird mit diesem Code zur Identifizierung der Kategorie der Komponente verwendet:
+Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu unterscheiden:
 
-* `custom.core`: Ein Supertyp in der Kette der Supertypen der Komponente enthält &quot;core/wcm/components/&quot;, was anzeigt, dass er von einer Kernkomponente übernommen wird.
-* `custom.foundation`: Ein Supertyp in der Kette der Supertypen der Komponente enthält &quot;core/wcm/components/&quot;, was anzeigt, dass er von einer Kernkomponente übernommen wird.
-* `custom.overlay.foundation`: Der Komponentenpfad enthält &quot;wcm/foundation/components/&quot;oder &quot;foundation/components/&quot;, was angibt, dass eine Basiskomponente überlagert wird.
+* `custom.core`: Ein Übertyp in der Kette der Übertypen der Komponente enthält „core/wcm/components/“ und zeigt damit an, dass er von einer Kernkomponente erbt.
+* `custom.foundation`: Ein Übertyp in der Kette der Übertypen der Komponente enthält „core/wcm/components/“ und zeigt damit an, dass er von einer Kernkomponente erbt.
+* `custom.overlay.foundation`: Der Komponentenpfad enthält „wcm/foundation/components/“ oder „foundation/components/“ und zeigt damit an, dass er eine Basiskomponente überlagert.
 * `custom`: Die benutzerdefinierte Komponente übernimmt oder überlagert keine Kern- oder Basiskomponente.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Best Practice ist die Minimierung der Anzahl von benutzerdefinierten Komponenten, die Nutzung von Kernkomponenten und die Verwendung von Kernkomponenten mit dem Stilsystem, um technische Schulden zu reduzieren.
+* Best Practice ist es, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu nutzen und Kernkomponenten mit dem Stilsystem zu verwenden, um technische Altlasten zu reduzieren.
 
 ## Mögliche Lösungen {#solutions}
 
-* Weitere Informationen zu Kernkomponenten finden Sie unter [Einführung zu Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de).
-* Weitere Informationen zum Stilsystem finden Sie unter [Verwenden des Stilsystems](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Weitere Informationen zu Kernkomponenten finden Sie unter [Einführung in Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de).
+* Weitere Informationen zum Stilsystem finden Sie unter [Verwenden des Stilsystems](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=de#page-authoring).
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
