@@ -1,11 +1,11 @@
 ---
-title: NONE
-description: Hilfeseite zur Mustererkennung
-translation-type: tm+mt
+title: KEIN
+description: Hilfeseite zum Mustererkennungs-Code
+translation-type: ht
 source-git-commit: fcd6e634d31c6f3062393c4538bf86c15bf4492f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '34'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ Kein
 
 ## Hintergrund {#background}
 
-Die Seite sollte nicht erreicht werden.
+Die Seite hätte nicht aufgerufen werden sollen.
 
 ## Mögliche Lösungen {#solutions}
 
-* Bitte wenden Sie sich an unser [AEM Supportteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), um den Fehler zu melden.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um den Fehler zu melden.
