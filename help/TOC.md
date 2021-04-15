@@ -1,28 +1,28 @@
 ---
 hide: true
-user-guide-title: Handbuch zur Mustererkennung für Experience Manager
-breadcrumb-title: AEM
-user-guide-description: Erfahren Sie mehr über die Adobe Experience Manager-Mustererkennung.
+user-guide-title: Handbuch zur Mustererkennung in Experience Manager
+breadcrumb-title: AEM-Mustererkennung
+user-guide-description: Erfahren Sie mehr über die Mustererkennung in Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Entwicklertools
+feature: Entwickler-Tools
 role: Entwickler
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Handbuch zur Mustererkennung für Experience Manager {#table-of-contents}
+# Handbuch zur Mustererkennung in Experience Manager {#table-of-contents}
 
 + [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
 + [CTEM](ctem.md)
-+ [GD](dg.md)
++ [DG](dg.md)
 + [DM](dm.md)
 + [DOPI](dopi.md)
 + [ECU](ecu.md)
