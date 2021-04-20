@@ -4,8 +4,8 @@ user-guide-title: Handbuch zur Mustererkennung in Experience Manager
 breadcrumb-title: AEM-Mustererkennung
 user-guide-description: Erfahren Sie mehr über die Mustererkennung in Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Entwickler-Tools
-role: Entwickler
+feature: Developer Tools
+role: Developer
 translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: ht
