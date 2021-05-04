@@ -3,10 +3,10 @@ title: FORMULAR
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 41%
+source-wordcount: '1228'
+ht-degree: 39%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 41%
 [!DNL Adobe Experience Manager Forms]
 
 ## Hintergrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="FORMS"
+>abstract="Der Forms-Code identifiziert potenzielle Probleme bei der Migration von Adobe Experience Manager Forms nach Adobe Experience Manager Forms als Cloud Service. Prüfen Sie mögliche Implikationen und damit verbundene Risiken und gehen Sie auf diese Probleme ein, bevor Sie zu Cloud Service migrieren."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Mögliche Implikationen und Risiken"
 
 `FORMS` Identifiziert potenzielle Probleme im Zusammenhang mit der Migration von  [!DNL Adobe Experience Manager Forms] zu  [!DNL Adobe Experience Manager Form]s als  [!DNL Cloud Service]. Beheben Sie diese Probleme, bevor Sie zu [!DNL Cloud Service] migrieren.
 
@@ -62,6 +68,12 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 * [Dokument ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) Services-Schritte sind in AEM Workflows nicht verfügbar. (WORKFLOW_DOCSERVICES)
 
 ## Mögliche Lösungen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="Durchführungsleitlinien"
+>abstract="Informationen, die über FORMS-Code bereitgestellt werden, können Anleitungen zu Ersetzungen und anderen Aktionen bereitstellen, die erforderlich sind, um einige Funktionen und APIs mit dem Cloud Service kompatibel zu machen. Support zur Adobe für Hilfe und Klarstellungen"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-Support"
 
 * Verwenden Sie das Migrationsdienstprogramm, um alle Regelskripte in Ihrer Umgebung in wiederverwendbare Funktionen umzuwandeln. Sie können die wiederverwendbaren Funktionen mit dem Visual Rule Editor verwenden, um weiterhin Ergebnisse zu erhalten, die mit Regelskripten erzielt wurden. (CODE_EDITOR)
 
