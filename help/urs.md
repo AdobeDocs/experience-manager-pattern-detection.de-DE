@@ -1,18 +1,24 @@
 ---
 title: URS
 description: Hilfeseite zum Mustererkennungs-Code
-translation-type: ht
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 78%
 
 ---
-
 
 # URS {#urs}
 
 Nicht unterstützte Repository-Struktur
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="Nicht unterstützte Repository-Struktur"
+>abstract="URS identifiziert Fälle nicht unterstützter Repository-Struktur. Dadurch werden Informationen überdeckt, um Konflikte zwischen AEM Produktcode und Kundencode zu vermeiden, Inhalte, die aus /etc in andere Ordner im Repository umstrukturiert werden, und mehr."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repository-Neustrukturierung"
 
 ## Hintergrund {#background}
 
@@ -34,6 +40,13 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 * Packages, die sowohl veränderliche als auch unveränderliche Inhalte enthalten, werden wahrscheinlich Probleme bei der Implementierung verursachen.
 
 ## Mögliche Lösungen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="Durchführungsleitlinien"
+>abstract="Es empfiehlt sich, das Codeprojekt zu überprüfen und sicherzustellen, dass es den AEM Richtlinien für die Projektstruktur entspricht, und zu vermeiden, dass Code auf älteren/nicht unterstützten Repository-Pfaden basiert, der in AEM als Cloud Service unerwünschtes Verhalten hervorrufen kann. Support zur Adobe für Hilfe und Klarstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM Leitlinien für die Projektstruktur"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-Support"
 
 * Eine Anleitung zur Vorbereitung auf AEM as a Cloud Service finden Sie unter [Repository-Neustrukturierung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=de).
 * Weitere Informationen zu veränderlichen und unveränderlichen Bereichen des Repositorys finden Sie unter [AEM-Projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de).
