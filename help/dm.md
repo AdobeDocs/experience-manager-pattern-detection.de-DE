@@ -1,20 +1,27 @@
 ---
 title: DM
 description: Hilfeseite zum Mustererkennungs-Code
-translation-type: ht
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 76%
 
 ---
-
 
 # DM {#dm}
 
 Dynamic Media
 
 ## Hintergrund {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dm_overview"
+>title="Dynamic Media"
+>abstract="DM-Code identifiziert die Nutzung von AEM Assets Dynamic Media in Ihrer aktuellen Implementierung. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=de" text="AEM Entwicklung - Leitlinien und Best Practices"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
 
 `DM` steht für die Verwendung von AEM Assets Dynamic Media. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt.
 
@@ -30,6 +37,14 @@ Bei diesem Code wird ein Untertyp verwendet:
    * Bei Upgrades kann es Probleme im Zusammenhang mit Dynamic Media geben.
 
 ## Mögliche Lösungen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dm_guidance"
+>title="Durchführungsleitlinien"
+>abstract="AEM als Cloud Service unterstützen nur den Runmode dynamicmedia_scene7. Bitte überprüfen Sie die aktuellen Einstellungen und kontaktieren Sie das Adobe Support Team um Hilfe und Erläuterungen zu erhalten."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Einrichten von Dynamic Media"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-Support"
+
 
 * `dynamic.media.runmode`
    * Weitere Informationen finden Sie unter [Einrichten von Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=de).
