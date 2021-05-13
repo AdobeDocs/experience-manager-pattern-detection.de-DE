@@ -2,11 +2,11 @@
 title: LUI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Alte Benutzeroberfläche
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_overview"
 >title="Alte Benutzeroberfläche"
->abstract="LUI identifiziert die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM nicht empfohlen oder nicht unterstützt werden."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de" text="Bemerkenswerte Änderungen - AEM als Cloud Service"
+>abstract="LUI kennzeichnet die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de" text="Wesentliche Änderungen – AEM as a Cloud Service"
 
-`LUI` steht für die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden.
+`LUI` kennzeichnet die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden.
 
 Um die verschiedenen Arten von Elementen der Benutzeroberfläche, die aktualisiert werden sollen oder müssen, zu unterscheiden, werden folgende Untertypen verwendet:
 
@@ -44,8 +44,8 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"
->title="Durchführungsleitlinien"
->abstract="Die klassische Benutzeroberfläche ist in AEM als Cloud Service nicht mehr verfügbar und die Standard-Benutzeroberfläche für das Authoring ist die Touch-aktivierte Benutzeroberfläche. Best Practice ist, alle nicht unterstützten Schnittstellen zu verschieben und verknüpfte Anpassungen sollten auf neuere Funktionen/Funktionen umgestaltet werden, die mit AEM als Cloud Service kompatibel sind. Kunden können die vorhandene AEM Modernisierungssuite nutzen, um den für die Modernisierung der AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren."
+>title="Implementierungsleitlinien"
+>abstract="Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar und die Standardoberfläche für das Authoring ist die Touch-fähige Benutzeroberfläche. Best Practice ist es, alle nicht unterstützten Oberflächen zu verschieben. Verknüpfte Anpassungen sollten auf neuere Funktionen/Funktionalitäten umgearbeitet werden, die mit AEM as a Cloud Service kompatibel sind. Kunden können die bestehende AEM Modernization Suite nutzen, um den Aufwand für die Modernisierung der AEM Sites-Implementierungen zu reduzieren."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM-Modernisierungs-Tools"
 
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
@@ -56,9 +56,9 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Tools und Ressourcen"
->abstract="Mithilfe der AEM Modernisierungssuite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Ziel ist es, Kunden dabei zu unterstützen, von den nicht unterstützten oder älteren Funktionen zu den robusten, modernen AEM zu wechseln. Diese Tools sind konfigurierbar, konfigurationsbewusst und erweiterbar. Darüber hinaus sollten Sie die Ersetzung benutzerdefinierter Komponenten durch den Satz standardisierter Kernkomponenten prüfen, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Anwendungen zu reduzieren."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentenkonverter"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernkomponenten"
+>abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationssensitiv und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentenkonvertierer"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de" text="Kernkomponenten"
 
 * Verwenden Sie die [AEM-Modernisierungs-Tool-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
    * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
