@@ -2,11 +2,11 @@
 title: INST
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Installiertes Artefakt
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installiertes Artefakt"
->abstract="INST identifiziert benutzerdefinierte Pakete und Pakete von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese werden berichtet, um dabei zu helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren. Alle Pakete von Drittanbietern müssen die AEM als Cloud Service- und Verpackungsrichtlinien einhalten."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Entwicklungsleitlinien - AEM als Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="Verpackungsrichtlinien - AEM als Cloud Service"
+>abstract="INST kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren. Pakete von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die Entwicklung und Bündelung einhalten."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=de" text="Bündelungsrichtlinien – AEM as a Cloud Service"
 
-`INST` stellt benutzerdefinierte Packages und Bundles von Drittanbietern fest, die vom Kunden in AEM installiert wurden. Diese werden berichtet, um dabei zu helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
+`INST` kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
 
 Wenn mehrere Versionen eines Package installiert wurden, wird nur die neueste Version gemeldet.
 
@@ -38,9 +38,9 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
->title="Durchführungsleitlinien"
->abstract="Kunden können mit CRX Package Manager keine Drittanbieter-Pakete mehr installieren. Kunden sollten diese installierten Artefakte überprüfen und strukturiert sein und sie optimieren, um mit AEM als Cloud Service zu arbeiten. Jedes Package eines Drittanbieters sollte bei seinem Ersteller oder bei Adobe auf Kompatibilität mit AEM as a Cloud Service überprüft werden."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="Einbetten von Unterpaketen in das Container-Paket"
+>title="Implementierungsleitlinien"
+>abstract="Kunden können mit CRX Package Manager keine Pakete von Drittanbietern mehr installieren. Kunden sollten diese installierten Artefakte überprüfen und müssen sie für das Funktionieren mit AEM as a Cloud Service strukturieren und optimieren. Jedes Package eines Drittanbieters sollte bei seinem Ersteller oder bei Adobe auf Kompatibilität mit AEM as a Cloud Service überprüft werden."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de#embeddeds" text="Einbetten von Unterpaketen in das Container-Paket"
 
 
 * Die Installation von Packages von Drittanbietern mithilfe von CRX Package Manager ist in AEM as a Cloud Service nicht möglich.
@@ -52,9 +52,9 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Tools und Ressourcen"
->abstract="Prüfen Sie das WKND-Legacy-Projekt, um zu verstehen, wie INST-Verletzungen mit AEM Cloud Service kompatibel gemacht werden können. Überprüfen Sie außerdem das Beispiel für eine INST-Verletzung auf Github, um zu verstehen, wie dies in AEM als Cloud Service korrigiert und bereitgestellt werden kann."
+>abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie INST-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Prüfen Sie außerdem das Beispiel für INST-Verletzungen auf Github, um zu verstehen, wie dies korrigiert und in AEM as a Cloud Service implementiert werden kann."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy-Projekt"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Beispiel für eine INST-Verletzung - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Beispiel für INST-Verletzungen – Github"
 
 * Packages von Drittanbietern sollten als Teil des Projekts mithilfe des Cloud Manager-[Implementierungsprozesses](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=de#deployment-process) in AEM implementiert werden.
 * Überprüfen Sie, wie die [Einbettung von Drittanbieter-Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de#embedding-3rd-party-packages) in Ihr Projekt für AEM as a Cloud Service erfolgt.
