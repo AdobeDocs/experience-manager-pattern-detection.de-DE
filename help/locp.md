@@ -2,11 +2,11 @@
 title: LOCP
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Überschreiben benutzerdefinierter Pakete"
->abstract="LOCP identifiziert die Erkennung eines benutzerdefinierten Pakets, das Inhalte an /libs liefert. Dies ist ein Anti-Muster (außer im Fall von ACLs)."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=de" text="Nachhaltige Aktualisierungen "
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Sling Resource Merger"
+>abstract="LOCP kennzeichnet die Erkennung eines benutzerdefinierten Pakets, das Inhalte an /libs bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs)."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=de" text="Nachhaltige Aktualisierungen"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=de#platform" text="Sling Resource Merger"
 
-`LOCP` steht für die Erkennung eines benutzerdefinierten Pakets, das Inhalte an `/libs` bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs).
+`LOCP` kennzeichnet die Erkennung eines benutzerdefinierten Pakets, das Inhalte an `/libs` bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs).
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -34,10 +34,10 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
->title="Durchführungsleitlinien"
->abstract="Kunden sollten ihren benutzerspezifischen Code und ihre Pakete überprüfen, um herauszufinden, ob Inhalte an /libs bereitgestellt werden, und ihn neu umgestalten, um den Inhalt unter /apps zu überlagern und ihn mit AEM als Cloud Service kompatibel zu machen. Support zur Adobe für Hilfe und Klarstellungen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Überlagerungen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-Support"
+>title="Implementierungsleitlinien"
+>abstract="Kunden sollten ihren benutzerdefinierten Code und ihre Pakete überprüfen, um festzustellen, ob der Inhalt unter /libs bereitgestellt wird, und ihn so umgestalten, dass der Inhalt unter /apps überlagert wird, und ihn mit AEM as a Cloud Service kompatibel machen. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=de#platform" text="Überlagerungen"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Benutzerdefinierte Pakete sollten Inhalte für `/apps` anstatt für `/libs` bereitstellen.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
