@@ -2,11 +2,11 @@
 title: OID
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Oak-Indexdefinition
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
 >title="Oak-Indexdefinition"
->abstract="OID identifiziert Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es identifiziert Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem identifiziert es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Meldung für jede OID-Suche identifiziert den Index und stellt zusätzliche Informationen bereit."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#how-to-use" text="Inhaltsindexierungsrichtlinien"
+>abstract="OID kennzeichnet Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es kennzeichnet Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem kennzeichnet es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Meldung für jedes OID-Ergebnis bezeichnet den Index und liefert zusätzliche Informationen."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=de#how-to-use" text="Richtlinien für die Indizierung von Inhalten"
 
-`OID` steht für Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es identifiziert Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem identifiziert es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Meldung für jedes `OID`-Ergebnis bezeichnet den Index und liefert zusätzliche Informationen.
+`OID` kennzeichnet Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es kennzeichnet Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem kennzeichnet es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Meldung für jedes `OID`-Ergebnis bezeichnet den Index und liefert zusätzliche Informationen.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 
@@ -33,10 +33,10 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
->title="Durchführungsleitlinien"
->abstract="Best Practice ist, alle benutzerdefinierten Indizes zu überprüfen und entsprechend den Inhaltsindizierungsrichtlinien neu zu strukturieren. Nutzen Sie den Indexkonverter, um vorhandene Custom Oak Index-Definitionen zu migrieren und als Cloud Service-kompatible Custom Oak Index-Definition zu AEM."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#oak-indexes" text="Richtlinien für Verpackungen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Index Converter"
+>title="Implementierungsleitlinien"
+>abstract="Best Practice ist es, alle benutzerdefinierten Indizes zu überprüfen und gemäß den Richtlinien zur Indizierung von Inhalten neu zu erstellen. Nutzen Sie den Index Converter, um vorhandene benutzerdefinierte Oak-Indexdefinitionen in mit AEM as a Cloud Service kompatible benutzerdefinierte Oak-Indexdefinitionen zu migrieren."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de#oak-indexes" text="Richtlinien für das Erstellen von Paketen"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=de#refactoring-tools" text="Index Converter"
 
 * Änderungen an den Standard-Oak-Indexdefinitionen können bei einem AEM-Upgrade verloren gehen.
 * Oak-Definitionen sind unveränderlich, sollten mit dem Code des Kundenprojekts gebündelt werden und nur mit Cloud Manager implementiert werden.
@@ -47,9 +47,9 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Tools und Ressourcen"
->abstract="Prüfen Sie das WKND-Legacy-Projekt, um zu verstehen, wie OID-Verletzungen in Ihrem Projekt behoben werden können. Überprüfen Sie außerdem das Beispiel einer OID-Verletzung auf Github, um zu verstehen, wie Legacy-Indizes mithilfe des Index Converter-Tools konvertiert und mit AEM als Cloud Service kompatibel gemacht werden können."
+>abstract="Prüfen Sie das WKND-Legacy-Projekt, um zu verstehen, wie OID-Verletzungen in Ihrem Projekt behoben werden können. Überprüfen Sie außerdem das Beispiel einer OID-Verletzung auf Github, um zu verstehen, wie alte Indizes mithilfe des Tools Index Converter konvertiert und mit AEM as a Cloud Service kompatibel gemacht werden können."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-Legacy-Projekt"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Beispiel einer OID-Verletzung - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Beispiel einer OID-Verletzung – Github"
 
 * Beheben Sie die in der Meldung angegebenen Verstöße gegen die Indexregel.
 * Befolgen Sie die [Bündelungsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de) von AEM as a Cloud Service, um neue oder benutzerdefinierte Oak-Indexdefinitionen zu implementieren.
