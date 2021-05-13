@@ -2,11 +2,11 @@
 title: REP
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Replikationsagent
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Replikationsagent"
->abstract="REP identifiziert aktivierte Replizierungsagenten. Diese werden aufgrund potenzieller Probleme gemeldet, die beim Upgrade auf AEM as a Cloud Service behoben werden sollten. AEM as a Cloud Service verwendet Sling Content Distribution, um Inhalte von der Autorenumgebung an Veröffentlichungsumgebungen zu verteilen. Dies geschieht außerhalb der AEM-Laufzeit mithilfe des Pipeline-Service von Adobe I/O. Dieser wird automatisch in der bereitgestellten AEM as a Cloud Service-Umgebung konfiguriert."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents" text="Bemerkenswerte Änderungen - AEM als Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="Entwicklungsrichtlinien"
+>abstract="REP kennzeichnet aktivierte Replikationsagenten. Diese werden aufgrund potenzieller Probleme gemeldet, die beim Upgrade auf AEM as a Cloud Service behoben werden sollten. AEM as a Cloud Service verwendet Sling Content Distribution, um Inhalte von der Autorenumgebung an Veröffentlichungsumgebungen zu verteilen. Dies geschieht außerhalb der AEM-Laufzeit mithilfe des Pipeline-Service von Adobe I/O. Dieser wird automatisch in der bereitgestellten AEM as a Cloud Service-Umgebung konfiguriert."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de#replication-agents" text="Wesentliche Änderungen – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#no-reverse-replication-agents" text="Entwicklungsrichtlinien"
 
-`REP` kennzeichnet für aktivierte Replikationsagenten. Diese werden aufgrund potenzieller Probleme gemeldet, die beim Upgrade auf AEM as a Cloud Service behoben werden sollten.
+`REP` kennzeichnet aktivierte Replikationsagenten. Diese werden aufgrund potenzieller Probleme gemeldet, die beim Upgrade auf AEM as a Cloud Service behoben werden sollten.
 
 AEM as a Cloud Service verwendet [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html), um Inhalte von der Autorenumgebung an Veröffentlichungsumgebungen zu verteilen. Dies geschieht außerhalb der AEM-Laufzeit mithilfe des Pipeline-Service von Adobe I/O. Dieser wird automatisch in der bereitgestellten AEM as a Cloud Service-Umgebung konfiguriert.
 
@@ -38,10 +38,10 @@ AEM as a Cloud Service verwendet [Sling Content Distribution](https://sling.apac
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
->title="Durchführungsleitlinien"
->abstract="Best Practice ist, benutzerdefinierte Funktionen direkt von Replizierungsagenten abhängig zu überprüfen, zu refaktorieren und zu optimieren und sie mit AEM als Cloud Service kompatibel zu machen. Support zur Adobe für Hilfe und Klarstellungen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication" text="Replikation - AEM als Cloud Service"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-Support"
+>title="Implementierungsleitlinien"
+>abstract="Best Practice ist es, benutzerdefinierte Funktionalität, die direkt von Replikationsagenten abhängt, zu überprüfen, zu refaktorisieren und zu optimieren und mit AEM as a Cloud Service kompatibel zu machen. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=de#replication" text="Replikation – AEM as a Cloud Service"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Siehe die [Entwicklungsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#no-reverse-replication-agents) für AEM as a Cloud Service und die Versionshinweise für [Replikationsagenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de#replication-agents).
 * Um Geschäftsaufgaben durchzuführen, sollten Sie Funktionen, die direkt von Replikationsagenten abhängig sind, überprüfen, umarbeiten und optimieren.
