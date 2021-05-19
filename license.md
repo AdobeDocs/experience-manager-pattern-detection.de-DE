@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b7a2e726786ad4a1caad1c541f0c1aeed0477f1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 # MIT-Lizenz
