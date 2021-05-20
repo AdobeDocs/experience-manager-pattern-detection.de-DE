@@ -2,9 +2,8 @@
 title: URC
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ Nicht unterstützte Ausführungsmodus-Konfiguration
 >id="aemcloud_bpa_urc_overview"
 >title="Nicht unterstützte Ausführungsmodus-Konfiguration"
 >abstract="URC kennzeichnet die Verwendung von Konfigurationen, die auf einem Ausführungsmodus-Namen basieren, der in AEM as a Cloud Service nicht unterstützt wird."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de#custom-runmodes" text="Unterstützte Ausführungsmodi"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="Unterstützte Ausführungsmodi"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=de#runmodes" text="Ausführungsmodi"
 
 `URC` kennzeichnet die Verwendung von Konfigurationen, die auf einem Ausführungsmodus-Namen basieren, der in AEM as a Cloud Service nicht unterstützt wird.
