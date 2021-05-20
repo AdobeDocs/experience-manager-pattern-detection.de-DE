@@ -2,9 +2,8 @@
 title: DM
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -42,8 +41,8 @@ Bei diesem Code wird ein Untertyp verwendet:
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementierungsleitlinien"
 >abstract="AEM as a Cloud Service unterstützt nur den Ausführungsmodus dynamicmedia_scene7. Überprüfen Sie die aktuellen Einstellungen und wenden Sie sich an das Adobe Support-Team, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=de" text="Einrichten von Dynamic Media"
->additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Einrichten von Dynamic Media"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 
 * `dynamic.media.runmode`
