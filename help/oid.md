@@ -2,9 +2,8 @@
 title: OID
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, alle benutzerdefinierten Indizes zu überprüfen und gemäß den Richtlinien zur Indizierung von Inhalten neu zu erstellen. Nutzen Sie den Index Converter, um vorhandene benutzerdefinierte Oak-Indexdefinitionen in mit AEM as a Cloud Service kompatible benutzerdefinierte Oak-Indexdefinitionen zu migrieren."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de#oak-indexes" text="Richtlinien für das Erstellen von Paketen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=de#refactoring-tools" text="Index Converter"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Index Converter"
 
 * Änderungen an den Standard-Oak-Indexdefinitionen können bei einem AEM-Upgrade verloren gehen.
 * Oak-Definitionen sind unveränderlich, sollten mit dem Code des Kundenprojekts gebündelt werden und nur mit Cloud Manager implementiert werden.
