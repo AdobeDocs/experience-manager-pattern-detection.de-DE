@@ -1,14 +1,13 @@
 ---
 title: ECU
 description: Hilfeseite zum Mustererkennungs-Code
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
+exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
+source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
 ---
-
 
 # ECU {#ecu}
 
@@ -16,7 +15,7 @@ VERALTET: Verwendung fremder Inhalte (ersetzt durch CAV, Content Area Violation 
 
 ## Hintergrund {#background}
 
-`ECU` steht für das Muster, bei dem verschiedene Inhaltsbereiche in einer Weise verwendet werden, die gegen die Regeln der Inhaltsklassifizierung verstößt.
+`ECU` kennzeichnet das Muster, bei dem verschiedene Inhaltsbereiche in einer Weise verwendet werden, die gegen die Regeln der Inhaltsklassifizierung verstößt.
 
 Die Verarbeitung von Sling-Anfragen definiert, wie der Inhalt einer Ressource, insbesondere deren `sling:resourceType`-Eigenschaft, zur Bestimmung des Skripts verwendet wird, das zum Rendern des Inhalts verwendet wird. (Weitere Informationen finden Sie unter [Auffinden des Skripts](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=de#locating-the-script).) Sling bietet auch Techniken für den Zugriff auf und das Zusammenführen von Ressourcen durch „Überlagerungen“ und „Überschreibungen“. Diese werden als Teil von [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=de) und in [Überlagerungen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=de) beschrieben.
 
