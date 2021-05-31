@@ -6,10 +6,10 @@ user-guide-description: Erfahren Sie mehr über die Mustererkennung in Adobe Exp
 feature-set: Experience Manager
 feature: Entwickler-Tools
 role: Developer
-source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
+source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 100%
+source-wordcount: '46'
+ht-degree: 97%
 
 ---
 
@@ -41,3 +41,4 @@ ht-degree: 100%
 + [URC](urc.md)
 + [URS](urs.md)
 + [WRK](wrk.md)
++ [CIF](cif.md)
