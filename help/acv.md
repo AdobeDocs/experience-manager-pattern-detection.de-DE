@@ -37,7 +37,7 @@ Dies kann zum Fehlschlagen bestimmter Assets-Funktionen führen, die von geerbte
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Implementierungsleitlinien"
->abstract="Adobe empfiehlt, die Inhaltsstruktur zu überprüfen, um fehlerhafte Workflows zu verhindern, die von geerbten Eigenschaften abhängig sind. Wenden Sie sich für Hilfe an die Kundenunterstützung .&quot;
+>abstract="Adobe empfiehlt, die Inhaltsstruktur zu überprüfen, um fehlerhafte Workflows zu verhindern, die von geerbten Eigenschaften abhängig sind. Wenden Sie sich für Hilfe an die Kundenunterstützung."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Analysieren Sie einen Ordner, wenn er einen fehlenden untergeordneten Knoten hat. Erstellen Sie die Knoten manuell, wenn die Anzahl der Ordner verwaltbar ist. Verwenden Sie andernfalls ein Skript.
