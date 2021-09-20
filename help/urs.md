@@ -2,10 +2,10 @@
 title: URS
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +32,7 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 * `node.location`: Ein Knoten, unter `/etc`, der seit der Installation geändert wurde.
 * `workflow.location`: Ein Workflow-Modell oder Starter unter `/etc/workflow`.
 * `package.structure`: Ein Package, das sowohl veränderlichen als auch unveränderlichen Inhalt enthält.
+* `node.name.length`: Ein Knotenname mit nicht unterstützter Länge.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
