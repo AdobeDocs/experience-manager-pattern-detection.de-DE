@@ -2,10 +2,10 @@
 title: URS
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +16,16 @@ Nicht unterstützte Repository-Struktur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Nicht unterstützte Repository-Struktur"
->abstract="URS kennzeichnet Fälle nicht unterstützter Repository-Struktur. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus /etc in andere Ordner im Repository und mehr angezeigt."
+>abstract="URS identifiziert Fälle nicht unterstützter Repository-Struktur und Knotenmerkmale. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus /etc in andere Ordner im Repository und mehr angezeigt."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repository-Neustrukturierung"
 
 ## Hintergrund {#background}
 
-`URS` kennzeichnet Fälle nicht unterstützter Repository-Struktur. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
+`URS` identifiziert Fälle nicht unterstützter Repository-Struktur und Knotenmerkmale. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
 
-* AEM-Produkt-Code wird immer in `/libs` platziert und darf nicht durch benutzerdefinierten Code überschrieben werden. Benutzerspezifischer Code sollte in `/apps`, `/content` und `/conf` platziert werden.
+* AEM Produktcode wird immer in `/libs` platziert, der nicht durch benutzerdefinierten Code überschrieben werden darf.
+* Benutzerspezifischer Code sollte in `/apps`, `/content` und `/conf` platziert werden.
+* AEM as a Cloud Service unterstützt keine langen Knotennamen (>150 Byte).
 * Es wird dringend empfohlen, dass diese Richtlinien für AEM as a Cloud Service befolgt werden.
 
 Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten, zu unterscheiden, werden folgende Untertypen verwendet:
