@@ -3,9 +3,9 @@ title: URS
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ Nicht unterstützte Repository-Struktur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Nicht unterstützte Repository-Struktur"
->abstract="URS identifiziert Fälle nicht unterstützter Repository-Struktur und Knotenmerkmale. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus /etc in andere Ordner im Repository und mehr angezeigt."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repository-Neustrukturierung"
+>abstract="URS identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus /etc in andere Ordner im Repository und mehr angezeigt."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=de" text="Repository-Neustrukturierung"
 
 ## Hintergrund {#background}
 
-`URS` identifiziert Fälle nicht unterstützter Repository-Struktur und Knotenmerkmale. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
+`URS` identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
 
-* AEM Produktcode wird immer in `/libs` platziert, der nicht durch benutzerdefinierten Code überschrieben werden darf.
-* Benutzerspezifischer Code sollte in `/apps`, `/content` und `/conf` platziert werden.
-* AEM as a Cloud Service unterstützt keine langen Knotennamen (>150 Byte).
+* AEM-Produkt-Code wird immer im Ordner `/libs` abgelegt, der nicht durch benutzerdefinierten Code überschrieben werden darf.
+* Benutzerdefinierter Code sollte in `/apps`, `/content` und `/conf` gespeichert werden.
+* AEM as a Cloud Service unterstützt keine langen Knotennamen (>150 Byte).
 * Es wird dringend empfohlen, dass diese Richtlinien für AEM as a Cloud Service befolgt werden.
 
 Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten, zu unterscheiden, werden folgende Untertypen verwendet:
@@ -47,8 +47,8 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, Ihr Code-Projekt zu überprüfen und sicherzustellen, dass es den Richtlinien für die AEM-Projektstruktur entspricht, und Code zu vermeiden, der auf älteren/nicht unterstützten Repository-Pfaden basiert, die unerwünschtes Verhalten in AEM as a Cloud Service verursachen können. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="Richtlinien zur Struktur von AEM-Projekten"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de" text="Richtlinien zur Struktur von AEM-Projekten"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Eine Anleitung zur Vorbereitung auf AEM as a Cloud Service finden Sie unter [Repository-Neustrukturierung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=de).
 * Weitere Informationen zu veränderlichen und unveränderlichen Bereichen des Repositorys finden Sie unter [AEM-Projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de).
