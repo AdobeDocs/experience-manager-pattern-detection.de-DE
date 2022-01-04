@@ -3,15 +3,15 @@ title: NBCC
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # NBCC {#nbcc}
 
-VERALTET: Nicht rückwärtskompatible Änderungen (ersetzt durch NCC, nicht kompatible Änderungen)
+NICHT MEHR UNTERSTÜTZT: Nicht abwärtskompatible Änderungen (ersetzt durch NCC, nicht kompatible Änderungen)
 
 ## Hintergrund {#background}
 
@@ -36,7 +36,7 @@ VERALTET: Nicht rückwärtskompatible Änderungen (ersetzt durch NCC, nicht komp
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, benutzerdefinierten Code zu überprüfen und sicherzustellen, dass nur abwärtskompatible Sling-Komponenten überlagert oder referenziert werden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=de#platform" text="Überlagerungen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Überlagern oder referenzieren Sie nur abwärtskompatible Sling-Komponenten.
 * Erwägen Sie die Anpassung von Ressourcen, die nach einem AEM-Upgrade aus `/libs` oder Bundles stammen.
