@@ -3,15 +3,15 @@ title: OCU
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # OCU {#ocu}
 
-VERALTET: Veraltete Code-Nutzung (ersetzt durch OU, veraltete Verwendung)
+NICHT MEHR UNTERSTÜTZT: Veraltete Code-Nutzung (ersetzt durch OU, veraltete Verwendung)
 
 ## Hintergrund {#background}
 
@@ -37,7 +37,7 @@ Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das 
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, den Kunden-Code zu überprüfen und anzupassen, um die neueste Version der AEM-Komponenten oder -APIs zu verwenden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Kurzfristig: Die Installation des Kompatibilitätspakets könnte helfen.
 * Langfristig: Passen Sie den Kunden-Code an, sodass er die neueste Version von AEM-Komponenten oder -APIs verwendet.
