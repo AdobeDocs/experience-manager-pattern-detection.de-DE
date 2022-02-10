@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `maintenance.task`: Eine Wartungsaufgabe.
 * `slow.query`: Eine langsame Abfrage.
 * `group.membership`: Die Anzahl der Benutzer und Untergruppen (nur direkte/deklarierte Mitglieder) in einer Gruppe.
-* `cqtag.count`: Die Anzahl der mit CQ getaggten Assets.
+* `cqtag.count`: Die Anzahl der mit CQ-Tags versehenen Assets.
 * `smarttag.count`: Die Anzahl der mit Smart-Tags versehenen Assets.
 * `ccom.version`: Die Version des Kernkomponenten-Pakets.
-* `instance.type`: Der AEM Instanztyp (author|publish).
+* `instance.type`: Der AEM-Instanztyp (author|publish).
 * `unprocessed.asset.count`: Die Anzahl der nicht verarbeiteten Assets.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Die AEM Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die CQ-Tag-Anzahl, die Anzahl der Smart-Tags, die Kernkomponentenversion und AEM Instanztyp werden zu Informationszwecken bereitgestellt.
+* Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version und der AEM-Instanztyp werden zu Informationszwecken bereitgestellt.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
 
