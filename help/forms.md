@@ -2,10 +2,10 @@
 title: FORM
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,13 +50,9 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Der Verifizierungsschritt ist nicht verfügbar. (VERIFY_STEP)
 
-* Die Formularportal-Funktion und die **[!UICONTROL Übermittlungsaktion für das Formularportal]** sind noch nicht verfügbar. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
-* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In [!DNL AEM 6.5 Forms] und früheren Versionen wurde die Übermittlungsaktion verwendet, um Daten aus adaptiven Formularen an ältere [!DNL AEM Forms on JEE]-Workflows und LiveCycle-Workflows zu übermitteln. (LC_WORKFLOW_SUBMISSION)
+* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um adaptive Formulardaten an veraltete AEM Forms on JEE-Workflows und -LiveCycle Workflow zu senden. (LC_WORKFLOW_SUBMISSION)
 
 * Die Funktion „Interaktive Kommunikationen“ ist nicht verfügbar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
-
-* Die Funktionen **[!UICONTROL Als Entwurf speichern]** und **[!UICONTROL Automatische Speicherung]** für adaptive Formulare werden derzeit nicht unterstützt. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Metadaten-Akkordeon ist nicht verfügbar. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -86,22 +82,20 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Entfernen Sie den Verifizierungsschritt aus Ihren vorhandenen adaptiven Formularen, bevor Sie solche Formulare in eine [!DNL Cloud Service]-Umgebung verschieben. (VERIFY_STEP)
 
-* Ändern Sie Ihre vorhandenen adaptiven Formulare so, dass sie die Übermittlungsaktionen [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#create-an-adaptive-form), [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#send-email), [Übermitteln mit Formulardatenmodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#submit-using-form-data-model) und [AEM-Workflow aufrufen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) verwenden. Die Formularportal-Funktion und die Übermittlungsaktion für das Formularportal sind noch nicht verfügbar. In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktionen. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Ändern Sie Ihre vorhandenen adaptiven Formulare so, dass sie die Übermittlungsaktionen [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#create-an-adaptive-form), [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#send-email), [Übermitteln mit Formulardatenmodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#submit-using-form-data-model) und [AEM-Workflow aufrufen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) verwenden.
 
 * Sie können einen AEM-Workflow entwickeln und Ihre vorhandenen adaptiven Formulare ändern, sodass sie die Übermittlungsaktion [AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) anstatt der Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** verwendet, um Daten an einen AEM-Workflow zu senden. Sie können eine benutzerdefinierte Übermittlungsaktion entwickeln, um Daten, Anlagen oder Belegdokumente (DoR) an einen LiveCycle-Prozess zu senden, anstatt den [!UICONTROL An Forms Workflow übermitteln] zu verwenden. (LC_WORKFLOW_SUBMISSION)
 
 * In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktion „Interaktive Kommunikation“. Migrieren Sie Ihre interaktiven Kommunikationen, Briefe und zugehörigen Wörterbücher nicht in eine Cloud Service-Umgebung, solange die Funktion nicht verfügbar ist. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Deaktivieren Sie die Optionen **[!UICONTROL Als Entwurf speichern]** und **[!UICONTROL Automatische Speicherung aktivieren]** in Ihren adaptiven Formularen, bevor Sie sie zu Cloud Service migrieren. Sie können diese Optionen aktivieren, sobald die Formularportal-Funktion für Cloud Service freigegeben ist. In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktionen. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
 * Es gibt keinen Ersatz für das Metadaten-Akkordeon. Entfernen Sie es aus Ihren Formularen, bevor Sie sie zu Cloud Service migrieren. (METADATA_ACCORDION_FORM_CONTAINER)
 
 * Verwenden Sie das Google reCAPTCHA anstelle des von Adobe Experience Manager bereitgestellten CAPTCHA-Services. (FORMS_CAPTCHA)
 
-* Adaptive Formulare bieten ein responsives Design. Diese Formulare ändern das Aussehen, das Design und die Interaktivität basierend auf dem zugrunde liegenden Gerät. Sie können adaptive Formulare weiterhin auf Mobilgeräten verwenden. In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Mobile App zu [!DNL AEM Forms]. (AEM_FORMS_APP)
-
 * Migrieren Sie kein AEM-Workflow-Modell, das einen Document Services-Workflow-Schritt verwendet. Migrieren oder aktualisieren Sie außerdem keine adaptiven Formulare, die Benutzerdaten an ein Workflow-Modell senden, das Document Services-Workflow-Schritte verwendet, und ändern Sie die Übermittlungsaktion nicht in eine [unterstützte Aktion](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de), bevor Sie das Formular migrieren. (WORKFLOW_DOCSERVICES)
 
-* Die Unterstützung für XFA-basierte adaptive Formulare ist nicht vorkonfiguriert. Wenn Sie beabsichtigen, XFA-basierte adaptive Formulare zu verwenden, wenden Sie sich mit Details zu Ihrem Anwendungsfall und Ihren spezifischen Anforderungen an den Adobe Support. (XFA_BASED_FORM, XDP_BASED_FORM)
+* Adaptive Formulare bieten ein responsives Design. Diese Formulare ändern das Aussehen, das Design und die Interaktivität basierend auf dem zugrunde liegenden Gerät. Sie können adaptive Formulare weiterhin auf Mobilgeräten verwenden. In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Mobile App zu [!DNL AEM Forms]. (AEM_FORMS_APP)
+
+* Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie XFA-basierte adaptive Formulare verwenden möchten, wenden Sie sich mit den Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen an den Adobe-Support.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Wenden Sie sich an den [Adobe Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
