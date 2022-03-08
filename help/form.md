@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Der Verifizierungsschritt ist nicht verfügbar. (VERIFY_STEP)
 
-* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um adaptive Formulardaten an veraltete AEM Forms on JEE-Workflows und -LiveCycle Workflow zu senden. (LC_WORKFLOW_SUBMISSION)
+* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um Daten aus adaptiven Formularen an ältere AEM Forms-Versionen mit JEE-Workflows und LiveCycle-Workflows zu übermitteln. (LC_WORKFLOW_SUBMISSION)
 
 * Die Funktion „Interaktive Kommunikationen“ ist nicht verfügbar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -98,4 +98,4 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie XFA-basierte adaptive Formulare verwenden möchten, wenden Sie sich mit den Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen an den Adobe-Support.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Wenden Sie sich an den [Adobe Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+Wenden Sie sich an den [Adobe-Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Fragen zu klären.
