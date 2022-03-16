@@ -3,9 +3,9 @@ title: FORM
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1110'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Der Verifizierungsschritt ist nicht verfügbar. (VERIFY_STEP)
 
-* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um adaptive Formulardaten an veraltete AEM Forms on JEE-Workflows und -LiveCycle Workflow zu senden. (LC_WORKFLOW_SUBMISSION)
+* Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um Daten aus adaptiven Formularen an ältere AEM Forms-Versionen mit JEE-Workflows und LiveCycle-Workflows zu übermitteln. (LC_WORKFLOW_SUBMISSION)
 
 * Die Funktion „Interaktive Kommunikationen“ ist nicht verfügbar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -68,7 +68,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 >id="aemcloud_bpa_forms_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Informationen, die über den Code FORMS bereitgestellt werden, können Hinweise auf Ersetzungen und andere Maßnahmen geben, die erforderlich sind, um einige Funktionen und APIs mit Cloud Service kompatibel zu machen. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Verwenden Sie das Migrationsdienstprogramm, um alle Regelskripte in Ihrer Umgebung in wiederverwendbare Funktionen umzuwandeln. Sie können die wiederverwendbaren Funktionen mit dem Visual Rule Editor verwenden, um weiterhin Ergebnisse zu erhalten, die mit Regelskripten erzielt wurden. (CODE_EDITOR)
 
@@ -84,7 +84,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Ändern Sie Ihre vorhandenen adaptiven Formulare so, dass sie die Übermittlungsaktionen [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#create-an-adaptive-form), [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#send-email), [Übermitteln mit Formulardatenmodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#submit-using-form-data-model) und [AEM-Workflow aufrufen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) verwenden.
 
-* Sie können einen AEM-Workflow entwickeln und Ihre vorhandenen adaptiven Formulare ändern, sodass sie die Übermittlungsaktion [AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) anstatt der Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** verwendet, um Daten an einen AEM-Workflow zu senden. Sie können eine benutzerdefinierte Übermittlungsaktion entwickeln, um Daten, Anlagen oder Belegdokumente (DoR) an einen LiveCycle-Prozess zu senden, anstatt den [!UICONTROL An Forms Workflow übermitteln] zu verwenden. (LC_WORKFLOW_SUBMISSION)
+* Sie können einen AEM-Workflow entwickeln und Ihre vorhandenen adaptiven Formulare ändern, sodass sie die Übermittlungsaktion [AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) anstatt der Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** verwendet, um Daten an einen AEM-Workflow zu senden. Sie können eine benutzerdefinierte Übermittlungsaktion entwickeln, um Daten, Anlagen oder Belegdokumente (DoR) an einen LiveCycle-Prozess zu senden, anstatt den [!UICONTROL An Forms Workflow übermitteln] zu verwenden. (LC_WORKFLOW_SUBMISSION)
 
 * In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktion „Interaktive Kommunikation“. Migrieren Sie Ihre interaktiven Kommunikationen, Briefe und zugehörigen Wörterbücher nicht in eine Cloud Service-Umgebung, solange die Funktion nicht verfügbar ist. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -98,4 +98,4 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie XFA-basierte adaptive Formulare verwenden möchten, wenden Sie sich mit den Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen an den Adobe-Support.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Wenden Sie sich an den [Adobe Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+Wenden Sie sich an den [Adobe-Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Fragen zu klären.
