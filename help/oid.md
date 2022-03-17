@@ -2,7 +2,7 @@
 title: OID
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Oak-Indexdefinition
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 
-* `custom.index.violation`: Ein benutzerdefinierter Oak-Index ist mit AEM as a Cloud Service nicht kompatibel.
+* `index.rule.violation`: Ein benutzerdefinierter Oak-Index ist mit AEM as a Cloud Service nicht kompatibel.
 * `standard.index.modification`: Eine Änderung an einem Standard-Oak-Index.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
