@@ -3,9 +3,9 @@ title: UMI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: e72ddc20578f8ca736da198e626478816e7ca641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen, die an den genannten Konfigurationen vorgenommen wurden, rückgängig zu machen, um zukünftige Upgrade-Probleme zu vermeiden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ändern oder entfernen Sie die vier oben genannten Konfigurationen nicht.
 * Wenn Konfigurationen geändert wurden, sollten sie auf ihre erwarteten Werte zurückgesetzt werden. Diese Werte sind in den `UMI`-Meldungen angegeben.
-* Für `com.day.cq.commons.impl.ExternalizerImpl`, siehe [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) zum Festlegen der Externalizer-Konfiguration mithilfe von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service.
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Lesen Sie für `com.day.cq.commons.impl.ExternalizerImpl` die [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=de) zum Festlegen der Externalizer-Konfiguration mithilfe von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service.
+* Bitte wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
