@@ -3,9 +3,9 @@ title: LUI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,23 +25,23 @@ Alte Benutzeroberfläche
 
 Um die verschiedenen Arten von Elementen der Benutzeroberfläche, die aktualisiert werden sollen oder müssen, zu unterscheiden, werden folgende Untertypen verwendet:
 
-* `legacy.dialog.classic`: Die auf ExtJS basierenden Dialogfelder der klassischen Benutzeroberfläche müssen in Coral geändert werden.
+* `legacy.dialog.classic`: Dialoge aus der klassischen Benutzeroberfläche, die auf ExtJS basieren, müssen auf Coral umgestellt werden.
    * Dies wird erkannt, wenn der Name des Dialogs „dialog“ oder „design_dialog“ ist und wenn der Wert der Eigenschaft `jcr:primaryType` oder der Wert der Eigenschaft `xtype` „cq:Dialog“ lautet.
-* `legacy.dialog.coral2`: Coral 2-Dialogfelder sollten für die Verwendung von Coral 3 aktualisiert werden.
-   * Dies wird erkannt, wenn der Dialog und seine untergeordneten Inhaltsknotennamen „cq:dialog/content“,
-„cq:design_dialog/content“, „cq:dialog.coral2/content“ oder „cq:design_dialog.coral2/content“ sind
+* `legacy.dialog.coral2`: Coral 2-Dialoge sollten auf die Verwendung von Coral 3 aktualisiert werden.
+   * Dies wird erkannt, wenn der Name des Dialogs bzw. seiner untergeordneten Inhaltsknoten „cq:dialog/content“,
+„cq:design_dialog/content“, „cq:dialog.coral2/content“ oder „cq:design_dialog.coral2/content“ lautet
 und der Eigenschaftswert von `sling:resourceType` nicht
 „granite/ui/components/coral/foundation“ enthält.
-* `legacy.custom.component`: Komponenten, die von erben `foundation/components` sollte aktualisiert werden, um Kernkomponenten zu verwenden.
+* `legacy.custom.component`: Komponenten, die von `foundation/components` erben, sollten auf die Verwendung von Kernkomponenten aktualisiert werden.
    * Dies wird erkannt, wenn der Eigenschaftswert von `jcr:primaryType` „cq:Component“ und der
       Eigenschaftswert von `sling:resourceSuperType` „foundation/components“ enthält oder einer der
       Eigenschaftswerte von `sling:resourceSuperType` der Kette vom Übertyp „Komponenten“ „foundation/components“ enthält.
-* `legacy.static.template`: Statische Vorlagen sollten auf bearbeitbare Vorlagen aktualisiert werden.
+* `legacy.static.template`: Statische Vorlagen sollten in bearbeitbare Vorlagen aktualisiert werden.
    * Dies wird erkannt, wenn der Eigenschaftswert von `jcr:primaryType` „cq:Template“ lautet.
 * `content.fragment.template`: Inhaltsfragmentvorlagen sollten Fragmentmodelle erstellen, um die Fragmentvorlagen zu ersetzen.
-   * Inhaltsfragmentvorlagen finden Sie in den folgenden Verzeichnissen:
-      * Vordefinierte Inhaltsfragmentvorlagen werden in `/libs/settings/dam/cfm/templates`
-      * Sie können in  `/apps/settings/dam/cfm/templates`  oder  `/conf/.../settings/dam/cfm/templates`(... = global oder &quot;tenant&quot;)
+   * Inhaltsfragmentvorlagen befinden sich in den folgenden Speicherorten:
+      * Vorkonfigurierte Inhaltsfragmentvorlagen werden in `/libs/settings/dam/cfm/templates` gespeichert.
+      * Sie können in `/apps/settings/dam/cfm/templates` oder `/conf/.../settings/dam/cfm/templates`(... = global oder „tenant“) überlagert werden.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -53,7 +53,7 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
 * Die weitere Verwendung von veralteten, kundenspezifischen Komponenten kann die Wartungskosten mit der Zeit erhöhen.
-* Inhaltsfragmentvorlagen wurden in AEM 6.3 durch Inhaltsfragmentmodelle ersetzt. Durch die Migration von Inhaltsfragmenten, die auf älteren Vorlagen basieren, auf AEM as a Cloud Service erhalten Sie diese Fragmente als funktionsfähig. Es ist jedoch nicht möglich, neue Fragmente basierend auf der alten Vorlage zu erstellen. Es ist auch nicht möglich, diese Fragmente mit AEM GraphQL bereitzustellen, was Inhaltsfragmentmodelle als Schemas erfordert.
+* Inhaltsfragmentvorlagen wurden in AEM 6.3 durch Inhaltsfragmentmodelle abgelöst. Bei der Migration von Inhaltsfragmenten, die auf veralteten Vorlagen zu AEM as a Cloud Service basieren, werden diese Fragmente als funktional beibehalten. Es ist aber nicht möglich, neue Fragmente auf der Basis der veralteten Vorlage zu erstellen. Es ist auch nicht möglich, diese Fragmente mit AEM GraphQL bereitzustellen, was Inhaltsfragmentmodelle als Schemas erfordert.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -62,7 +62,7 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 >title="Tools und Ressourcen"
 >abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationssensitiv und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentenkonvertierer"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernkomponenten"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de" text="Kernkomponenten"
 
 * Verwenden Sie die [AEM-Modernisierungs-Tool-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
    * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
@@ -70,5 +70,5 @@ und der Eigenschaftswert von `sling:resourceType` nicht
    * Statischen Vorlagen und Spaltensteuerung zu bearbeitbaren Vorlagen und responsivem Raster
    * Designs und Design-Dialogen zu Richtlinien für bearbeitbare Vorlagen
 * Überprüfen Sie die Bibliothek der benutzerdefinierten Komponenten Ihres Projekts und wechseln Sie, wenn möglich, zum Satz der standardisierten [Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de), um die Entwicklungszeit zu beschleunigen und die Wartungskosten für Ihre Programme zu reduzieren.
-* Es wird empfohlen, Inhaltsfragmentmodelle zu erstellen, die den älteren Vorlagen gleichwertige Funktionen aufweisen, und diese Modelle künftig für die Erstellung von Inhaltsfragmenten zu verwenden. Weitere Informationen finden Sie unter [Inhaltsfragmentmodelle](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) für weitere Details.
-* Bitte wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Es wird empfohlen, Inhaltsfragmentmodelle mit den gleichen Funktionen wie die veralteten Vorlagen zu erstellen und diese künftig für die Erstellung von Inhaltsfragmenten zu verwenden. Weitere Einzelheiten finden Sie unter [Inhaltsfragmentmodelle](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=de).
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
