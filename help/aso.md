@@ -2,10 +2,10 @@
 title: ASO
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ AEM-System-Überblick
 >id="aemcloud_bpa_aso_overview"
 >title="AEM-System-Überblick"
 >abstract="ASO-Code kennzeichnet allgemeine Informationen zur AEM-Instanz. Jedes Ergebnis liefert einen Wert einer bestimmten Art von Systeminformationen, die bei der Migrationsplanung und beim Refactoring hilfreich sein können."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de" text="AEM as a Cloud Service – Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service – Versionshinweise"
 
 `ASO` kennzeichnet allgemeine Informationen zur AEM-Instanz. Jedes Ergebnis liefert einen Wert eines bestimmten Typs von Systeminformationen.
 
@@ -42,7 +42,8 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version und der AEM-Instanztyp werden zu Informationszwecken bereitgestellt.
+* Die AEM Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die CQ-Tag-Anzahl, die Anzahl der Smart-Tags, die Kernkomponentenversion, AEM Instanztyp und die Anzahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
+* Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
 
@@ -52,8 +53,10 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >id="aemcloud_bpa_aso_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Informationen, die über den ASO-Code bereitgestellt werden, bieten allgemeine Informationen für Ihre AEM-Umgebung, einschließlich Version, Produkt-Add-ons und Informationen auf Systemebene. Diese sollten auf nicht unterstützte Produkte oder Funktionen in AEM as a Cloud Service überprüft werden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * AEM-Upgrades mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und möglicherweise nicht unterstützt.
+* Die nicht verarbeiteten Assets müssen verarbeitet werden und die Eigenschaft dam:assetState im Knoten jcr:content des Assets muss auf &quot;verarbeitet&quot;gesetzt sein oder diese Assets aus dem Migrationssatz entfernen, bevor sie zu AEMaaCS migriert werden.
+* Vanity-URLs können durch Apache-Neuschreibungen ersetzt werden.
 * Lesen Sie die [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de), um mehr über die neuesten Änderungen in AEM as a Cloud Service zu erfahren.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.

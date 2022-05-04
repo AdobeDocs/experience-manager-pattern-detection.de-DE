@@ -2,10 +2,10 @@
 title: DG
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `java.io.inputstream`: Die Verwendung von `java.io.InputStream` im Programm-Code.
 * `maintenance.task.configuration`: Die Konfiguration einer bestimmten regelmäßigen Wartungsaktivität.
 * `sling.commons.scheduler`: Die Verwendung der Sling Commons Scheduler-API für eine geplante Aufgabe.
+* `unsupported.asset.api`: Die Verwendung nicht unterstützter Asset Manager-APIs im Anwendungscode.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -43,6 +44,13 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `sling.commons.scheduler`
    * Programme, die von Hintergrundaufgaben abhängig sind, die [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) verwenden, funktionieren möglicherweise nicht wie erwartet, da die Ausführung in AEM as a Cloud Service nicht garantiert werden kann.
    * Die Entwicklungsrichtlinien von AEM as a Cloud Service für [Hintergrundaufgaben und lang laufende Aufträge](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#background-tasks-and-long-running-jobs) legen nahe, dass der als geplante Aufgabe ausgeführte Code davon ausgehen muss, dass die Instanz, auf der er ausgeführt wird, jederzeit heruntergefahren werden kann. Daher muss der Code stabil und vor allem wiederaufnehmbar sein.
+
+* `unsupported.asset.api`
+   * Die folgenden APIs von AssetManager werden auf AEM as a Cloud Service als nicht unterstützt markiert.
+      * createAssetForBinary
+      * getAssetForBinary
+      * removeAssetForBinary
+      * createAsset
 
 ## Mögliche Lösungen {#solutions}
 
@@ -65,4 +73,6 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Ersetzen Sie die Verwendung von [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) durch [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die mindestens eine einmalige Ausführung garantieren.
    * Lang laufende Aufträge sollten möglichst vermieden werden.
 
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* `unsupported.asset.api`
+   * Verwenden Sie anstelle der nicht unterstützten APIs von Asset Manager [aem-upload](https://github.com/adobe/aem-upload).
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
