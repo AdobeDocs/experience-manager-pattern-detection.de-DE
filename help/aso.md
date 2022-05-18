@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Die AEM Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die CQ-Tag-Anzahl, die Anzahl der Smart-Tags, die Kernkomponentenversion, AEM Instanztyp und die Anzahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
+* Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version, der AEM-Instanztyp und die Zahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
 * Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
@@ -56,7 +56,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * AEM-Upgrades mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und möglicherweise nicht unterstützt.
-* Die nicht verarbeiteten Assets müssen verarbeitet werden und die Eigenschaft dam:assetState im Knoten jcr:content des Assets muss auf &quot;verarbeitet&quot;gesetzt sein oder diese Assets aus dem Migrationssatz entfernen, bevor sie zu AEMaaCS migriert werden.
+* Die nicht verarbeiteten Assets müssen verarbeitet werden und die Eigenschaft „dam:assetState“ im Knoten „jcr:content“ des Assets muss auf „verarbeitet“ gesetzt werden, bzw. diese Assets müssen aus dem Migrationssatz entfernt werden, bevor sie zu AEMaaCS migriert werden.
 * Vanity-URLs können durch Apache-Neuschreibungen ersetzt werden.
 * Lesen Sie die [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de), um mehr über die neuesten Änderungen in AEM as a Cloud Service zu erfahren.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
