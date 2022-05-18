@@ -2,9 +2,9 @@
 title: ACV
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
 workflow-type: ht
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,19 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=de" text="Wesentliche Änderungen – Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de" text="Experience Manager as a Cloud Service – Versionshinweise"
 
-`ACV` Assets Content Validator identifiziert die fehlenden obligatorischen Knoten in Asset-Inhalten. Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen.
+`ACV` Assets Content Validator identifiziert die fehlenden obligatorischen Knoten und Verstöße in Asset-Inhalten. Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
 
 * `missing.jcrcontent`: Identifizieren Sie die Ordner mit fehlenden obligatorischen Knoten im Repository. Die Identifizierung fehlender Inhalte im Repository hilft dabei, fehlerhafte Funktionen oder Anwendungsfälle zu vermeiden.
 * `missing.original.rendition`: Identifizieren Sie die Assets mit fehlender obligatorischer Original-Ausgabedarstellung im Repository.
+* `metadata.descendants.violation`: Identifizieren Sie die Assets mit mehr als 100 untergeordneten Elementen unter dem Metadatenknoten des Assets im Repository.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
 * Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen, die von übernommenen Eigenschaften abhängig sind.
 * AEM Assets benötigt die vorhandene Original-Ausgabedarstellung. Die Asset-Verarbeitung in Cloud Service bleibt in einer Schleife hängen, wenn die Original-Ausgabedarstellung fehlt.
+* Eine hohe Anzahl untergeordneter Elemente unter dem Metadatenknoten kann das Laden von Ordnern verlangsamen, die aus Assets bestehen, die dies verletzen.
 
 ## Mögliche Lösungen {#solutions}
 
