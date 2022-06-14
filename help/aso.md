@@ -2,10 +2,10 @@
 title: ASO
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `instance.type`: Der AEM-Instanztyp (author|publish).
 * `unprocessed.asset.count`: Die Anzahl der nicht verarbeiteten Assets.
 * `vanity.url.count`: Die Anzahl der Vanity-URLs.
+* `index.size`: Migrationbare Lucene-Indexgröße insgesamt.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
