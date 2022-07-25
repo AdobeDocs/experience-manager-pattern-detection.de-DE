@@ -2,10 +2,10 @@
 title: LUI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
-workflow-type: ht
+source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
+workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -60,9 +60,9 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Tools und Ressourcen"
->abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationssensitiv und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Komponentenkonvertierer"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de" text="Kernkomponenten"
+>abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationsabhängig und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Komponentenkonvertierer"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernkomponenten"
 
 * Verwenden Sie die [AEM-Modernisierungs-Tool-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
    * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
