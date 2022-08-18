@@ -2,10 +2,10 @@
 title: LUI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +42,8 @@ und der Eigenschaftswert von `sling:resourceType` nicht
    * Inhaltsfragmentvorlagen befinden sich in den folgenden Speicherorten:
       * Vorkonfigurierte Inhaltsfragmentvorlagen werden in `/libs/settings/dam/cfm/templates` gespeichert.
       * Sie können in `/apps/settings/dam/cfm/templates` oder `/conf/.../settings/dam/cfm/templates`(... = global oder „tenant“) überlagert werden.
+* `translation.dictionary`: I18n-Wörterbuch, das unter /apps vorhanden ist.
+   * /apps ist zur Laufzeit unveränderlich und translator.html wäre in AEM as a Cloud Service nicht mehr verfügbar.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -54,6 +56,7 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
 * Die weitere Verwendung von veralteten, kundenspezifischen Komponenten kann die Wartungskosten mit der Zeit erhöhen.
 * Inhaltsfragmentvorlagen wurden in AEM 6.3 durch Inhaltsfragmentmodelle abgelöst. Bei der Migration von Inhaltsfragmenten, die auf veralteten Vorlagen zu AEM as a Cloud Service basieren, werden diese Fragmente als funktional beibehalten. Es ist aber nicht möglich, neue Fragmente auf der Basis der veralteten Vorlage zu erstellen. Es ist auch nicht möglich, diese Fragmente mit AEM GraphQL bereitzustellen, was Inhaltsfragmentmodelle als Schemas erfordert.
+* /apps ist zur Laufzeit unveränderlich und translator.html wäre in AEM as a Cloud Service nicht mehr verfügbar. Daher müssen I18n-Wörterbücher von Git über die CI/CD-Pipeline kommen.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -62,7 +65,7 @@ und der Eigenschaftswert von `sling:resourceType` nicht
 >title="Tools und Ressourcen"
 >abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationssensitiv und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Komponentenkonvertierer"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de" text="Kernkomponenten"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernkomponenten"
 
 * Verwenden Sie die [AEM-Modernisierungs-Tool-Suite](https://opensource.adobe.com/aem-modernize-tools/), um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren. Diese Tools umfassen die Konvertierung von:
    * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
@@ -71,4 +74,5 @@ und der Eigenschaftswert von `sling:resourceType` nicht
    * Designs und Design-Dialogen zu Richtlinien für bearbeitbare Vorlagen
 * Überprüfen Sie die Bibliothek der benutzerdefinierten Komponenten Ihres Projekts und wechseln Sie, wenn möglich, zum Satz der standardisierten [Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de), um die Entwicklungszeit zu beschleunigen und die Wartungskosten für Ihre Programme zu reduzieren.
 * Es wird empfohlen, Inhaltsfragmentmodelle mit den gleichen Funktionen wie die veralteten Vorlagen zu erstellen und diese künftig für die Erstellung von Inhaltsfragmenten zu verwenden. Weitere Einzelheiten finden Sie unter [Inhaltsfragmentmodelle](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=de).
+* I18n-Wörterbücher müssen über die CI/CD-Pipeline von Git stammen. [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
