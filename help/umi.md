@@ -2,10 +2,10 @@
 title: UMI
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: 145df7128ba80cae7416778ef373b5ed723c56fa
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 82%
 
 ---
 
@@ -30,6 +30,7 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
+* `org.apache.sling.commons.log.LogManager.factory.config` : Identifizieren Sie, ob die `org.apache.sling.commons.log.file` -Eigenschaft der benutzerdefinierten Logger auf etwas Anderes als `logs/error.log` -Datei.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -38,6 +39,7 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
    * Autorisierungsprobleme können nach dem Upgrade auftreten (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Bestimmte Funktionen arbeiten möglicherweise nicht wie erwartet. Die Änderung von `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kann z. B. dazu führen, dass einige JSP-Dateien nicht kompiliert werden, was letztendlich zu einem Verlust der Funktionalität führt.
    * Die Werte der Externalizer-Konfiguration `com.day.cq.commons.impl.ExternalizerImpl` werden von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service festgelegt.
+   * AEM as a Cloud Services unterstützt keine benutzerdefinierten Protokolldateien. Protokolle, die in benutzerspezifische Protokolle geschrieben wurden, sind von AEM as a Cloud Service nicht zugänglich.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -45,7 +47,7 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen, die an den genannten Konfigurationen vorgenommen wurden, rückgängig zu machen, um zukünftige Upgrade-Probleme zu vermeiden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ändern oder entfernen Sie die vier oben genannten Konfigurationen nicht.
    * Im Falle des folgenden Verstoßes:\
@@ -53,4 +55,5 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
       Bitte überprüfen Sie, ob diese Löschungen rechtmäßig sind oder nicht, da diese OSGi-Konfigurationen vorkonfiguriert sind und möglicherweise noch nie im OSGi-Konfigurations-Manager geändert/gespeichert wurden.
 * Wenn Konfigurationen geändert wurden, sollten sie auf ihre erwarteten Werte zurückgesetzt werden. Diese Werte sind in den `UMI`-Meldungen angegeben.
 * Lesen Sie für `com.day.cq.commons.impl.ExternalizerImpl` die [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=de) zum Festlegen der Externalizer-Konfiguration mithilfe von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service.
-* Bitte wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Für `org.apache.sling.commons.log.LogManager.factory.config`, Ändern Sie die OSGi-Konfiguration, um die angepasste Protokollfunktion an die `logs/error.log` -Datei. Siehe [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html) , um erneut auf die `logs/error.log` -Datei.
+* Wenden Sie sich an unser [AEM-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
