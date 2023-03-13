@@ -2,10 +2,10 @@
 title: DG
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `maintenance.task.configuration`: Die Konfiguration einer bestimmten regelmäßigen Wartungsaktivität.
 * `sling.commons.scheduler`: Die Verwendung der Sling Commons Scheduler-API für eine geplante Aufgabe.
 * `unsupported.asset.api`: Die Verwendung nicht unterstützter Asset Manager-APIs im Programm-Code.
+* `javax.jcr.observation.EventListener`: Die Verwendung von Event Listener im Anwendungscode.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -51,6 +52,10 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * Vom Ereignis-Listener abhängige Anwendungen funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
+
 
 ## Mögliche Lösungen {#solutions}
 
@@ -75,4 +80,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 
 * `unsupported.asset.api`
    * Verwenden Sie bitte [aem-upload](https://github.com/adobe/aem-upload) anstelle der nicht unterstützten APIs von Asset Manager.
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+
+* `javax.jcr.observation.EventListener`
+   * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Ereignisverarbeitungsmechanismus in [Sling-Aufträge](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) als Garantie für die Verarbeitung.
+* Wenden Sie sich an unser [AEM-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
