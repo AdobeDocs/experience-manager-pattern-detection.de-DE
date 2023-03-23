@@ -39,7 +39,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, die Struktur des Inhalts zu überprüfen, um die Komplexität der Seite zu reduzieren, was wiederum dazu beitragen würde, die Leistung des Seiten-Renderings zu verbessern. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ergreifen Sie Maßnahmen, um die Gesamtzahl der Knoten innerhalb einer Seite zu reduzieren, darunter:
    * Stellen Sie sicher, dass es keine unnötigen Container gibt.

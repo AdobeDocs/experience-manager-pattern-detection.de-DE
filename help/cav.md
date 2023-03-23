@@ -38,8 +38,8 @@ Um es sicherer und für den Kunden verständlicher zu machen, welche Bereiche vo
 >id="aemcloud_bpa_cav_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Die mit CAS ermittelten Muster, bei denen eine Verletzung verschiedener Inhaltsbereiche vorliegt, sollten überprüft werden. Abschließende und interne Inhaltsklassifizierungsbereiche sollten vermieden werden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Nachhaltige Aktualisierungen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=de" text="Nachhaltige Aktualisierungen"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Minimieren Sie die Verwendung von Inhaltsüberlagerungen auf die Fälle, in denen sie benötigt werden.
 * Vermeiden Sie insbesondere das Überlagern von eingeschränkten Inhalten (Klassifizierungen „Final“ und „Intern“).

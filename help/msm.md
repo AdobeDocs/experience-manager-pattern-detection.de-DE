@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # MSM {#msm}
 
-Multi-Site-Manager
+Multi Site Manager
 
 ## Hintergrund {#background}
 
@@ -36,6 +36,6 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >id="aemcloud_bpa_msm_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, alle benutzerdefinierten MSM-Rollout-Konfigurationen und benutzerdefinierten Rollout-Aktionen zu überprüfen und sicherzustellen, dass sie mit AEM as a Cloud Service funktionieren. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.

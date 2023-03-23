@@ -39,8 +39,8 @@ Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu 
 >id="aemcloud_bpa_ccom_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Best Practice ist es, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu nutzen und Kernkomponenten mit dem Stilsystem zu verwenden, um technische Altlasten zu reduzieren."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernkomponenten"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Stilsystem"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de" text="Kernkomponenten"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=de#page-authoring" text="Stilsystem"
 
 * Weitere Informationen zu Kernkomponenten finden Sie unter [Einführung in Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=de).
 * Weitere Informationen zum Stilsystem finden Sie unter [Verwenden des Stilsystems](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=de#page-authoring).

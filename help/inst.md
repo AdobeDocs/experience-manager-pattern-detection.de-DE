@@ -19,8 +19,8 @@ Installiertes Artefakt
 >id="aemcloud_bpa_inst_overview"
 >title="Installiertes Artefakt"
 >abstract="INST kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren. Pakete von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die Entwicklung und Bündelung einhalten."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="Bündelungsrichtlinien – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=de" text="Bündelungsrichtlinien – AEM as a Cloud Service"
 
 `INST` kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
 

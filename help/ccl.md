@@ -35,6 +35,6 @@ Mit diesem Code wird ein Untertyp verwendet:
 >id="aemcloud_bpa_ccl_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Die mit CCL gekennzeichneten Client-Bibliotheken, die zu AEM hinzugefügt wurden, sollten überprüft werden, um sicherzustellen, dass es keine Duplikate gibt und dass die neuesten Versionen verwendet werden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
+>additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
