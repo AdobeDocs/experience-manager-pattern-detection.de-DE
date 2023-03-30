@@ -4,8 +4,8 @@ description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `maintenance.task.configuration`: Die Konfiguration einer bestimmten regelmäßigen Wartungsaktivität.
 * `sling.commons.scheduler`: Die Verwendung der Sling Commons Scheduler-API für eine geplante Aufgabe.
 * `unsupported.asset.api`: Die Verwendung nicht unterstützter Asset Manager-APIs im Programm-Code.
-* `javax.jcr.observation.EventListener`: Die Verwendung von Event Listener im Anwendungscode.
+* `javax.jcr.observation.EventListener`: Die Verwendung des Ereignis-Listeners im Programm-Code.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -54,7 +54,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Vom Ereignis-Listener abhängige Anwendungen funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
+   * Vom Ereignis-Listener abhängige Programme funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
 
 
 ## Mögliche Lösungen {#solutions}
@@ -82,5 +82,5 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Verwenden Sie bitte [aem-upload](https://github.com/adobe/aem-upload) anstelle der nicht unterstützten APIs von Asset Manager.
 
 * `javax.jcr.observation.EventListener`
-   * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Ereignisverarbeitungsmechanismus in [Sling-Aufträge](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) als Garantie für die Verarbeitung.
+   * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
 * Wenden Sie sich an unser [AEM-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
