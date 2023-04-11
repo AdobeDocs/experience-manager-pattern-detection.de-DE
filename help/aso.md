@@ -2,10 +2,10 @@
 title: ASO
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
+source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `unprocessed.asset.count`: Die Anzahl der nicht verarbeiteten Assets.
 * `vanity.url.count`: Die Anzahl der Vanity-URLs.
 * `index.size`: Gesamtgröße des migrierbaren Lucene-Index.
+* `workflow.count`: Die Anzahl der Autoren-Workflows im ausgeführten und veralteten Zustand.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -47,6 +48,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
+* Eine hohe Anzahl von Autoren-Workflows im ausgeführten oder veralteten Zustand könnte die Leistung beeinträchtigen.
 
 ## Mögliche Lösungen {#solutions}
 
