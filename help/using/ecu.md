@@ -3,7 +3,7 @@ title: ECU
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # ECU {#ecu}
 
-VERALTET: Verwendung fremder Inhalte (ersetzt durch CAV, Content Area Violation – Inhaltsbereichsverletzung)
+NICHT MEHR UNTERSTÜTZT: Verwendung fremder Inhalte (ersetzt durch CAV, Content Area Violation – Inhaltsbereichsverletzung)
 
 ## Hintergrund {#background}
 
