@@ -29,7 +29,7 @@ Ein Beispiel: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Externe Benutzer, die mit OAuth konfiguriert wurden, können sich erst dann in Autoren-/Veröffentlichungsinstanzen anmelden, wenn sie mit dem folgenden Verfahren neu konfiguriert wurden.
+* Externe Benutzende, die mit OAuth konfiguriert wurden, können sich erst dann in Autoren-/Veröffentlichungsinstanzen anmelden, wenn sie mit dem folgenden Verfahren neu konfiguriert wurden.
 
 ## Mögliche Lösungen {#solutions}
 
