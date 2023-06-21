@@ -2,10 +2,10 @@
 title: ASO
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
 * Eine hohe Anzahl von Author-Workflows im laufenden oder veralteten Zustand könnte die Leistung beeinträchtigen.
+* Langsame Abfragen können die Systemleistung beeinträchtigen.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -61,5 +62,6 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * AEM-Upgrades mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und möglicherweise nicht unterstützt.
 * Die nicht verarbeiteten Assets müssen verarbeitet werden und die Eigenschaft „dam:assetState“ im Knoten „jcr:content“ des Assets muss auf „verarbeitet“ gesetzt werden, bzw. diese Assets müssen aus dem Migrationssatz entfernt werden, bevor sie zu AEMaaCS migriert werden.
 * Vanity-URLs können durch Apache-Neuschreibungen ersetzt werden.
+* Siehe [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) für die Fehlerbehebung bei langsamen Abfragen.
 * Lesen Sie die [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de), um mehr über die neuesten Änderungen in AEM as a Cloud Service zu erfahren.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
