@@ -2,10 +2,10 @@
 title: ACV
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * `metadata.descendants.violation`: Identifizieren Sie die Assets mit mehr als 100 untergeordneten Elementen unter dem Metadatenknoten des Assets im Repository.
 * `conflict.node`: Identifizieren Sie das Vorhandensein von Konfliktknoten im Repository unter dem Pfad /content/dam/.
 * `psb.file.large`: Erkennung großer PSB-Dateien (dc:format : application/vnd.3gpp.pic-bw-small) mit einer Größe von mehr als 2 Gigabyte.
+* `invalid.asset.name`: Identifizieren von Assets mit ungültigen Zeichen[* / : [\] | # % { } ? &amp;] im Namen.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * Eine hohe Anzahl untergeordneter Elemente unter dem Metadatenknoten kann das Laden von Ordnern verlangsamen, die aus Assets bestehen, die dies verletzen.
 * Das Vorhandensein von Konfliktknoten kann zu einem Aufnahmefehler bei AEM as a Cloud Service führen.
 * Experience Manager kann PSB-Dateien mit sehr hohen Auflösungen möglicherweise nicht verarbeiten. Kundinnen und Kunden, die ImageMagick für die Verarbeitung großer Dateien verwenden, müssen möglicherweise mit Leistungseinbußen rechnen, wenn der Experience Manager-Server nicht ordnungsgemäß getestet wird.
+* Ungültige Zeichen im Asset-Namen können zu Fehlern bei der Migration auf AEM as a Cloud Service führen.
 
 ## Mögliche Lösungen {#solutions}
 
