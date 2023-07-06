@@ -2,9 +2,9 @@
 title: URS
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Nicht unterstützte Repository-Struktur
 
 * AEM-Produkt-Code wird immer im Ordner `/libs` abgelegt, der nicht durch benutzerdefinierten Code überschrieben werden darf.
 * Benutzerdefinierter Code sollte in `/apps`, `/content` und `/conf` gespeichert werden.
-* AEM as a Cloud Service unterstützt keine langen Knotennamen (>150 Byte).
 * Es wird dringend empfohlen, dass diese Richtlinien für AEM as a Cloud Service befolgt werden.
 
 Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten, zu unterscheiden, werden folgende Untertypen verwendet:

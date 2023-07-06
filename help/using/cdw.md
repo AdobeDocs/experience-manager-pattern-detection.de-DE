@@ -2,10 +2,10 @@
 title: CDW
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,10 @@ Benutzerdefiniertes Dialog-Widget
 >title="Benutzerdefiniertes Dialog-Widget"
 >abstract="CDW identifiziert die benutzerdefinierten Dialog-Widgets, die aktualisiert werden sollten, damit sie mit AEM as a Cloud Service kompatibel sind."
 
-`CDW` Benutzerdefinierte Dialog-Widgets identifizieren die benutzerdefinierten CoralUI- und klassischen Dialog-Widgets. Diese sollten aktualisiert werden, damit sie mit AEM as a Cloud Service kompatibel sind.
+`CDW`  Benutzerdefinierte Dialogfeld-Widgets identifizieren die benutzerdefinierten Widgets für klassische Dialogfelder. Diese sollten aktualisiert werden, damit sie mit AEM as a Cloud Service kompatibel sind.
 
-Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
+Untertypen werden zur Identifizierung der Informationen verwendet, z. B.:
 
-* `custom.coral.widget`: Identifizieren Sie die benutzerdefinierten Dialog-Widgets basierend auf CoralUI 2 oder CoralUI 3.
 * `custom.classic.widget`: Identifizieren Sie die benutzerdefinierten Dialog-Widgets basierend auf ExtJs.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
@@ -40,5 +39,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Benutzerdefinierte klassische Dialog-Widgets sollten von ExtJS in [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html) konvertiert werden.
-* Benutzerdefinierte Coral-Dialog-Widgets sollten bezüglich einer Aktualisierung auf CoralUI 3 ausgewertet werden.
 * Wenden Sie sich an unser [Experience Manager-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder Probleme zu besprechen.
