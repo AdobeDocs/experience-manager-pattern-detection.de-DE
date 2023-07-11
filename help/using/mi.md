@@ -4,20 +4,20 @@ description: Hilfeseite zum Mustererkennungs-Code
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 36%
 
 ---
 
 # MI {#mi}
 
-Fehlkonfigurationsproblem
+Fehlerhafte Konfiguration
 
 ## Hintergrund {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
->title="Fehlkonfigurationsproblem"
->abstract="MI identifiziert Konfigurationsprobleme in AEM Instanz"
+>title="Fehlerhafte Konfiguration"
+>abstract="MI identifiziert Konfigurationsprobleme in einer AEM-Instanz"
 
 `MI`  Fehlkonfigurationsproblem identifiziert Konfigurationsprobleme in AEM Instanz.
 
