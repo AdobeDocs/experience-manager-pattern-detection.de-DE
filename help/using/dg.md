@@ -3,9 +3,9 @@ title: DG
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `sling.commons.scheduler`: Die Verwendung der Sling Commons Scheduler-API für eine geplante Aufgabe.
 * `unsupported.asset.api`: Die Verwendung nicht unterstützter Asset Manager-APIs im Programm-Code.
 * `javax.jcr.observation.EventListener`: Die Verwendung des Ereignis-Listeners im Programm-Code.
-* `custom.guava.cache`: Die Verwendung von Guava Cache im Anwendungscode.
+* `custom.guava.cache`: Die Verwendung von Guava-Cache im Programm-Code.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -58,7 +58,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Vom Ereignis-Listener abhängige Programme funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
 
 * `custom.guava.cache`
-   * Die Verwendung von Guava Cache kann Leistungsprobleme bei AEM verursachen.
+   * Die Verwendung von Guava-Cache kann zu Leistungsproblemen bei AEM führen.
 
 
 ## Mögliche Lösungen {#solutions}
@@ -89,5 +89,5 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
 
 * `custom.guava.cache`
-   * Falls erforderlich, sollten Caches außerhalb von AEM erstellt werden. Eine externe Caching-Lösung kann in Betracht gezogen werden.
+   * Falls erforderlich, sollten Caches außerhalb von AEM erstellt werden. Eine externe Caching-Lösung sollte in Betracht gezogen werden.
 * Wenden Sie sich an unser [AEM-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
