@@ -3,9 +3,9 @@ title: CDW
 description: Hilfeseite zum Mustererkennungs-Code
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Benutzerdefiniertes Dialog-Widget
 >title="Benutzerdefiniertes Dialog-Widget"
 >abstract="CDW identifiziert die benutzerdefinierten Dialog-Widgets, die aktualisiert werden sollten, damit sie mit AEM as a Cloud Service kompatibel sind."
 
-`CDW`  Benutzerdefinierte Dialogfeld-Widgets identifizieren die benutzerdefinierten Widgets für klassische Dialogfelder. Diese sollten aktualisiert werden, damit sie mit AEM as a Cloud Service kompatibel sind.
+`CDW` Benutzerdefinierte Dialog-Widgets identifizieren die benutzerdefinierten klassischen Dialog-Widgets. Diese sollten aktualisiert werden, damit sie mit AEM as a Cloud Service kompatibel sind.
 
-Untertypen werden zur Identifizierung der Informationen verwendet, z. B.:
+Um Informationen zu erkennen, werden unter anderem folgende Untertypen verwendet:
 
 * `custom.classic.widget`: Identifizieren Sie die benutzerdefinierten Dialog-Widgets basierend auf ExtJs.
 
