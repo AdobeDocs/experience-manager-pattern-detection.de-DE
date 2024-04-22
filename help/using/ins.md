@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 07af2303583072effbaaf23de1878e4d0dcfd2bd
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 83%
 
 ---
 
@@ -39,4 +39,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Korrigieren Sie die Namespace-Definitionen gemäß der [JCR-Spezifikation](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Befolgen Sie die [hier](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163) erwähnten Schritte.
-* Wenden Sie sich an unser [Experience Manager-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder Probleme zu besprechen.
+* Wenden Sie sich an den [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) für Klarstellungen oder um Bedenken auszuräumen.

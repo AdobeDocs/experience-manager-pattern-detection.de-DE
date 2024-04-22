@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 
 * `java.io.inputstream`
    * Verwenden Sie einen direkt-binären Ansatz zum Hochladen, bei dem die Binärdatei direkt zum Datenspeicher hinzugefügt wird.
-   * Für Anwendungsfälle von Assets verwenden Sie [aem-upload](https://github.com/adobe/aem-upload). Für andere Arten von Binärdateien kann die benutzerdefinierte Upload-Logik nach demselben Muster modelliert werden.
+   * Informationen zu Asset-Anwendungsfällen finden Sie unter [aem-upload](https://github.com/adobe/aem-upload). Für andere Arten von Binärdateien kann die benutzerdefinierte Upload-Logik nach demselben Muster modelliert werden.
 
 * `maintenance.task.configuration`
    * Lesen Sie die Dokumention von AEM as a Cloud Service zu [Wartungsaufgaben](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=de).
@@ -83,11 +83,11 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Lang laufende Aufträge sollten möglichst vermieden werden.
 
 * `unsupported.asset.api`
-   * Verwenden Sie bitte [aem-upload](https://github.com/adobe/aem-upload) anstelle der nicht unterstützten APIs von Asset Manager.
+   * Anstatt die nicht unterstützten APIs von Asset Manager zu verwenden, lesen Sie [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
 
 * `custom.guava.cache`
    * Falls erforderlich, sollten Caches außerhalb von AEM erstellt werden. Eine externe Caching-Lösung sollte in Betracht gezogen werden.
-* Wenden Sie sich an unser [AEM-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.

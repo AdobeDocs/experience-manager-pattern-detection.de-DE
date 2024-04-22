@@ -1,8 +1,7 @@
 ---
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-translation-type: ht
-source-wordcount: '530'
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können und welch
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der AEM-Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der AEM-Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtlinien für Beiträge
 
@@ -35,7 +34,7 @@ Wählen Sie die Methode aus, die für Sie zum Bearbeiten der Dokumentation in Gi
 
 ### Erstellen eines Problems {#create-an-issue}
 
-Haben Sie einen Vorschlag, eine Beobachtung zu den aktuellen Dokumenten oder eine Frage dazu, wie etwas beschrieben wird? Dann erstellen Sie bitte ein Problem. Probleme eignen sich auch, wenn Sie etwas beizutragen haben, jedoch lieber nicht selbst die Dokumente bearbeiten oder eine Pull-Anfrage erstellen möchten.
+Haben Sie einen Vorschlag, eine Beobachtung zu den aktuellen Dokumenten oder eine Frage dazu, wie etwas beschrieben wird? Dann erstellen Sie ein Problem. Probleme eignen sich auch, wenn Sie etwas beizutragen haben, jedoch lieber nicht selbst die Dokumente bearbeiten oder eine Pull-Anfrage erstellen möchten.
 
 Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein AEM Docs-Team-Mitglied sie überprüfen kann. Zum Erstellen eines Problems klicken Sie einfach auf einer beliebigen Seite oben im rechten Navigationsbereich auf den Link **Ein Problem protokollieren**.
 
@@ -53,9 +52,9 @@ Im folgenden Video erhalten Sie einen schnellen Überblick darüber, wie Problem
 
 ### Beiträge von Adobe-Mitarbeitern
 
-Wenn Sie ein Mitarbeiter von Adobe sind und einen Beitrag einreichen möchten, verwenden Sie bitte das `AdobeDocs` der Organisation im Git-Repository des Unternehmens.
+Wenn Sie Adobe-Mitarbeitende sind und einen Beitrag einreichen möchten, verwenden Sie `AdobeDocs` als Organisation im Git-Repository des Unternehmens.
 
-Wir freuen uns über jeden Beitrag und überprüfen Ihren Beitrag, wenn er im öffentlichen Repository eingereicht wird. Pull-Anfragen von Adobe-Mitarbeitern sind jedoch einfacher zu verarbeiten und können im Repository des Unternehmens schneller genehmigt werden. Bitte stellen Sie sicher, dass geschützte Informationen nur im Repository des Unternehmens diskutiert werden.
+Wir freuen uns über jeden Beitrag und überprüfen Ihren Beitrag, wenn er im öffentlichen Repository eingereicht wird. Pull-Anfragen von Adobe-Mitarbeitern sind jedoch einfacher zu verarbeiten und können im Repository des Unternehmens schneller genehmigt werden. Stellen Sie sicher, dass geschützte Informationen nur im Repository des Unternehmens diskutiert werden.
 
 ## Weiterführende Informationen
 

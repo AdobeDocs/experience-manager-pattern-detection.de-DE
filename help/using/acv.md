@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -54,5 +54,5 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * Wenn bei Assets die Original-Ausgabedarstellung fehlt, laden Sie das Asset vor der Migration entweder erneut hoch oder löschen Sie es.
 * Keine Aktion erforderlich bei fehlender Original-Ausgabedarstellung von Teil-Assets.
 * Im Falle von Konfliktknoten sollten diese entweder aufgelöst oder gelöscht werden, bevor Sie zu AEM as a Cloud Service migrieren.
-* Wenden Sie sich an den Adobe-Support, wenn Sie viele große PSD- oder PSB-Dateien verarbeiten möchten. Experience Manager verarbeitet möglicherweise keine PSB-Dateien mit sehr hoher Auflösung, die mehr als 30000 x 23000 Pixel umfassen. Siehe [Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=de).
-* Wenden Sie sich an unser [Experience Manager-Support-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder Probleme zu besprechen.
+* Wenden Sie sich an den Adobe-Support, wenn Sie viele große PSD- oder PSB-Dateien verarbeiten möchten. Experience Manager verarbeitet möglicherweise keine PSB-Dateien mit sehr hoher Auflösung, die mehr als 30000 x 23000 Pixel umfassen. [Siehe Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=de).
+* Wenden Sie sich an den [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) für Klarstellungen oder um Bedenken auszuräumen.

@@ -1,17 +1,17 @@
 ---
 title: KEIN
-description: Hilfeseite zum Mustererkennungs-Code
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '30'
-ht-degree: 100%
+description: Mustererkennungscode Hilfeseite.
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 48%
 
 ---
 
 
 # [!DNL NONE] {#none}
 
-Kein
+Ohne
 
 ## Hintergrund {#background}
 
@@ -19,4 +19,4 @@ Die Seite hätte nicht aufgerufen werden sollen.
 
 ## Mögliche Lösungen {#solutions}
 
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um den Fehler zu melden.
+* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) muss den Fehler melden.

@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das 
 
 * Kurzfristig: Die Installation des Kompatibilitätspakets könnte helfen.
 * Langfristig: Passen Sie den Kunden-Code an, sodass er die neueste Version von AEM-Komponenten oder -APIs verwendet.
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
