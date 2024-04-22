@@ -1,11 +1,11 @@
 ---
 title: LOCP
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite .
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 61%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Überschreiben benutzerdefinierter Pakete"
 >abstract="LOCP kennzeichnet die Erkennung eines benutzerdefinierten Pakets, das Inhalte an /libs bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs)."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=de" text="Nachhaltige Aktualisierungen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=de#platform" text="Sling Resource Merger"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Nachhaltige Aktualisierungen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-`LOCP` kennzeichnet die Erkennung eines benutzerdefinierten Pakets, das Inhalte an `/libs` bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs).
+LOCP identifiziert die Erkennung eines benutzerdefinierten Pakets, das Inhalte für bereitstellt. `/libs`, das ein Anti-Muster ist (mit Ausnahme von ACLs).
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Der Kunden-Code kann bei allen CFP-, SP- oder größeren AEM-Upgrades gelöscht oder ersetzt werden.
-* In einigen Fällen wird der neue Inhalt möglicherweise nicht ordnungsgemäß installiert.
+* Der Kundencode kann für alle CFP, SP oder AEM Upgrade gelöscht oder ersetzt werden.
+* Manchmal werden die neuen Inhalte möglicherweise nicht ordnungsgemäß installiert.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -35,8 +35,8 @@ ht-degree: 100%
 >id="aemcloud_bpa_locp_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Kunden sollten ihren benutzerdefinierten Code und ihre Pakete überprüfen, um festzustellen, ob der Inhalt unter /libs bereitgestellt wird, und ihn so umgestalten, dass der Inhalt unter /apps überlagert wird, und ihn mit AEM as a Cloud Service kompatibel machen. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=de#platform" text="Überlagerungen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Überlagerungen"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Benutzerdefinierte Pakete sollten Inhalte für `/apps` anstatt für `/libs` bereitstellen.
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) wenn Sie Klarstellungen oder angesprochene Bedenken benötigen.

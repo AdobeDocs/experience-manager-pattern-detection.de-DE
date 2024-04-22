@@ -1,11 +1,11 @@
 ---
 title: DM
-description: Hilfeseite zum Mustererkennungs-Code
+description: Erfahren Sie, wie der Mustererkennungscode die Verwendung von AEM Assets - Dynamic Media identifiziert.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '169'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,16 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="DM-Code kennzeichnet die Nutzung von AEM Assets Dynamic Media in Ihrer aktuellen Implementierung. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=de" text="AEM-Entwicklung – Richtlinien und Best Practices"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM-Entwicklung – Richtlinien und Best Practices"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
 
-`DM` kennzeichnet die Verwendung von AEM Assets Dynamic Media. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt.
+`DM` (Dynamic Media) identifiziert die Verwendung von AEM Assets Dynamic Media. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt.
 
 Bei diesem Code wird ein Untertyp verwendet:
 
 * `dynamic.media.runmode`: Der zugehörige Wert dieses Untertyps, sofern vorhanden, lautet entweder:
    * `dynamicmedia`: Dynamic Media – Hybridmodus oder
-   * `dynamicmedia_scene7`: Dynamic Media – Scene7-Modus
+   * `dynamicmedia_scene7`: Modus Dynamic Media - Scene7
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -40,12 +40,12 @@ Bei diesem Code wird ein Untertyp verwendet:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementierungsleitlinien"
->abstract="AEM as a Cloud Service unterstützt nur den Ausführungsmodus dynamicmedia_scene7. Überprüfen Sie die aktuellen Einstellungen und wenden Sie sich an das Adobe Support-Team, wenn Sie Hilfe benötigen oder Fragen haben."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=de" text="Einrichten von Dynamic Media"
+>abstract="AEM as a Cloud Service unterstützt nur den Ausführungsmodus dynamicmedia_scene7 . Überprüfen Sie die aktuellen Einstellungen und wenden Sie sich an das Adobe Support-Team, um Hilfe und Erläuterungen zu erhalten."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Einrichten von Dynamic Media"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 
 * `dynamic.media.runmode`
-   * Weitere Informationen finden Sie unter [Einrichten von Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=de).
+   * Weitere Informationen unter [Einrichten von Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an die [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) wenn Sie Klarstellungen oder angesprochene Bedenken benötigen.

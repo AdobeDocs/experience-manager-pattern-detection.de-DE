@@ -1,11 +1,11 @@
 ---
 title: PCX
-description: Hilfeseite zum Mustererkennungs-Code
+description: Mustererkennungscode Hilfeseite.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 58%
 
 ---
 
@@ -19,32 +19,32 @@ Seitenkomplexität
 >id="aemcloud_bpa_pcx_overview"
 >title="Seitenkomplexität"
 >abstract="PCX kennzeichnet Seiten, die eine große Anzahl von Knoten in ihrer Struktur enthalten."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=de" text="Wesentliche Änderungen – AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=de" text="AEM as a Cloud Service – Versionshinweise"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
-`PCX` kennzeichnet Seiten, die eine große Anzahl von Knoten in ihrer Struktur enthalten.
+PCX identifiziert Seiten, die viele Knoten in ihrer Struktur enthalten.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 
 * `page.complexity.medium`: Eine Seite enthält eine mäßig hohe Anzahl von Knoten, was die Rendering-Leistung beeinträchtigen kann.
-* `page.complexity.high`: Eine Seite enthält eine sehr hohe Anzahl von Knoten, was sich wahrscheinlich auf die Rendering-Leistung auswirken wird.
+* `page.complexity.high`: Eine Seite enthält eine hohe Anzahl von Knoten, die sich wahrscheinlich auf die Rendering-Leistung auswirken.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-* Eine große Anzahl von Knoten innerhalb einer Seite kann deren Rendering-Leistung beeinträchtigen.
+* Viele Knoten innerhalb einer Seite können sich auf ihre Rendering-Leistung auswirken.
 
 ## Mögliche Lösungen {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist es, die Struktur des Inhalts zu überprüfen, um die Komplexität der Seite zu reduzieren, was wiederum dazu beitragen würde, die Leistung des Seiten-Renderings zu verbessern. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Es empfiehlt sich, die Inhaltsstruktur zu überprüfen, um die Seitenkomplexität zu reduzieren, was wiederum zur Verbesserung der Leistung beim Rendern von Seiten beitragen würde. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
-* Ergreifen Sie Maßnahmen, um die Gesamtzahl der Knoten innerhalb einer Seite zu reduzieren, darunter:
+* Reduzieren Sie die Gesamtzahl der Knoten auf einer Seite durch die folgenden Schritte:
    * Stellen Sie sicher, dass es keine unnötigen Container gibt.
    * Testen Sie, ob dasselbe Layout mit weniger Containern erreicht werden kann.
    * Vereinfachen Sie den Seiteninhalt.
    * Verringern Sie die Tiefe der Knotenstruktur.
    * Refaktorisieren Sie der Einfachheit halber alle enthaltenen Experience Fragments.
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
