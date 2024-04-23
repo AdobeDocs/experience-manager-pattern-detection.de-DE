@@ -2,10 +2,10 @@
 title: MSM
 description: Mustererkennungscode Hilfeseite.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 56%
+source-wordcount: '146'
+ht-degree: 51%
 
 ---
 
@@ -35,7 +35,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist es, alle benutzerdefinierten MSM-Rollout-Konfigurationen und benutzerdefinierten Rollout-Aktionen zu überprüfen und sicherzustellen, dass sie mit AEM as a Cloud Service funktionieren. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Best Practice ist es, alle benutzerdefinierten MSM-Rollout-Konfigurationen und benutzerdefinierten Rollout-Aktionen zu überprüfen und sicherzustellen, dass sie mit AEM as a Cloud Service funktionieren. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.

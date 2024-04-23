@@ -2,10 +2,10 @@
 title: CCL
 description: Mustererkennungscode Hilfeseite.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 88%
+source-wordcount: '146'
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,7 @@ Mit diesem Code wird ein Untertyp verwendet:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="Implementierungsleitlinien"
->abstract="Die mit CCL gekennzeichneten Client-Bibliotheken, die zu AEM hinzugefügt wurden, sollten überprüft werden, um sicherzustellen, dass es keine Duplikate gibt und dass die neuesten Versionen verwendet werden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Die mit CCL gekennzeichneten Client-Bibliotheken, die zu AEM hinzugefügt wurden, sollten überprüft werden, um sicherzustellen, dass es keine Duplikate gibt und dass die neuesten Versionen verwendet werden. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.

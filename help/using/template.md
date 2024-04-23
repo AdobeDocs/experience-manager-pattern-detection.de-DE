@@ -1,10 +1,10 @@
 ---
 title: VORLAGE
 description: Vorlage für die Hilfeseite zum Mustererkennungscode.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 83%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
@@ -15,12 +15,12 @@ Template
 
 ## Hintergrund {#background}
 
-Geben Sie eine Beschreibung des Problems ein, das dieser Code darstellt.
+Geben Sie eine Beschreibung eines oder mehrerer Probleme an, die dieser Code darstellt.
 Beantworten Sie die Frage: „Was ist das?“
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
-Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken an, die entstehen, wenn nichts dagegen unternommen wird.
+Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken, die auftreten können, wenn nichts dagegen unternommen wird.
 Beantworten Sie die Frage: „Warum sollte es mir wichtig sein?“
 
 * Implikation oder Risiko 1
@@ -28,7 +28,7 @@ Beantworten Sie die Frage: „Warum sollte es mir wichtig sein?“
 
 ## Mögliche Lösungen {#solutions}
 
-Beschreiben Sie mögliche Schritte, mit denen das Problem gemildert oder gelöst werden kann. Vermeiden Sie es, Informationen zu duplizieren, die an anderer Stelle zu finden sind – verweisen Sie, wann immer möglich, auf die öffentliche Adobe-Dokumentation.
+Geben Sie eine Beschreibung möglicher Schritte, die das Problem beheben oder beheben. Vermeiden Sie das Duplizieren von Informationen, die an anderer Stelle gefunden werden können. Verweisen Sie nach Möglichkeit auf die öffentliche Adobe-Dokumentation.
 Beantworten Sie die Frage: „Was kann ich dagegen tun?“
 
 * Mögliche Lösung Nr. 1

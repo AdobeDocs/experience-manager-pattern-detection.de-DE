@@ -2,10 +2,10 @@
 title: UMI
 description: Mustererkennungscode Hilfeseite .
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 43%
+source-wordcount: '352'
+ht-degree: 41%
 
 ---
 
@@ -47,7 +47,7 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementierungsleitlinien"
->abstract="Es empfiehlt sich, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen rückgängig zu machen, die an den genannten Konfigurationen vorgenommen wurden, um zukünftige Probleme bei der Aktualisierung zu vermeiden. Wenden Sie sich an den Adobe Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Es empfiehlt sich, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen rückgängig zu machen, die an den genannten Konfigurationen vorgenommen wurden, um zukünftige Probleme bei der Aktualisierung zu vermeiden. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ändern oder entfernen Sie die vier oben genannten Konfigurationen nicht.
