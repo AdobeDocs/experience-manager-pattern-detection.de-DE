@@ -2,10 +2,10 @@
 title: CCOM
 description: Mustererkennungscode Hilfeseite.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 70%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Benutzerdefinierte Komponente
 >title="Benutzerdefinierte Komponente"
 >abstract="CCOM kennzeichnet benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
 
-CCOM kennzeichnet benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CCOM` Identifiziert benutzerdefinierte Komponenten, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu unterscheiden:
 

@@ -2,10 +2,10 @@
 title: ASO
 description: Mustererkennungscode Hilfeseite.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM-System-Überblick
 >abstract="ASO-Code kennzeichnet allgemeine Informationen zur AEM-Instanz. Jedes Ergebnis liefert einen Wert einer bestimmten Art von Systeminformationen, die bei der Migrationsplanung und beim Refactoring hilfreich sein können."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
-ASO identifiziert allgemeine Informationen zur AEM Instanz. Jedes Ergebnis liefert einen Wert eines bestimmten Typs von Systeminformationen.
+`ASO` Identifiziert allgemeine Informationen zur AEM Instanz. Jedes Ergebnis liefert einen Wert eines bestimmten Typs von Systeminformationen.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 

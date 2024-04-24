@@ -2,10 +2,10 @@
 title: OID
 description: Mustererkennungscode Hilfeseite.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Oak-Indexdefinition
 >abstract="OID kennzeichnet Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es kennzeichnet Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem kennzeichnet es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Meldung für jede OID-Suche identifiziert den Index und gibt zusätzliche Informationen an."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Richtlinien für die Indizierung von Inhalten"
 
-OID kennzeichnet Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es kennzeichnet Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem kennzeichnet es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Nachricht für jede `OID` Suchen identifiziert den Index und gibt zusätzliche Informationen an.
+`OID`  Identifiziert Probleme im Zusammenhang mit Oak-Indexdefinitionen. Es kennzeichnet Änderungen, die an Standard-Oak-Indexdefinitionen vorgenommen wurden. Außerdem kennzeichnet es benutzerdefinierte Oak-Indexdefinitionen, die mit AEM as a Cloud Service nicht kompatibel sind. Die Nachricht für jede `OID` Suchen identifiziert den Index und gibt zusätzliche Informationen an.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 

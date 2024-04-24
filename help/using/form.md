@@ -2,10 +2,10 @@
 title: FORM
 description: Mustererkennungscode Hilfeseite.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 98%
+source-wordcount: '980'
+ht-degree: 73%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="Der Code FORMS kennzeichnet mögliche Probleme im Zusammenhang mit der Migration von Adobe Experience Manager Forms zu Adobe Experience Manager Forms as a Cloud Service. Prüfen Sie die möglichen Auswirkungen und Risiken, die damit verbunden sind, und gehen Sie diese Probleme an, bevor Sie zu Cloud Service migrieren."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html?lang=de#implications-and-risks" text="Mögliche Implikationen und Risiken"
+>abstract="Der Code FORMS kennzeichnet mögliche Probleme im Zusammenhang mit der Migration von Adobe Experience Manager Forms zu Adobe Experience Manager Forms as a Cloud Service. Überprüfen Sie die damit verbundenen möglichen Auswirkungen und Risiken und gehen Sie diese Probleme an, bevor Sie zum Cloud Service wechseln."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Mögliche Implikationen und Risiken"
 
-`FORMS` kennzeichnet potenzielle Probleme im Zusammenhang mit der Migration von [!DNL Adobe Experience Manager Forms] zu [!DNL Adobe Experience Manager Form]s as a [!DNL Cloud Service]. Beheben Sie diese Probleme, bevor Sie zu [!DNL Cloud Service] migrieren.
+`FORMS`  Identifiziert potenzielle Probleme im Zusammenhang mit der Migration von [!DNL Adobe Experience Manager Forms] nach [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Beheben Sie diese Probleme, bevor Sie zu [!DNL Cloud Service] migrieren.
 
 Die folgenden Untertypen helfen Ihnen, die verschiedenen Arten von Problemen zu unterscheiden:
 
@@ -52,7 +52,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Die Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** ist nicht verfügbar. In AEM 6.5 Forms und früheren Versionen wurde die Übermittlungsaktion verwendet, um Daten aus adaptiven Formularen an ältere AEM Forms-Versionen mit JEE-Workflows und LiveCycle-Workflows zu übermitteln. (LC_WORKFLOW_SUBMISSION)
 
-* Die Funktion „Interaktive Kommunikationen“ ist nicht verfügbar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* Die Funktion für interaktive Kommunikation ist nicht verfügbar. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * Metadaten-Akkordeon ist nicht verfügbar. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -60,7 +60,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Die Mobile App von [!DNL AEM Forms] ist für [!DNL Cloud Services] nicht verfügbar. (AEM_FORMS_APP)
 
-* [Document Services](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=de#deployment-topology)-Schritte sind in AEM-Workflows nicht verfügbar. (WORKFLOW_DOCSERVICES)
+* [Document Services](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) -Schritte sind in AEM Workflows nicht verfügbar. (WORKFLOW_DOCSERVICES)
 
 ## Mögliche Lösungen {#solutions}
 
@@ -72,30 +72,30 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Verwenden Sie das Migrationsdienstprogramm, um alle Regelskripte in Ihrer Umgebung in wiederverwendbare Funktionen umzuwandeln. Sie können die wiederverwendbaren Funktionen mit dem Visual Rule Editor verwenden, um weiterhin Ergebnisse zu erhalten, die mit Regelskripten erzielt wurden. (CODE_EDITOR)
 
-* Wenden Sie sich an das Supportteam, um die E-Mail-Funktionalität (offener SMTP-Port) für Ihre Umgebung zu aktivieren. Standardmäßig sind nur ausgehende HTTP- und HTTPS-Verbindungen aktiviert. (EMAIL_SERVICE_CONFIGURATION, E-Mail-Schritt)
+* Wenden Sie sich an das Supportteam, damit es die E-Mail-Funktion (SMTP-Port öffnen) für Ihre Umgebung aktivieren kann. Standardmäßig sind nur ausgehende HTTP- und HTTPS-Verbindungen aktiviert. (EMAIL_SERVICE_CONFIGURATION, E-Mail-Schritt)
 
 * Verwenden Sie die Übermittlungsaktion **[!UICONTROL E-Mail]** anstelle von **[!UICONTROL PDF per E-Mail senden]**. Die Übermittlungsaktion **[!UICONTROL E-Mail]** bietet Optionen zum Senden von Anhängen und zum Anhängen von Belegdokumenten (Document of Record, DoR) per E-Mail. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Übermittelte Daten enthalten die Adobe Sign-Vereinbarungs-ID. Sie können die Sign-Vereinbarungs-ID verwenden, um bei Bedarf eine Sign-Vereinbarungs-PDF abzurufen.  (FORM_SIGN_INTEGRATION)
+* Übermittelte Daten enthalten die Adobe Sign-Vereinbarungs-ID. Sie können bei Bedarf die Sign Agreement ID verwenden, um eine PDF zur Signiervereinbarung abzurufen. (FORM_SIGN_INTEGRATION)
 
-* Entfernen Sie den Unterschriftsschritt aus einem vorhandenen adaptiven Formular. Konfigurieren Sie Ihr adaptives Formular für die Verwendung des [In-Browser-Signatur-Erlebnisses](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Nach der Übermittlung eines adaptiven Formulars wird die Adobe Sign-Vereinbarung im Browser zur Unterzeichnung angezeigt. Die In-Browser-Signatur ermöglicht ein schnelleres Unterzeichnen und spart dem Unterzeichner Zeit. (SIGNATURE_STEP)
+* Entfernen Sie den Unterschriftsschritt aus einem vorhandenen adaptiven Formular. Konfigurieren Sie Ihr adaptives Formular für die Verwendung des [In-Browser-Signatur-Erlebnisses](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Nach der Übermittlung eines adaptiven Formulars wird die Adobe Sign-Vereinbarung im Browser zur Unterzeichnung angezeigt. Die In-Browser-Signatur ermöglicht ein schnelleres Unterzeichnen und spart dem Unterzeichner Zeit. (SIGNATURE_STEP)
 
-* Entfernen Sie den Verifizierungsschritt aus Ihren vorhandenen adaptiven Formularen, bevor Sie solche Formulare in eine [!DNL Cloud Service]-Umgebung verschieben. (VERIFY_STEP)
+* Entfernen Sie den Überprüfungsschritt aus Ihrer vorhandenen adaptiven Forms, bevor Sie diese Formulare in eine [!DNL Cloud Service] Umgebung. (VERIFY_STEP)
 
-* Ändern Sie Ihre vorhandenen adaptiven Formulare so, dass sie die Übermittlungsaktionen [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#create-an-adaptive-form), [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#send-email), [Übermitteln mit Formulardatenmodell](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#submit-using-form-data-model) und [AEM-Workflow aufrufen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) verwenden.
+* Bearbeiten Sie Ihre vorhandenen adaptiven Formulare, damit Sie [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [E-Mail senden](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Senden mit Formulardatenmodell](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model), und [Aufrufen eines AEM Workflows](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Übermittlungsaktionen.
 
-* Sie können einen AEM-Workflow entwickeln und Ihre vorhandenen adaptiven Formulare ändern, sodass sie die Übermittlungsaktion [AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#invoke-an-aem-workflow) anstatt der Übermittlungsaktion **[!UICONTROL An Forms Workflow übermitteln]** verwendet, um Daten an einen AEM-Workflow zu senden. Sie können eine benutzerdefinierte Übermittlungsaktion entwickeln, um Daten, Anlagen oder Belegdokumente (DoR) an einen LiveCycle-Prozess zu senden, anstatt den [!UICONTROL An Forms Workflow übermitteln] zu verwenden. (LC_WORKFLOW_SUBMISSION)
+* Sie können einen AEM entwickeln und Ihre vorhandenen adaptiven Formulare bearbeiten, um [AEM Workflow](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Übermittlungsaktion zum Senden von Daten an einen AEM Workflow, anstatt die **[!UICONTROL Submit to Forms Workflow]** Übermittlungsaktion Sie können eine benutzerdefinierte Übermittlungsaktion entwickeln, um Daten, Anlagen oder Belegdokumente (DoR) an einen LiveCycle-Prozess zu senden, anstatt den [!UICONTROL An Forms Workflow übermitteln] zu verwenden. (LC_WORKFLOW_SUBMISSION)
 
 * In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktion „Interaktive Kommunikation“. Migrieren Sie Ihre interaktiven Kommunikationen, Briefe und zugehörigen Wörterbücher nicht in eine Cloud Service-Umgebung, solange die Funktion nicht verfügbar ist. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * Es gibt keinen Ersatz für das Metadaten-Akkordeon. Entfernen Sie es aus Ihren Formularen, bevor Sie sie zu Cloud Service migrieren. (METADATA_ACCORDION_FORM_CONTAINER)
 
-* Verwenden Sie das Google reCAPTCHA anstelle des von Adobe Experience Manager bereitgestellten CAPTCHA-Services. (FORMS_CAPTCHA)
+* Verwenden Sie die Google reCAPTCHA anstelle des von Adobe Experience Manager bereitgestellten CAPTCHA-Dienstes. (FORMS_CAPTCHA)
 
-* Migrieren Sie kein AEM-Workflow-Modell, das einen Document Services-Workflow-Schritt verwendet. Migrieren oder aktualisieren Sie außerdem keine adaptiven Formulare, die Benutzerdaten an ein Workflow-Modell senden, das Document Services-Workflow-Schritte verwendet, und ändern Sie die Übermittlungsaktion nicht in eine [unterstützte Aktion](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de), bevor Sie das Formular migrieren. (WORKFLOW_DOCSERVICES)
+* Migrieren Sie kein AEM Workflow-Modell, das einen Workflow-Schritt für Document Services verwendet. Migrieren oder aktualisieren Sie außerdem Adaptive Forms nicht, die Benutzerdaten an ein Workflow-Modell senden, das die Workflow-Schritte von Document Services verwendet, oder ändern Sie die `Submit Action` zu [unterstützte 1](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) vor der Migration des Formulars. (WORKFLOW_DOCSERVICES)
 
 * Adaptive Formulare bieten ein responsives Design. Diese Formulare ändern das Aussehen, das Design und die Interaktivität basierend auf dem zugrunde liegenden Gerät. Sie können adaptive Formulare weiterhin auf Mobilgeräten verwenden. In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Mobile App zu [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie XFA-basierte adaptive Formulare verwenden möchten, wenden Sie sich mit den Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen an den Adobe-Support.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Wenden Sie sich an den [Adobe-Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um nähere Informationen zu erhalten oder um Fragen zu klären.
+Kontakt [Adobe-Unterstützung](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.

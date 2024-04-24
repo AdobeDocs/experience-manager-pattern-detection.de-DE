@@ -2,10 +2,10 @@
 title: URS
 description: Mustererkennungscode Hilfeseite.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Nicht unterstützte Repository-Struktur
 
 ## Hintergrund {#background}
 
-URS identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
+`URS`  Identifiziert Fälle nicht unterstützter Repository-Struktur und Knotenmerkmale. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in andere Ordner im Repository umstrukturiert, wobei die folgenden allgemeinen Regeln befolgt werden:
 
 * AEM Produktcode wird immer in `/libs`, die nicht durch benutzerdefinierten Code überschrieben werden dürfen.
 * Benutzerspezifischer Code sollte in `/apps`, `/content`, und `/conf`.

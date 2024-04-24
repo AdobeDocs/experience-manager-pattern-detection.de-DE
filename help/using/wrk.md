@@ -2,9 +2,9 @@
 title: WRK
 description: Mustererkennungscode Hilfeseite.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ Workflow
 >abstract="WRK-Code kennzeichnet ein Ergebnis im Zusammenhang mit einem Workflow-Modell oder Launcher. Diese werden gemeldet, weil benutzerdefinierte Asset-Workflow-Modelle beim Upgrade auf AEM as a Cloud Service migriert werden müssen. Mit AEM as a Cloud Service wird die Verarbeitung von Assets jetzt von Asset-Microservices durchgeführt."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset-Microservices"
 
-WRK identifiziert ein Ergebnis im Zusammenhang mit einem Workflow-Modell oder Starter. Diese werden gemeldet, weil benutzerdefinierte Asset-Workflow-Modelle beim Upgrade auf AEM as a Cloud Service migriert werden müssen.
+`WRK`  Identifiziert eine Suche im Zusammenhang mit einem Workflow-Modell oder Starter. Diese werden gemeldet, weil benutzerdefinierte Asset-Workflow-Modelle beim Upgrade auf AEM as a Cloud Service migriert werden müssen.
 
 Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender Untertyp verwendet.
 

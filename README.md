@@ -1,8 +1,8 @@
 ---
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 100%
+ht-degree: 75%
 
 ---
 # Adobe Experience Manager Mustererkennung
@@ -13,4 +13,4 @@ Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden R
 
 * [contributing.md](contributing.md) Ein Überblick darüber, wie Sie zur Dokumentation beitragen.
 * [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
-* [code-of-conduct.md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die wir erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.
+* [code-of-conduct.md](code-of-conduct.md) Für einen Überblick über die Verhaltensstandards, die Adobe beim Beitrag zu diesem Dokumentationsprojekt erwartet.

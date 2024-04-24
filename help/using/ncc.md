@@ -2,10 +2,10 @@
 title: NCC
 description: Mustererkennungscode Hilfeseite.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 65%
+source-wordcount: '193'
+ht-degree: 56%
 
 ---
 
@@ -22,7 +22,7 @@ Nicht kompatible Änderungen
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionshinweise – AEM as a Cloud Service"
 
-NCC kennzeichnet die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt.
+`NCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 

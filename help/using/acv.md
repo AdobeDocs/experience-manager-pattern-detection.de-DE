@@ -2,10 +2,10 @@
 title: ACV
 description: Mustererkennungscode Hilfeseite.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 71%
+source-wordcount: '478'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Wesentliche Änderungen – Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service – Versionshinweise"
 
-Der Inhaltsvalidator von ACV Assets identifiziert die fehlenden obligatorischen Knoten und Verstöße im Asset-Inhalt. Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen.
+`ACV` (Asset-Inhaltsvalidator) Identifiziert die fehlenden obligatorischen Knoten und Verstöße im Asset-Inhalt. Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
 

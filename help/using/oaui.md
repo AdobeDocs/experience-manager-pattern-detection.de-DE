@@ -1,10 +1,10 @@
 ---
 title: OAUI
-description: Mustererkennungscode Hilfeseite .
+description: Mustererkennungscode Hilfeseite.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ OAuth-Benutzerinstanz
 >abstract="OAUI-Code kennzeichnet das Muster, bei dem mindestens ein OAuth-bezogener konfigurierter Benutzer vorhanden ist, der eine korrekte Migration erfordert. OAuth ist für Benutzer konfiguriert, wenn es einen Unterknoten namens oauth direkt unter einem rep:AuthorizableId-Knoten in der Form /home/user-path/user-node/oauth gibt."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
-OAUI identifiziert das Muster, bei dem mindestens ein OAuth-bezogener konfigurierter Benutzer vorhanden ist, der eine korrekte Migration erfordert.
+`OAUI`  Identifiziert das Muster, bei dem mindestens ein konfigurierter OAuth-bezogener Benutzer vorhanden ist, der eine korrekte Migration erfordert.
 
 OAuth ist für Benutzer konfiguriert, wenn ein Unterknoten mit dem Namen `oauth` direkt unter einem `rep:AuthorizableId`-Knoten in der Form von `/home/user-path/user-node/oauth` vorhanden ist.
 

@@ -2,10 +2,10 @@
 title: INST
 description: Mustererkennungscode Hilfeseite.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Installiertes Artefakt
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Bündelungsrichtlinien – AEM as a Cloud Service"
 
-INST kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
+`INST`  Identifiziert benutzerdefinierte Pakete und Pakete von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
 
 Wenn mehrere Versionen eines Package installiert wurden, wird nur die neueste Version gemeldet.
 

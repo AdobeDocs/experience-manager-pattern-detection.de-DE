@@ -2,10 +2,10 @@
 title: MI
 description: Mustererkennungscode Hilfeseite.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Fehlerhafte Konfiguration
 >title="Fehlerhafte Konfiguration"
 >abstract="MI identifiziert Konfigurationsprobleme in einer AEM-Instanz"
 
-Fehlkonfigurationsproblem Fehlerkorrektur identifiziert Konfigurationsprobleme in AEM Instanz.
+`MI` (Fehler bei der Konfiguration) Identifiziert Konfigurationsprobleme in AEM Instanz.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
 

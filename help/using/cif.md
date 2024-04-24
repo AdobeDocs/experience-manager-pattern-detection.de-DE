@@ -2,10 +2,10 @@
 title: CIF
 description: Mustererkennungscode Hilfeseite.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 55%
+source-wordcount: '307'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ Commerce Integration Framework Classic
 >abstract="CIF gibt die klassische Version der Commerce integration framework-Nutzung an, die mit AEM as a Cloud Service inkompatibel ist."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-CIF CIF identifiziert die klassische Version der Commerce integration framework-Nutzung, die mit AEM as a Cloud Service inkompatibel ist. Die Nachricht für jede `CIF` Finden Sie die Verwendung und geben Sie zusätzliche Informationen an.
+`CIF`  Identifiziert die klassische Version der Commerce integration framework-Nutzung, die mit AEM as a Cloud Service nicht kompatibel ist. Die Nachricht für jede `CIF` Finden Sie die Verwendung und geben Sie zusätzliche Informationen an.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
 

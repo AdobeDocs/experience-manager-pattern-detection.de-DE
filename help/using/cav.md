@@ -2,9 +2,9 @@
 title: CAV
 description: Mustererkennungscode Hilfeseite.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ Inhaltsbereichsverletzung
 >abstract="CAV-Code kennzeichnet das Muster, bei dem verschiedene Inhaltsbereiche in einer Weise verwendet werden, die gegen die Regeln der Inhaltsklassifizierung verstößt. Dieser Verstoß gibt Ihnen einen Überblick über Überlagerungen, eingeschränkte Inhalte, die möglicherweise geändert werden müssen, nachdem sie auf AEM as a Cloud Service verschoben wurden."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-CAV identifiziert das Muster, bei dem verschiedene Inhaltsbereiche so verwendet werden, dass die Regeln der Inhaltsklassifizierung verletzt werden.
+`CAV` Identifiziert das Muster, bei dem verschiedene Inhaltsbereiche so verwendet werden, dass die Regeln der Inhaltsklassifizierung verletzt werden.
 
 Die Verarbeitung von Sling-Anfragen definiert, wie der Inhalt einer Ressource und ihre `sling:resourceType` -Eigenschaft verwendet wird, um das Skript zu bestimmen, das zum Rendern des Inhalts verwendet wird. Weitere Informationen finden Sie unter [Auffinden des Skripts](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script). Sling bietet auch Techniken für den Zugriff auf und das Zusammenführen von Ressourcen durch „Überlagerungen“ und „Überschreibungen“. Diese werden als Teil von [Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) und in [Überlagerungen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays) beschrieben.
 
@@ -37,7 +37,7 @@ So können Kunden leichter nachvollziehen, welche Bereiche von `/libs` sicher si
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Implementierungsleitlinien"
->abstract="Mit CAS identifizierte Muster, bei denen verschiedene Inhaltsbereichsverletzungen vorliegen, sollten überprüft werden. Abschließende und interne Inhaltsklassifizierungsbereiche sollten vermieden werden. Wenden Sie sich an den Adobe Support , um Hilfe oder Erläuterungen zu erhalten."
+>abstract="Mit CAS identifizierte Muster, bei denen verschiedene Inhaltsbereichsverletzungen vorliegen, sollten überprüft werden. Abschließende und interne Inhaltsklassifizierungsbereiche sollten vermieden werden. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Nachhaltige Aktualisierungen"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 

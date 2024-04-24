@@ -2,9 +2,9 @@
 title: CTEM
 description: Mustererkennungscode Hilfeseite.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ Benutzerdefinierte Vorlage
 >title="Benutzerdefinierte Vorlage"
 >abstract="CTEM kennzeichnet benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
 
-CTEM identifiziert benutzerdefinierte Vorlagen, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CTEM`  Identifiziert benutzerdefinierte Vorlagen, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Vorlagen werden durch einen Primärtyp-Wert von `cq:Template`. Um die Kategorien der Vorlage zu unterscheiden, werden Untertypen mit diesen Codes verwendet:
 
