@@ -5,7 +5,7 @@ exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 53%
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ Nicht unterstützte Repository-Struktur
 >id="aemcloud_bpa_urs_overview"
 >title="Nicht unterstützte Repository-Struktur"
 >abstract="URS identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus /etc in andere Ordner im Repository und mehr angezeigt."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repository-Neustrukturierung"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repository-Neustrukturierung"
 
 ## Hintergrund {#background}
 
@@ -46,11 +46,11 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementierungsleitlinien"
->abstract="Es empfiehlt sich, Ihr Code-Projekt zu überprüfen. Vergewissern Sie sich, dass die AEM Richtlinien für die Projektstruktur eingehalten wird, und vermeiden Sie Code, der auf ältere/nicht unterstützte Repository-Pfade angewiesen ist, was in AEM as a Cloud Service zu unerwünschtem Verhalten führen kann. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlinien zur Struktur von AEM-Projekten"
+>abstract="Best Practice ist es, Ihr Code-Projekt zu überprüfen. Best Practice ist es, Ihr Code-Projekt zu überprüfen und sicherzustellen, dass es den Richtlinien für die AEM-Projektstruktur entspricht, und Code zu vermeiden, der auf älteren/nicht unterstützten Repository-Pfaden basiert, die unerwünschtes Verhalten in AEM as a Cloud Service verursachen können. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlinien zur Struktur von AEM-Projekten"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
-* Siehe [Repository-Umstrukturierung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) für Leitlinien zur Vorbereitung auf AEM as a Cloud Service.
-* Siehe auch [AEM Projektstruktur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) , wenn Sie mehr über veränderliche und unveränderliche Bereiche des Repositorys erfahren möchten.
+* Siehe [Repository-Umstrukturierung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) für Leitlinien zur Vorbereitung auf AEM as a Cloud Service.
+* Siehe auch [AEM Projektstruktur](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) , wenn Sie mehr über veränderliche und unveränderliche Bereiche des Repositorys erfahren möchten.
 * Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
 * Verwenden Sie die [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) bestehende Projektpakete neu zu strukturieren, indem Inhalt und Code in separate Pakete aufgeteilt werden, um mit der für Adobe Experience Manager as a Cloud Service definierten Projektstruktur kompatibel zu sein.

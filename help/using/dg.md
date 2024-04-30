@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 76%
+ht-degree: 83%
 
 ---
 
@@ -19,11 +19,11 @@ Entwicklungsrichtlinien
 >id="aemcloud_bpa_dg_overview"
 >title="Entwicklungsrichtlinien"
 >abstract="DG-Code kennzeichnet Abweichungen von ausgewählten Entwicklungsrichtlinien für AEM 6.5 und AEM as a Cloud Service. Die Einhaltung der Best Practices kann die Wartungsfreundlichkeit und Leistung Ihres Systems verbessern. Obwohl einige dieser Abweichungen im Kontext anderer Programme, einschließlich früherer Versionen von AEM, möglicherweise kein Problem darstellen, können sie bei der Verwendung von AEM as a Cloud Service Probleme verursachen."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM-Entwicklung – Richtlinien und Best Practices"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM-Entwicklung – Richtlinien und Best Practices"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
 
 
-`DG`  Identifiziert Abweichungen von ausgewählten Entwicklungsrichtlinien für [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) und [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Die Einhaltung der Best Practices kann die Wartungsfreundlichkeit und Leistung Ihres Systems verbessern. Obwohl einige dieser Abweichungen im Kontext anderer Programme, einschließlich früherer Versionen von AEM, möglicherweise kein Problem darstellen, können sie bei der Verwendung von AEM as a Cloud Service Probleme verursachen.
+`DG`  Identifiziert Abweichungen von ausgewählten Entwicklungsrichtlinien für [AEM 6.5](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) und [AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Die Einhaltung der Best Practices kann die Wartungsfreundlichkeit und Leistung Ihres Systems verbessern. Obwohl einige dieser Abweichungen im Kontext anderer Programme, einschließlich früherer Versionen von AEM, möglicherweise kein Problem darstellen, können sie bei der Verwendung von AEM as a Cloud Service Probleme verursachen.
 
 Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden folgende Untertypen verwendet:
 
@@ -66,16 +66,16 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="Implementierungsleitlinien"
->abstract="Überprüfen Sie Ihre Implementierungen zur Verwendung von Sling Commons Scheduler. Strukturieren Sie sie in Sling-Aufträge um, strukturieren Sie ihre Systemwartungsaufgaben um, überprüfen Sie das Streaming von Binärdaten und refaktorieren Sie den Code so, dass er AEM as a Cloud Service entspricht."
+>abstract="Überprüfen Sie Ihre Implementierungen auf die Nutzung des Sling Commons Scheduler. Stellen Sie sie auf Sling-Aufträge um, strukturieren Sie ihre Systemwartungsaufgaben neu, überprüfen Sie das Streaming von Binärdaten und überarbeiten Sie ihren Code, damit er mit AEM as a Cloud Service kompatibel ist."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="Wartungsaufgaben in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/maintenance" text="Wartungsaufgaben in AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Verwenden Sie einen direkt-binären Ansatz zum Hochladen, bei dem die Binärdatei direkt zum Datenspeicher hinzugefügt wird.
    * Informationen zu Asset-Anwendungsfällen finden Sie unter [aem-upload](https://github.com/adobe/aem-upload). Für andere Arten von Binärdateien kann die benutzerdefinierte Upload-Logik nach demselben Muster modelliert werden.
 
 * `maintenance.task.configuration`
-   * Lesen Sie die Dokumention von AEM as a Cloud Service zu [Wartungsaufgaben](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance).
+   * Lesen Sie die Dokumention von AEM as a Cloud Service zu [Wartungsaufgaben](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/maintenance).
    * Stellen Sie sicher, dass die [Konfiguration der Wartungsaufgaben](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) in der Quell-Code-Verwaltung ist.
 
 * `sling.commons.scheduler`

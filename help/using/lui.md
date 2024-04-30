@@ -5,7 +5,7 @@ exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 54%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ Alte Benutzeroberfläche
 >id="aemcloud_bpa_lui_overview"
 >title="Alte Benutzeroberfläche"
 >abstract="LUI kennzeichnet die Verwendung veralteter Benutzeroberflächenelemente, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 
 `LUI`  Identifiziert die Verwendung veralteter Elemente der Benutzeroberfläche, die in späteren Versionen von AEM und in AEM as a Cloud Service nicht empfohlen oder nicht unterstützt werden.
 
@@ -49,7 +49,7 @@ und `sling:resourceType` Der Eigenschaftswert enthält nicht &quot;granite/ui/co
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"
 >title="Implementierungsleitlinien"
->abstract="Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar und die Standardoberfläche für das Authoring ist die Touch-fähige Benutzeroberfläche. Best Practice ist, alle nicht unterstützten Schnittstellen und verknüpften Anpassungen auf neuere Funktionen/Funktionen zu verschieben, die mit AEM as a Cloud Service kompatibel sind. Kunden können die vorhandene AEM Modernization Suite verwenden, um den für die Modernisierung der AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren."
+>abstract="Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar und die Standardoberfläche für das Authoring ist die Touch-fähige Benutzeroberfläche. Best Practice ist es, alle nicht unterstützten Oberflächen zu verschieben. Verknüpfte Anpassungen sollten auf neuere Funktionen/Funktionalitäten umgearbeitet werden, die mit AEM as a Cloud Service kompatibel sind. Kundinnen und Kunden können die bestehende AEM Modernization Suite verwenden, um den Aufwand für die Modernisierung der AEM Sites-Implementierungen zu reduzieren."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM-Modernisierungs-Tools"
 
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
@@ -62,7 +62,7 @@ und `sling:resourceType` Der Eigenschaftswert enthält nicht &quot;granite/ui/co
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Tools und Ressourcen"
->abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationsabhängig und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
+>abstract="Mithilfe der AEM Modernization Suite können Kunden Classic(ExtJS)-Dialoge in Coral-Dialoge konvertieren. Dies soll Kunden dabei helfen, von den nicht unterstützten oder veralteten Funktionen zu den robusten, modernen AEM-Angeboten zu wechseln. Diese Tools sind konfigurierbar, konfigurationssensitiv und erweiterbar. Probieren Sie auch den Ersatz von benutzerdefinierten Komponenten durch den Satz standardisierter Kernkomponenten aus, um die Entwicklungszeit zu beschleunigen und die Wartungskosten Ihrer Programme zu reduzieren."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Komponentenkonvertierer"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/introduction" text="Kernkomponenten"
 

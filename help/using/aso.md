@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 62%
 
 ---
 
@@ -57,7 +57,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Implementierungsleitlinien"
->abstract="Informationen, die über ASO-Code verfügbar gemacht werden, enthalten allgemeine Informationen für Ihre AEM-Umgebung, einschließlich Version, Produkt-Add-ons und Systeminformationen. Überprüfen Sie sie auf nicht unterstützte Produkte oder Funktionen in AEM as a Cloud Service. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
+>abstract="Informationen, die über den ASO-Code offengelegt werden, bieten allgemeine Informationen zu Ihrer AEM-Umgebung, einschließlich Version, Produkt-Add-ons und Informationen auf Systemebene. Überprüfen Sie sie auf nicht unterstützte Produkte oder Funktionen in AEM as a Cloud Service. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * AEM Aktualisierungen mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und werden möglicherweise nicht unterstützt.

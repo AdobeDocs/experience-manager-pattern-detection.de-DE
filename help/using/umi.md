@@ -5,7 +5,7 @@ exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 41%
+ht-degree: 55%
 
 ---
 
@@ -18,8 +18,8 @@ Problem mit Upgrade-Fehlkonfiguration
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_overview"
 >title="Problem mit Upgrade-Fehlkonfiguration"
->abstract="UMI identifiziert Änderungen an bestimmten OSGi-Konfigurationen, die Probleme bei der Aktualisierung verursachen, einschließlich einer fehlgeschlagenen Aktualisierung oder eingeschränkter Funktionalität."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
+>abstract="UMI erkennt Änderungen an bestimmten OSGi-Konfigurationen, die beim Upgrade zu Problemen führen, einschließlich eines fehlgeschlagenen Upgrades oder eingeschränkter Funktionalität."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
 `UMI`  Identifiziert Änderungen an bestimmten OSGi-Konfigurationen, die Probleme bei der Aktualisierung verursachen, einschließlich einer fehlgeschlagenen Aktualisierung oder eingeschränkter Funktionalität.
@@ -47,7 +47,7 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementierungsleitlinien"
->abstract="Es empfiehlt sich, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen rückgängig zu machen, die an den genannten Konfigurationen vorgenommen wurden, um zukünftige Probleme bei der Aktualisierung zu vermeiden. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
+>abstract="Best Practice ist es, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen, die an den genannten Konfigurationen vorgenommen wurden, rückgängig zu machen, um zukünftige Upgrade-Probleme zu vermeiden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ändern oder entfernen Sie die vier oben genannten Konfigurationen nicht.

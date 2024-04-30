@@ -5,7 +5,7 @@ exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 56%
+ht-degree: 82%
 
 ---
 
@@ -18,11 +18,11 @@ Nicht kompatible Änderungen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Nicht kompatible Änderungen"
->abstract="NCC kennzeichnet die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
+>abstract="NCC kennzeichnet die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade von dieser Änderung nichts weiß."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionshinweise – AEM as a Cloud Service"
 
-`NCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt.
+`NCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade von dieser Änderung nichts weiß.
 
 ## Mögliche Implikationen und Risiken {#implications-and-risks}
 
@@ -34,8 +34,8 @@ Nicht kompatible Änderungen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist, benutzerdefinierten Code zu überprüfen und sicherzustellen, dass nur kompatible Sling-Komponenten überlagert oder referenziert werden. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Überlagerungen"
+>abstract="Best Practice ist es, benutzerdefinierten Code zu überprüfen und sicherzustellen, dass nur kompatible Sling-Komponenten überlagert oder referenziert werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Überlagerungen"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Überlagern oder referenzieren Sie nur kompatible Sling-Komponenten.

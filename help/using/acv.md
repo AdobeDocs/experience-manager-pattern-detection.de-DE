@@ -5,7 +5,7 @@ exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identifiziert die fehlenden obligatorischen Knoten in Assets-Inhalten."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Wesentliche Änderungen – Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/overview" text="Wesentliche Änderungen – Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service – Versionshinweise"
 
 `ACV` (Asset-Inhaltsvalidator) Identifiziert die fehlenden obligatorischen Knoten und Verstöße im Asset-Inhalt. Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen.
@@ -47,7 +47,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Implementierungsleitlinien"
->abstract="Adobe empfiehlt, die Inhaltsstruktur zu überprüfen, um fehlerhafte Workflows zu verhindern, die von geerbten Eigenschaften abhängig sind. Wenden Sie sich für Hilfe an die Kundenunterstützung."
+>abstract="Adobe empfiehlt, die Inhaltsstruktur zu überprüfen, um fehlerhafte Workflows zu verhindern, die von übernommenen Eigenschaften abhängig sind. Wenden Sie sich für Hilfe an die Kundenunterstützung."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Analysieren Sie einen Ordner, wenn ein untergeordneter Knoten fehlt. Erstellen Sie die Knoten manuell, wenn die Anzahl der Ordner überschaubar ist. Verwenden Sie andernfalls ein Skript.

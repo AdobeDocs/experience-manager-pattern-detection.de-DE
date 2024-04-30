@@ -5,7 +5,7 @@ exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 44%
+ht-degree: 70%
 
 ---
 
@@ -36,9 +36,9 @@ Ein Beispiel: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Implementierungsleitlinien"
->abstract="Externe Benutzer, die mit OAuth konfiguriert wurden, können sich erst bei Autoren-/Veröffentlichungsinstanzen anmelden, nachdem sie neu konfiguriert wurden, um mit AEM as a Cloud Service kompatibel zu sein. AEM as a Cloud Service bietet IMS-Authentifizierungsunterstützung nur für Autoren-, Admin- und Entwickler-Benutzer und SAML-basierte Integration für die Veröffentlichungsumgebungen. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS-Unterstützung – AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-Integration – Veröffentlichen"
+>abstract="Externe Benutzende, die mit OAuth konfiguriert sind, können sich nicht bei Autoren-/Veröffentlichungsinstanzen anmelden, bis diese neu konfiguriert wurden, damit sie mit AEM as a Cloud Service kompatibel sind. AEM as a Cloud Service bietet IMS-Authentifizierungsunterstützung nur für Autoren-, Admin- und Entwicklungsbenutzende und SAML-basierte Integration für die Veröffentlichungsumgebungen. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS-Unterstützung – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-Integration – Veröffentlichen"
 
 * Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, wenn Sie Optionen für die Benutzermigration besprechen müssen.
 * Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.

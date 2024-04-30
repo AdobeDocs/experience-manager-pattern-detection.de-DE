@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -67,7 +67,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="Implementierungsleitlinien"
->abstract="Informationen, die über den Code FORMS bereitgestellt werden, können Hinweise auf Ersetzungen und andere Maßnahmen geben, die erforderlich sind, um einige Funktionen und APIs mit Cloud Service kompatibel zu machen. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
+>abstract="Informationen, die über den Code FORMS bereitgestellt werden, können Hinweise auf Ersetzungen und andere Maßnahmen geben, die erforderlich sind, um einige Funktionen und APIs mit Cloud Service kompatibel zu machen. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Verwenden Sie das Migrationsdienstprogramm, um alle Regelskripte in Ihrer Umgebung in wiederverwendbare Funktionen umzuwandeln. Sie können die wiederverwendbaren Funktionen mit dem Visual Rule Editor verwenden, um weiterhin Ergebnisse zu erhalten, die mit Regelskripten erzielt wurden. (CODE_EDITOR)

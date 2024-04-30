@@ -5,7 +5,7 @@ exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -34,7 +34,7 @@ Einige davon werden von `com.adobe.granite.repository` verwendet, das während d
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Implementierungsleitlinien"
->abstract="Kunden sollten ihren benutzerdefinierten Code überprüfen, um die Verwendung solcher APIs zu erkennen, und sie umstrukturieren, damit sie mit AEM as a Cloud Service kompatibel sind. Wenden Sie sich an den Adobe-Support , um Hilfe oder Erläuterungen zu erhalten."
+>abstract="Kunden sollten ihren benutzerdefinierten Code überprüfen, um die Verwendung solcher APIs zu erkennen, und sie umstrukturieren, damit sie mit AEM as a Cloud Service kompatibel sind. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Verwenden Sie die Sling Resource-API (oder die JCR-API) anstelle des Zugriffs auf untergeordnetem Niveau.
