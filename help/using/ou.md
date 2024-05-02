@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 66%
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Veraltete Verwendung
 
 Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das Programm des Kunden möglicherweise nicht korrekt.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die Funktionalität, die von einer Komponente abhängt, die veraltete Komponenten oder APIs verwendet, kann fehlerhaft sein und wird nach einem Upgrade möglicherweise nicht korrekt aufgelöst.
 * Einige Funktionen des Programms des Kunden oder einige AEM-Funktionen funktionieren möglicherweise nicht richtig oder sind nach einem Upgrade nicht mehr aktiv.
@@ -41,4 +41,4 @@ Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das 
 
 * Kurzfristig: Die Installation des Kompatibilitätspakets kann helfen.
 * Langfristig: Passen Sie den Kundencode an, um die neueste Version AEM Komponenten oder APIs zu verwenden.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

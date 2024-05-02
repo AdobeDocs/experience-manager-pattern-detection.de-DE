@@ -1,11 +1,11 @@
 ---
 title: NCC
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Nicht kompatible Änderungen
 
 `NCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade von dieser Änderung nichts weiß.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die Funktionen, die von einer Komponente abhängen, die nicht kompatible Änderungen verwendet, können fehlerhaft sein und möglicherweise nicht korrekt aufgelöst werden.
 * Einige Funktionen des Programms des Kunden oder einige AEM-Funktionen funktionieren nach einem Upgrade möglicherweise nicht mehr richtig.
@@ -39,5 +39,5 @@ Nicht kompatible Änderungen
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Überlagern oder referenzieren Sie nur kompatible Sling-Komponenten.
-* Erwägen Sie die Anpassung von Ressourcen, die nach einem AEM-Upgrade aus `/libs` oder Bundles stammen.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Erwägen Sie die Anpassung von Ressourcen, die nach einem AEM-Upgrade aus `/libs` oder aus Bundles stammen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

@@ -1,11 +1,11 @@
 ---
 title: CDW
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Um Informationen zu erkennen, werden unter anderem folgende Untertypen verwendet
 
 * `custom.classic.widget`: Identifizieren Sie die benutzerdefinierten Dialog-Widgets basierend auf ExtJs.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
 
@@ -39,4 +39,4 @@ Um Informationen zu erkennen, werden unter anderem folgende Untertypen verwendet
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Benutzerdefinierte klassische Dialog-Widgets sollten von ExtJS in [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html) konvertiert werden.
-* Wenden Sie sich an den [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) für Klarstellungen oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [Experience Manager-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

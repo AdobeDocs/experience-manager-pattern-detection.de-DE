@@ -1,11 +1,11 @@
 ---
 title: URS
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
@@ -36,7 +36,7 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 * `package.structure`: Ein Package, das sowohl veränderlichen als auch unveränderlichen Inhalt enthält.
 * `node.size`: Ein Knoten mit nicht unterstützter Größe.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Benutzerdefinierter Code, der sich auf ältere Pfade stützt, kann unerwünschtes Verhalten verursachen und die Produktfunktionalität beeinträchtigen.
 * Pakete, die sowohl veränderliche als auch unveränderliche Inhalte enthalten, können während der Bereitstellung wahrscheinlich Probleme verursachen.
@@ -50,7 +50,7 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlinien zur Struktur von AEM-Projekten"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
-* Siehe [Repository-Umstrukturierung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) für Leitlinien zur Vorbereitung auf AEM as a Cloud Service.
+* Eine Anleitung zur Vorbereitung auf AEM as a Cloud Service finden Sie unter [Repository-Restrukturierung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring).
 * Siehe auch [AEM Projektstruktur](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) , wenn Sie mehr über veränderliche und unveränderliche Bereiche des Repositorys erfahren möchten.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
 * Verwenden Sie die [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) bestehende Projektpakete neu zu strukturieren, indem Inhalt und Code in separate Pakete aufgeteilt werden, um mit der für Adobe Experience Manager as a Cloud Service definierten Projektstruktur kompatibel zu sein.

@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,7 @@ AEM-System-Überblick
 
 `ASO` Identifiziert allgemeine Informationen zur AEM Instanz. Jedes Ergebnis liefert einen Wert eines bestimmten Typs von Systeminformationen.
 
-Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
+Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untertypen verwendet:
 
 * `aem.version`: Die AEM-Version.
 * `aem.product`: Erkennung der Verwendung eines AEM Produkts (Commerce, Forms usw.).
@@ -43,7 +43,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `workflow.count`: Die Anzahl der laufenden und veralteten Author-Workflows.
 * `jvm.arguments`: Die JVM-Argumente, die beim Starten von AEM zur Befehlszeile hinzugefügt wurden.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen für Datenspeicher, die CQ-Tag-Anzahl, die Anzahl der Smart-Tags, die Kernkomponenten-Version, AEM Instanztyp und die Anzahl nicht verarbeiteter Assets werden zu Informationszwecken bereitgestellt.
 * Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
@@ -63,6 +63,6 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * AEM Aktualisierungen mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und werden möglicherweise nicht unterstützt.
 * Die nicht verarbeiteten Assets müssen verarbeitet werden und die `dam:assetState` -Eigenschaft auf `jcr:content` -Knoten des Assets muss auf &quot;verarbeitet&quot;eingestellt sein. Alternativ sollten Sie diese Assets aus dem Migrationssatz entfernen, bevor Sie zu AEMaaCS migrieren.
 * Vanity-URLs können durch Apache-Neuschreibungen ersetzt werden.
-* Siehe [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) für die Fehlerbehebung bei langsamen Abfragen.
+* Siehe die [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) zur Fehlerbehebung bei langsamen Abfragen.
 * Siehe [Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) , wenn Sie mehr über die neuesten Änderungen in AEM as a Cloud Service erfahren möchten.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

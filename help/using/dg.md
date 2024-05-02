@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `javax.jcr.observation.EventListener`: Die Verwendung des Ereignis-Listeners im Programm-Code.
 * `custom.guava.cache`: Die Verwendung von Guava-Cache im Programm-Code.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * `java.io.inputstream`
    * Das Streaming binärer Daten mit `java.io.InputStream` kann Speicherressourcen bis zu dem Punkt beanspruchen, an dem die Leistung beeinträchtigt wird. Dies ist insbesondere auf den begrenzten Speicherplatz zurückzuführen, der in Containern zur Verfügung steht, die in AEM as a Cloud Service verwendet werden.
@@ -72,7 +72,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 
 * `java.io.inputstream`
    * Verwenden Sie einen direkt-binären Ansatz zum Hochladen, bei dem die Binärdatei direkt zum Datenspeicher hinzugefügt wird.
-   * Informationen zu Asset-Anwendungsfällen finden Sie unter [aem-upload](https://github.com/adobe/aem-upload). Für andere Arten von Binärdateien kann die benutzerdefinierte Upload-Logik nach demselben Muster modelliert werden.
+   * Für Anwendungsfälle von Assets siehe [aem-upload](https://github.com/adobe/aem-upload). Für andere Arten von Binärdateien kann die benutzerdefinierte Upload-Logik nach demselben Muster modelliert werden.
 
 * `maintenance.task.configuration`
    * Lesen Sie die Dokumention von AEM as a Cloud Service zu [Wartungsaufgaben](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/maintenance).
@@ -83,11 +83,11 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Lange laufende Aufträge sollten vermieden werden.
 
 * `unsupported.asset.api`
-   * Anstatt die nicht unterstützten APIs von Asset Manager zu verwenden, lesen Sie [aem-upload](https://github.com/adobe/aem-upload).
+   * Anstatt die nicht unterstützten APIs von Asset Manager zu nutzen, siehe [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
 
 * `custom.guava.cache`
    * Falls nötig, sollten Caches außerhalb von AEM erstellt werden. Eine externe Caching-Lösung sollte in Betracht gezogen werden.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

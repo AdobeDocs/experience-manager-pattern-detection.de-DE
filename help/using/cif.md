@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `commerce.integration.framework.detected`: Inkompabilität einer klassischen Version von Commerce Integration Framework mit AEM as a Cloud Service.
 
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"

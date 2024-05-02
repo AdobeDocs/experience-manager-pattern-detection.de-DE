@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -33,7 +33,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * `psb.file.large`: Identifizieren Sie große PSB-Dateien (dc:format : application/vnd.3gpp.pic-bw-small) mit einer Größe größer als 2 GB.
 * `invalid.asset.name`: Identifizieren von Assets mit ungültigen Zeichen[* / : [\] | # % { } ? &amp;] im Namen.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Dies kann zu Fehlern bei bestimmten Assets-Funktionen in Experience Manager as a Cloud Service führen, die von übernommenen Eigenschaften abhängig sind.
 * AEM Assets benötigt die vorhandene Original-Ausgabedarstellung. Die Asset-Verarbeitung im Cloud Service erfolgt in einer Schleife, wenn die ursprüngliche Ausgabedarstellung fehlt. Die Generierung von Teil-Assets wird in AEMaaCS nicht unterstützt.
@@ -55,4 +55,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * Keine Aktion erforderlich bei fehlender Original-Ausgabedarstellung von Teil-Assets.
 * Bei Konfliktknoten sollten sie vor der Migration zu AEM as a Cloud Service gelöst oder gelöscht werden.
 * Wenden Sie sich an den Adobe-Support, wenn Sie viele große PSD- oder PSB-Dateien verarbeiten möchten. Experience Manager kann keine hochauflösenden PSB-Dateien verarbeiten, die größer als 30000 x 23000 Pixel sind. [Siehe Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Wenden Sie sich an den [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) für Klarstellungen oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [Experience Manager-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

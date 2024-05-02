@@ -1,24 +1,24 @@
 ---
 title: VORLAGE
-description: Vorlage für die Hilfeseite zum Mustererkennungscode.
+description: Vorlage für die Hilfeseite zum Mustererkennungs-Code
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
 
 # [!DNL TEMPLATE] {#template}
 
-Template
+Vorlage
 
 ## Hintergrund {#background}
 
 Geben Sie eine Beschreibung eines oder mehrerer Probleme an, die dieser Code darstellt.
 Beantworten Sie die Frage: „Was ist das?“
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken, die auftreten können, wenn nichts dagegen unternommen wird.
 Beantworten Sie die Frage: „Warum sollte es mir wichtig sein?“
@@ -33,4 +33,4 @@ Beantworten Sie die Frage: „Was kann ich dagegen tun?“
 
 * Mögliche Lösung Nr. 1
 * Mögliche Lösung Nr. 2
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -26,7 +26,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 
 * `uri`: Identifizieren des ungültigen Namespace-URI in AEM.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Inhalt kann nicht repliziert (auf mehreren Ebenen) oder Inhalt kopiert werden (über `env`durch `/crx/packMgr`oder Inhaltskopie).
 
@@ -39,4 +39,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Korrigieren Sie die Namespace-Definitionen gemäß der [JCR-Spezifikation](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Befolgen Sie die [hier](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163) erwähnten Schritte.
-* Wenden Sie sich an den [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) für Klarstellungen oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

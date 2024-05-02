@@ -1,6 +1,6 @@
 ---
 title: FORM
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ ht-degree: 73%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="Der Code FORMS kennzeichnet mögliche Probleme im Zusammenhang mit der Migration von Adobe Experience Manager Forms zu Adobe Experience Manager Forms as a Cloud Service. Überprüfen Sie die damit verbundenen möglichen Auswirkungen und Risiken und gehen Sie diese Probleme an, bevor Sie zum Cloud Service wechseln."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Mögliche Implikationen und Risiken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Mögliche Auswirkungen und Risiken"
 
 `FORMS`  Identifiziert potenzielle Probleme im Zusammenhang mit der Migration von [!DNL Adobe Experience Manager Forms] nach [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Beheben Sie diese Probleme, bevor Sie zu [!DNL Cloud Service] migrieren.
 
@@ -32,7 +32,7 @@ Die folgenden Untertypen helfen Ihnen, die verschiedenen Arten von Problemen zu 
 
 In den Abschnitten [Mögliche Implikationen und Risiken](#implications-and-risks) und [Mögliche Lösungen](#solutions) finden Sie Informationen zu Ersetzungen und anderen Maßnahmen, die erforderlich sind, um einige Funktionen und APIs mit Cloud Service kompatibel zu machen.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager Forms as a Cloud Service] migrieren. Wenn die unten aufgeführten Implikationen und Risiken nicht beachtet werden, funktionieren einige Funktionen in der Cloud Service-Umgebung nicht wie erwartet.
 

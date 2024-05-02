@@ -1,11 +1,11 @@
 ---
 title: OID
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * `index.rule.violation`: Ein benutzerdefinierter Oak-Index ist mit AEM as a Cloud Service nicht kompatibel
 * `standard.index.modification`: Eine Änderung an einem Standard-Oak-Index.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
@@ -54,5 +54,5 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * Um neue oder benutzerdefinierte Oak-Indexdefinitionen bereitzustellen, befolgen Sie AEM as a Cloud Service [Verpackungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure).
 * Benutzerdefinierte AEM Standardindizes und neue benutzerdefinierte Oak-Indexdefinitionen sollten dem [Inhaltsindizierungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) für AEM as a Cloud Service.
 * Überprüfen Sie das Projekt [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) und verstehen Sie, wie [OID-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) korrigiert und mit AEM as a Cloud Service kompatibel gemacht werden können.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
 * Verwenden Sie die [Index Converter](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) , um vorhandene benutzerdefinierte Oak-Indexdefinitionen zu migrieren und as a Cloud Service kompatible benutzerdefinierte Oak-Indexdefinitionen AEM.

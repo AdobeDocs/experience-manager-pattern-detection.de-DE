@@ -1,11 +1,11 @@
 ---
 title: WRK
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender U
 
 * `custom.asset.workflow`: Erkennung eines benutzerdefinierten Asset-Workflow-Modells oder Starters.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
@@ -35,7 +35,7 @@ Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender U
 >abstract="Standard-Asset-Workflows werden automatisch von „Meine Asset-Microservices“ unterstützt. Daher empfiehlt es sich, alle benutzerdefinierten Asset-Workflow-Modelle oder Launcher zu überprüfen, um festzustellen, ob sie nach der Umstellung auf AEM as a Cloud Service noch benötigt werden. Anpassungen von Asset-Workflows müssen mithilfe des Asset-Workflow-Migrations-Tools migriert werden, damit sie mit AEM as a Cloud Service funktionieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Erste Schritte – Asset-Microservices"
 
-* Die Asset-Bearbeitung wurde traditionell mit Asset-Workflows durchgeführt, die auf der AEM-Autoreninstanz ausgeführt wurden. Mit AEM as a Cloud Service wird die Verarbeitung von Assets jetzt von Asset-Microservices durchgeführt. Siehe [Übersicht über Asset-Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) für weitere Informationen.
+* Die Asset-Bearbeitung wurde traditionell mit Asset-Workflows durchgeführt, die auf der AEM-Autoreninstanz ausgeführt wurden. Mit AEM as a Cloud Service wird die Verarbeitung von Assets jetzt von Asset-Microservices durchgeführt. Weitere Informationen finden Sie in der [Übersicht über Asset-Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview).
 * Standard-Asset-Workflows werden automatisch von „Meine Asset-Microservices“ unterstützt.
 * Anpassungen an Asset-Workflows erfordern eine Migration, damit sie mit AEM as a Cloud Service funktionieren.
 
@@ -50,4 +50,4 @@ Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender U
 
 * Wenn ein benutzerdefiniertes Asset-Workflow-Modell oder ein Starter erkannt wird, planen Sie die Ausführung des [Asset-Workflow-Migrations-Tools](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool).
 * Weitere Informationen finden Sie unter [Erste Schritte mit Asset-Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use).
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

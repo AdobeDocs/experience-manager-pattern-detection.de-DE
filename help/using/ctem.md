@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Vorlagen werden durch einen Primärtyp-Wert von `cq:Template`. Um die Kategorien
 * `custom.editable.template`: Der Pfad der Vorlage beginnt nicht mit „/apps“.
 * `custom.static.template`: Der Pfad der Vorlage beginnt mit „/apps“.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
@@ -49,4 +49,4 @@ Vorlagen werden durch einen Primärtyp-Wert von `cq:Template`. Um die Kategorien
 
 * Verwenden Sie die [AEM Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/) Migration von statischen Vorlagen zu bearbeitbaren Vorlagen.
 * Weitere Informationen zu bearbeitbaren Vorlagen finden Sie unter [Vorlagen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

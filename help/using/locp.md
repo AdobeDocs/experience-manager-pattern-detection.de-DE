@@ -1,11 +1,11 @@
 ---
 title: LOCP
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 63%
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 63%
 
 `LOCP`  Identifiziert die Erkennung eines benutzerdefinierten Pakets, das Inhalte bereitstellt für `/libs`, das ein Anti-Muster ist (mit Ausnahme von ACLs).
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Der Kundencode kann für alle CFP, SP oder AEM Upgrade gelöscht oder ersetzt werden.
-* Manchmal werden die neuen Inhalte möglicherweise nicht ordnungsgemäß installiert.
+* Der Kunden-Code kann bei allen CFP-, SP- oder größeren AEM-Upgrades gelöscht oder ersetzt werden.
+* In einigen Fällen wird der neue Inhalt möglicherweise nicht ordnungsgemäß installiert.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -39,4 +39,4 @@ ht-degree: 63%
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Benutzerdefinierte Pakete sollten Inhalte für `/apps` anstatt für `/libs` bereitstellen.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) wenn Sie Klarstellungen oder angesprochene Bedenken benötigen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

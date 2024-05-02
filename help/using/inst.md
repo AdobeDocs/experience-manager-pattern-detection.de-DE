@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -28,12 +28,12 @@ Wenn mehrere Versionen eines Package installiert wurden, wird nur die neueste Ve
 
 Packages und Bundles, die erkannt werden, sind nicht unbedingt für AEM as a Cloud Service optimiert worden. Jedes Package eines Drittanbieters sollte bei seinem Ersteller oder bei Adobe auf Kompatibilität mit AEM as a Cloud Service überprüft werden.
 
-Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende Untertypen verwendet:
+Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untertypen verwendet:
 
 * `custom.bundle`: Ein in AEM installiertes Bundle.
 * `custom.package`: Ein in AEM installiertes Package.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
@@ -59,4 +59,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * Überprüfen Sie, wie die [Einbettung von Drittanbieter-Packages](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) in Ihr Projekt für AEM as a Cloud Service erfolgt.
 * Packages von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die [Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) und [Bündelung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) einhalten.
 * Überprüfen Sie das Projekt [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) und verstehen Sie, wie [INST-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) korrigiert und mit AEM as a Cloud Service kompatibel gemacht werden können.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

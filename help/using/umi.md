@@ -1,24 +1,24 @@
 ---
 title: UMI
-description: Mustererkennungscode Hilfeseite.
+description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 55%
+ht-degree: 94%
 
 ---
 
 # UMI {#umi}
 
-Problem mit Upgrade-Fehlkonfiguration
+Problem mit Fehlkonfiguration beim Upgrade
 
 ## Hintergrund {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_overview"
->title="Problem mit Upgrade-Fehlkonfiguration"
->abstract="UMI erkennt Änderungen an bestimmten OSGi-Konfigurationen, die beim Upgrade zu Problemen führen, einschließlich eines fehlgeschlagenen Upgrades oder eingeschränkter Funktionalität."
+>title="Problem mit Fehlkonfiguration beim Upgrade"
+>abstract="UMI kennzeichnet Änderungen an bestimmten OSGi-Konfigurationen, die beim Upgrade zu Problemen führen, einschließlich eines fehlgeschlagenen Upgrades oder eingeschränkter Funktionalität."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
@@ -33,28 +33,28 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 * `com.day.cq.commons.impl.ExternalizerImpl`
 * `org.apache.sling.commons.log.LogManager.factory.config`: Identifizieren Sie, ob die `org.apache.sling.commons.log.file`-Eigenschaft der benutzerdefinierten Logger auf eine andere als die `logs/error.log`-Datei verweist.
 
-## Mögliche Implikationen und Risiken {#implications-and-risks}
+## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Das Ändern oder Entfernen von Konfigurationen kann zu folgenden Problemen führen:
    * Das Upgrade kann hängen bleiben (zum Beispiel `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` fehlt, ist aber in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` vorhanden).
    * Autorisierungsprobleme können nach dem Upgrade auftreten (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
-   * Bestimmte Funktionen arbeiten möglicherweise nicht wie erwartet. Beispiel für eine Änderung `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kann dazu führen, dass einige JSP-Dateien nicht kompiliert werden, was letztendlich zu Funktionsverlust führt.
-   * Die Werte der Externalizer-Konfiguration `com.day.cq.commons.impl.ExternalizerImpl` werden von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service festgelegt.
-   * AEM as a Cloud Service unterstützt keine benutzerdefinierten Protokolldateien. Protokolle, die in benutzerspezifische Protokolle geschrieben wurden, sind von AEM as a Cloud Service nicht zugänglich.
+   * Bestimmte Funktionen arbeiten möglicherweise nicht wie erwartet. Die Änderung von `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kann z. B. dazu führen, dass einige JSP-Dateien nicht kompiliert werden, was letztendlich zu einem Verlust der Funktionalität führt.
+   * Die Werte der Externalizer-Konfiguration `com.day.cq.commons.impl.ExternalizerImpl` werden in AEM as a Cloud Service von Cloud Manager-Umgebungsvariablen festgelegt.
+   * AEM as a Cloud Service unterstützt keine benutzerdefinierten Protokolldateien. Auf Protokolle, die in Protokollen mit benutzerdefinierten Namen geschrieben werden, kann von AEM as a Cloud Service nicht zugegriffen werden.
 
 ## Mögliche Lösungen {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist es, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen, die an den genannten Konfigurationen vorgenommen wurden, rückgängig zu machen, um zukünftige Upgrade-Probleme zu vermeiden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Best Practice ist es, Ihre aktuellen Konfigurationen zu überprüfen und alle Änderungen rückgängig zu machen, die an den genannten Konfigurationen vorgenommen wurden, um zukünftige Probleme beim Upgrade zu vermeiden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Ändern oder entfernen Sie die vier oben genannten Konfigurationen nicht.
-   * Wenn die folgende Verletzung vorliegt:\
-     &quot;Erforderliche Eigenschaften für die OSGi-Konfiguration `xyz-configuration` fehlen: &#39;[property-1,property-2...]&quot;.&quot;\
-     Bestätigen Sie, ob diese Löschungen rechtmäßig sind oder nicht, weil diese OSGi-Konfigurationen OOTB sind und möglicherweise noch nie im OSGi Config Manager geändert/gespeichert wurden.
+   * Wenn der folgende Verstoß vorliegt:\
+     „Erforderliche Eigenschaften für die OSGi-Konfiguration `xyz-configuration` fehlen: ‚[property-1, property-2 …]‘.“\
+     Überprüfen Sie, ob diese Löschungen rechtmäßig sind oder nicht, da diese OSGi-Konfigurationen vorkonfiguriert sind und möglicherweise noch nie im OSGi-Konfigurations-Manager geändert/gespeichert wurden.
 * Wenn Konfigurationen geändert wurden, sollten sie auf ihre erwarteten Werte zurückgesetzt werden. Diese Werte sind in den `UMI`-Meldungen angegeben.
-* Für `com.day.cq.commons.impl.ExternalizerImpl`, siehe [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer) zum Festlegen der Externalizer-Konfiguration mithilfe von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service.
-* Für `org.apache.sling.commons.log.LogManager.factory.config` ändern Sie die OSGI-Konfiguration, um den benutzerdefinierten Logger an die `logs/error.log`-Datei zu senden. Siehe [Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs) , um erneut auf die `logs/error.log` -Datei.
-* Wenden Sie sich an den [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um Klarstellungen zu erhalten oder um Bedenken auszuräumen.
+* Lesen Sie zu `com.day.cq.commons.impl.ExternalizerImpl` die [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer) zum Festlegen der Externalizer-Konfiguration mithilfe von Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service.
+* Ändern Sie für `org.apache.sling.commons.log.LogManager.factory.config` die OSGI-Konfiguration, um den benutzerdefinierten Logger an die Datei `logs/error.log` zu senden. Lesen Sie die [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs) für das Verweisen auf die Datei `logs/error.log`.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
