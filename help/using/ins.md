@@ -3,9 +3,9 @@ title: INS
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Ungültiger Namespace
 >title="Ungültiger Namespace"
 >abstract="INS identifiziert Namespace-Probleme auf AEM-Instanz"
 
-`INS`  (Ungültiger Namespace) Identifiziert Namespace-Probleme in AEM Instanz.
+`INS` (Ungültiger Namespace) identifiziert Namespace-Probleme auf der AEM-Instanz.
 
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
 
@@ -28,7 +28,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Inhalt kann nicht repliziert (auf mehreren Ebenen) oder Inhalt kopiert werden (über `env`durch `/crx/packMgr`oder Inhaltskopie).
+* Inhalt kann nicht repliziert (über die Ebene hinweg) oder kopiert werden (über `env` hinweg, mittels `/crx/packMgr`, oder Inhaltskopie).
 
 ## Mögliche Lösungen {#solutions}
 

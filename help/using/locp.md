@@ -3,9 +3,9 @@ title: LOCP
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Nachhaltige Aktualisierungen"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-`LOCP`  Identifiziert die Erkennung eines benutzerdefinierten Pakets, das Inhalte bereitstellt für `/libs`, das ein Anti-Muster ist (mit Ausnahme von ACLs).
+`LOCP` identifiziert die Erkennung eines benutzerdefinierten Pakets, das Inhalte an `/libs` bereitstellt. Dies ist ein Anti-Muster (außer im Fall von ACLs).
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 

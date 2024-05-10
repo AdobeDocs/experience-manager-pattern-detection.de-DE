@@ -3,9 +3,9 @@ title: UMI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Problem mit Fehlkonfiguration beim Upgrade
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Versionshinweise"
 
-`UMI`  Identifiziert Änderungen an bestimmten OSGi-Konfigurationen, die Probleme bei der Aktualisierung verursachen, einschließlich einer fehlgeschlagenen Aktualisierung oder eingeschränkter Funktionalität.
+`UMI` identifiziert Änderungen an bestimmten OSGi-Konfigurationen, die beim Upgrade Probleme verursachen, einschließlich eines fehlgeschlagenen Upgrades oder eingeschränkter Funktionalität.
 
 Die folgenden Konfigurationen werden auf Änderungen überprüft:
 

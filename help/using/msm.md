@@ -3,9 +3,9 @@ title: MSM
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Multi Site Manager
 >abstract="MSM erkennt allgemeine Informationen zur AEM-Funktion Multi Site Manager. Diese Informationen werden bereitgestellt, um das System zu beschreiben."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 
-`MSM`  Identifiziert allgemeine Informationen zur AEM Funktion Multi-Site Manager . Diese Informationen werden bereitgestellt, um das System zu beschreiben.
+`MSM` identifiziert allgemeine Informationen zur AEM-Funktion „Multi-Site-Manager“. Diese Informationen werden bereitgestellt, um das System zu beschreiben.
 
 Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untertypen verwendet:
 

@@ -3,9 +3,9 @@ title: INST
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Installiertes Artefakt
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Bündelungsrichtlinien – AEM as a Cloud Service"
 
-`INST`  Identifiziert benutzerdefinierte Pakete und Pakete von Drittanbietern, die vom Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
+`INST` identifiziert benutzerdefinierte Pakete und Bundles von Drittanbietern, die von Kundinnen und Kunden in AEM installiert wurden. Diese sollen helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
 
 Wenn mehrere Versionen eines Package installiert wurden, wird nur die neueste Version gemeldet.
 
@@ -55,8 +55,8 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Beispiel für INST-Verletzungen – GitHub"
 
-* Packages von Drittanbietern sollten als Teil des Projekts mithilfe des Cloud Manager-[Bereitstellungsprozesses](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) in AEM bereitgestellt werden.
-* Überprüfen Sie, wie die [Einbettung von Drittanbieter-Packages](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) in Ihr Projekt für AEM as a Cloud Service erfolgt.
+* Packages von Drittanbietern sollten als Teil des Projekts mithilfe des Cloud Manager-[Bereitstellungsprozesses](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) in AEM bereitgestellt werden.
+* Überprüfen Sie, wie die [Einbettung von Drittanbieter-Packages](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) in Ihr Projekt für AEM as a Cloud Service erfolgt.
 * Packages von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die [Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) und [Bündelung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) einhalten.
 * Überprüfen Sie das Projekt [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) und verstehen Sie, wie [INST-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) korrigiert und mit AEM as a Cloud Service kompatibel gemacht werden können.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

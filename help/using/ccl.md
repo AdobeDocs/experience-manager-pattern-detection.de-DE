@@ -3,9 +3,9 @@ title: CCL
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Benutzerdefinierte Client-Bibliothek
 >title="Benutzerdefinierte Client-Bibliothek"
 >abstract="CCL kennzeichnet Client-Bibliotheken, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt."
 
-`CCL` Identifiziert Client-Bibliotheken, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CCL` identifiziert Client-Bibliotheken, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Mit diesem Code wird ein Untertyp verwendet:
 

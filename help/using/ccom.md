@@ -3,9 +3,9 @@ title: CCOM
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Benutzerdefinierte Komponente
 >title="Benutzerdefinierte Komponente"
 >abstract="CCOM kennzeichnet benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
 
-`CCOM` Identifiziert benutzerdefinierte Komponenten, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CCOM` identifiziert benutzerdefinierte Komponenten, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu unterscheiden:
 
@@ -31,7 +31,7 @@ Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu 
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Best Practice ist, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu verwenden und Kernkomponenten mit dem Stilsystem zu verwenden, damit Sie technische Schulden reduzieren können.
+* Best Practice ist es, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu nutzen und Kernkomponenten mit dem Stilsystem zu verwenden, um technische Altlasten zu reduzieren.
 
 ## Mögliche Lösungen {#solutions}
 

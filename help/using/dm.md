@@ -3,9 +3,9 @@ title: DM
 description: Erfahren Sie, wie der Mustererkennungs-Code die Verwendung von AEM Assets – Dynamic Media identifiziert.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM-Entwicklung – Richtlinien und Best Practices"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien für AEM as a Cloud Service"
 
-`DM` (Dynamic Media) Gibt die Verwendung von AEM Assets Dynamic Media an. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt.
+`DM` (Dynamic Media) erkennt die Verwendung von AEM Assets Dynamic Media. Der Dynamic Media-Modus wird vom Ausführungsmodus erkannt.
 
 Bei diesem Code wird ein Untertyp verwendet:
 

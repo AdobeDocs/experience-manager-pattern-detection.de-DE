@@ -3,9 +3,9 @@ title: OCU
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ NICHT MEHR UNTERSTÜTZT: Veraltete Code-Nutzung (ersetzt durch OU, veraltete Ver
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="Verwendung von veraltetem Code"
->abstract="OCU kennzeichnet die Situation, in der einige JCR-Knoten, z. B. Sling- oder AEM-Komponenten oder API OSGi-Exporte, auf nicht kompatible Weise geändert oder entfernt werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt. Er kann ein Upgrade auf eine nicht kompatible Version erhalten oder es ist überhaupt nicht verfügbar."
+>abstract="OCU kennzeichnet die Situation, in der einige JCR-Knoten, z. B. Sling- oder AEM-Komponenten oder API OSGi-Exporte, auf nicht kompatible Weise geändert oder entfernt werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. Dadurch kann ein Upgrade auf eine nicht kompatible Version passieren oder es ist überhaupt nicht verfügbar."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 
-`OCU`  Gibt die Situation an, in der einige JCR-Knoten, wie z. B. Sling- oder AEM-Komponenten oder API-OSGi-Exporte, auf nicht kompatible Weise geändert oder entfernt werden. Dem Kunden ist diese Änderung möglicherweise vor einem Upgrade nicht bekannt. Er kann ein Upgrade auf eine nicht kompatible Version erhalten oder es ist überhaupt nicht verfügbar.
+`OCU`  identifiziert die Situation, in der einige JCR-Knoten, z. B. Sling- oder AEM-Komponenten oder API-OSGi-Exporte, auf nicht kompatible Weise geändert oder entfernt werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. Dadurch kann ein Upgrade auf eine nicht kompatible Version passieren oder es ist überhaupt nicht verfügbar.
 
 Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das Programm des Kunden möglicherweise nicht korrekt.
 
@@ -39,6 +39,6 @@ Da die alten Versionen standardmäßig nicht installiert sind, funktioniert das 
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
-* Kurzfristig: Die Installation des Kompatibilitätspakets kann helfen.
-* Langfristig: Passen Sie den Kundencode an, um die neueste Version AEM Komponenten oder APIs zu verwenden.
+* Kurzfristig: Die Installation des Kompatibilitätspakets könnte helfen.
+* Langfristig: Passen Sie den Code der Kundschaft so an, dass er die neueste Version von AEM-Komponenten oder -APIs verwendet.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

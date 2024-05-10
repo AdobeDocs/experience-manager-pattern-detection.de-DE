@@ -3,9 +3,9 @@ title: NBCC
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ NICHT MEHR UNTERSTÜTZT: Nicht abwärtskompatible Änderungen (ersetzt durch NCC
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Nicht abwärtskompatible Änderungen"
->abstract="NBCC kennzeichnet die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade von dieser Änderung nichts weiß."
+>abstract="NBCC kennzeichnet die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. "
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionshinweise – AEM as a Cloud Service"
 
-`NBCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade von dieser Änderung nichts weiß.
+`NBCC` identifiziert die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. 
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 

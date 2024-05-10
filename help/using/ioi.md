@@ -3,9 +3,9 @@ title: IOI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Interner Oak-Import
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Interner Oak-Import"
->abstract="IOI-Code kennzeichnet die Verwendung interner Oak-Packages durch den Kunden und den Import über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für den Verbrauch durch andere Oak-Pakete oder einfache AEM bestimmt."
+>abstract="IOI-Code kennzeichnet die Verwendung interner Oak-Packages durch den Kunden und den Import über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für die Verwendung durch andere Oak-Bundles oder AEM-Services auf untergeordnetem Niveau vorgesehen."
 
-`IOI`  Identifiziert den Kundeneinsatz interner Oak-Pakete und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für den Verbrauch durch andere Oak-Pakete oder einfache AEM bestimmt.
+`IOI` identifiziert die Verwendung von internen Oak-Packages durch Kundinnen und Kunden und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für die Verwendung durch andere Oak-Bundles oder AEM-Services auf untergeordnetem Niveau vorgesehen.
 
 Einige davon werden von `com.adobe.granite.repository` verwendet, das während des Starts ein Repository für AEM einrichtet. Ein weiteres Beispiel ist das Adobe-Bundle `com.adobe.granite.maintenance.oak`, das Oak-Wartungsaufgaben umschließt und bereitstellt.
 
