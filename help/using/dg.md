@@ -2,10 +2,10 @@
 title: DG
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * `java.io.inputstream`
-   * Das Streaming binärer Daten mit `java.io.InputStream` kann Speicherressourcen bis zu dem Punkt beanspruchen, an dem die Leistung beeinträchtigt wird. Dies ist insbesondere auf den begrenzten Speicherplatz zurückzuführen, der in Containern zur Verfügung steht, die in AEM as a Cloud Service verwendet werden.
+   * Das Streaming binärer Daten mit `java.io.InputStream` kann Speicherressourcen bis zu dem Punkt beanspruchen, an dem die Leistung beeinträchtigt wird. Dieses Problem ist auf den begrenzten Speicher zurückzuführen, der in Containern verfügbar ist, die in AEM as a Cloud Service verwendet werden.
 
 * `maintenance.task.configuration`
    * Einige Wartungsaufgaben, die zuvor explizit konfiguriert werden mussten, werden jetzt automatisch in AEM as a Cloud Service konfiguriert und verwaltet.
@@ -48,14 +48,14 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Die Richtlinien für [Hintergrundaufgaben und langlaufende Aufträge](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) legen nahe, dass Code, der als geplante Aufgabe ausgeführt wird, auch davon ausgehen muss, dass die Instanz, auf der er läuft, jederzeit heruntergefahren werden kann. Daher muss der Code stabil und vor allem wiederaufnehmbar sein.
 
 * `unsupported.asset.api`
-   * Die folgenden APIs von AssetManager werden auf AEM as a Cloud Service als nicht unterstützt markiert.
+   * Die folgenden APIs von AssetManager werden AEM as a Cloud Service als nicht unterstützt markiert.
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Vom Ereignis-Listener abhängige Programme funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
+   * Von Event Listener abhängige Anwendungen funktionieren möglicherweise nicht erwartungsgemäß, da die Ausführung nicht garantiert werden kann.
 
 * `custom.guava.cache`
    * Die Verwendung von Guava-Cache kann zu Leistungsproblemen bei AEM führen.

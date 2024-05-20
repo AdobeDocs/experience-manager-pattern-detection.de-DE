@@ -2,10 +2,10 @@
 title: URC
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ Nicht unterstützte Konfiguration des Ausführungsmodus
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
->title="Nicht unterstützte Ausführungsmodus-Konfiguration"
+>title="Nicht unterstützte Konfiguration des Ausführungsmodus"
 >abstract="URC erkennt die Verwendung von Konfigurationen, die auf dem Namen eines Ausführungsmodus basieren, der in AEM as a Cloud Service nicht unterstützt wird."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Unterstützte Ausführungsmodi"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Ausführungsmodi"
@@ -29,8 +29,8 @@ Nicht unterstützte Konfiguration des Ausführungsmodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist es, zu überprüfen, ob alle in Ihrer Anwendung verwendeten Ausführungsmodi unterstützt werden, und sicherzustellen, dass sie den Richtlinien zur Auflösung von Ausführungsmodi entsprechen."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlinien für die Ausführungsmodus-Auflösung"
+>abstract="Best Practice ist, zu überprüfen, ob alle in Ihrer Anwendung verwendeten Ausführungsmodi unterstützt werden. Und stellen Sie sicher, dass sie den Richtlinien für die Ausführungsmodusauflösung entsprechen"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlinien für die Auflösung des Ausführungsmodus"
 
 * Die Menge der Namen, die für die Ausführung verschiedener Modi in AEM as a Cloud Service verwendet werden können, ist begrenzt.
 * Konfigurationen, die auf nicht unterstützten Namen für Ausführungsmodi basieren, haben keinen Effekt, wenn sie in AEM as a Cloud Service bereitgestellt werden.
@@ -40,7 +40,7 @@ Nicht unterstützte Konfiguration des Ausführungsmodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie URC-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel für einen URC-Verstoß auf Github an, um zu verstehen, wie benutzerdefinierte, auf dem Ausführungsmodus basierende OSGi-Konfigurationen aktualisiert werden können, damit sie mit den Anforderungen von AEM as a Cloud Service übereinstimmen."
+>abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie URC-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel für eine URL-Verletzung auf GitHub an, um zu verstehen, wie benutzerdefinierte Run-Modus-basierte OSGi-Konfigurationen aktualisiert werden können, um AEM as a Cloud Service einzuhalten."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Beispiel für URC-Verstoß – Github"
 
