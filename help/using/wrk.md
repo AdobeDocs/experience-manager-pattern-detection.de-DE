@@ -2,10 +2,10 @@
 title: WRK
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Tools und Ressourcen"
->abstract="Prüfen und planen Sie die Ausführung des Asset-Workflow-Migrations-Tools, sobald ein benutzerdefiniertes Asset-Workflow-Modell oder ein Launcher bestimmt ist. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Überprüfen und planen Sie die Ausführung des Asset-Workflow-Migrationstools, sobald ein benutzerdefiniertes Asset-Workflow-Modell oder Starter identifiziert wurde. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Asset-Workflow-Migrations-Tool"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
