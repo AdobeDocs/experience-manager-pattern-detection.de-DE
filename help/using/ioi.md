@@ -2,10 +2,10 @@
 title: IOI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 60%
 
 ---
 
@@ -18,15 +18,14 @@ Interner Oak-Import
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Interner Oak-Import"
->abstract="IOI-Code kennzeichnet die Verwendung interner Oak-Packages durch den Kunden und den Import über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für die Verwendung durch andere Oak-Bundles oder AEM-Services auf untergeordnetem Niveau vorgesehen."
+>abstract="IOI-Code identifiziert den Kundeneinsatz interner Oak-Pakete und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Bundles oder AEM Dienste auf niedriger Ebene nutzen sie nur."
 
-`IOI` identifiziert die Verwendung von internen Oak-Packages durch Kundinnen und Kunden und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert und sind nur für die Verwendung durch andere Oak-Bundles oder AEM-Services auf untergeordnetem Niveau vorgesehen.
-
-Einige davon werden von `com.adobe.granite.repository` verwendet, das während des Starts ein Repository für AEM einrichtet. Ein weiteres Beispiel ist das Adobe-Bundle `com.adobe.granite.maintenance.oak`, das Oak-Wartungsaufgaben umschließt und bereitstellt.
+`IOI` identifiziert die Verwendung von internen Oak-Packages durch Kundinnen und Kunden und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Bundles oder AEM Dienste auf niedriger Ebene nutzen sie nur.
+Einige dieser Bereiche werden von `com.adobe.granite.repository`, wodurch ein Repository für AEM während des Starts eingerichtet wird. Ein weiteres Beispiel ist das Adobe-Bundle `com.adobe.granite.maintenance.oak`, das Oak-Wartungsaufgaben umschließt und bereitstellt.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* In einer zukünftigen AEM-Version könnten interne Exporte entfernt werden, was zu unterbrochenen Abhängigkeiten und inaktiven Bundles führt, die direkt von Oak abhängen.
+* In einer zukünftigen AEM werden möglicherweise interne Exporte entfernt, was zu fehlerhaften Abhängigkeiten und inaktiven Bundles führt, die direkt von Oak abhängig sind.
 * Die API in internen Exporten kann sich ändern.
 
 ## Mögliche Lösungen {#solutions}
