@@ -5,7 +5,7 @@ exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -44,7 +44,7 @@ Um die Art des aktuell erkannten Workflow-Problems zu benennen, wird folgender U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen und planen Sie die Ausführung des Asset-Workflow-Migrationstools, sobald ein benutzerdefiniertes Asset-Workflow-Modell oder Starter identifiziert wurde. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Prüfen und planen Sie, das Asset Workflow Migration Tool auszuführen, nachdem benutzerdefinierte Asset-Workflow-Modelle oder Launcher identifiziert wurden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Asset-Workflow-Migrations-Tool"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 

@@ -46,7 +46,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Tools und Ressourcen"
->abstract="Prüfen Sie das WKND-Legacy-Projekt, um zu verstehen, wie OID-Verletzungen in Ihrem Projekt behoben werden können. Lesen Sie auch das Beispiel einer OID-Verletzung auf GitHub. Sie können damit nachvollziehen, wie ältere Indizes mithilfe des Index Converter-Tools konvertiert und mit AEM as a Cloud Service kompatibel gemacht werden können."
+>abstract="Überprüfen Sie das Projekt WKND-legacy, um zu verstehen, wie OID-Verletzungen in Ihrem Projekt behoben werden können. Lesen Sie auch das Beispiel einer OID-Verletzung auf GitHub. Sie können damit nachvollziehen, wie ältere Indizes mithilfe des Index Converter-Tools konvertiert und mit AEM as a Cloud Service kompatibel gemacht werden können."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Beispiel für OID-Verletzungen – GitHub"
 

@@ -51,7 +51,7 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie INST-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel einer INST-Verletzung auf GitHub an, um zu verstehen, wie dieses Problem behoben und as a Cloud Service AEM bereitgestellt werden kann."
+>abstract="Überprüfen Sie das Projekt WKND-legacy, um zu verstehen, wie INST-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel einer INST-Verletzung auf GitHub an, um zu verstehen, wie dieses Problem behoben und as a Cloud Service AEM bereitgestellt werden kann."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Beispiel für INST-Verletzungen – GitHub"
 

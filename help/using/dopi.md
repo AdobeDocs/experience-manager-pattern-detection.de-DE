@@ -5,7 +5,7 @@ exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -41,7 +41,7 @@ Veralteter Index für sortierte Eigenschaften
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie DOPI-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Lesen Sie auch das Beispiel einer DOPI-Verletzung auf GitHub. Sie können damit nachvollziehen, wie ältere sortierte Indizes in Lucene-basierte Indizes konvertiert werden können, die in AEM as a Cloud Service Indizes unterstützt werden."
+>abstract="Überprüfen Sie das Projekt WKND-legacy, um zu verstehen, wie DOPI-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Lesen Sie auch das Beispiel einer DOPI-Verletzung auf GitHub. Sie können damit nachvollziehen, wie ältere sortierte Indizes in Lucene-basierte Indizes konvertiert werden können, die in AEM as a Cloud Service Indizes unterstützt werden."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Beispiel für DOPI-Verstoß – Github"
 
