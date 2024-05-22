@@ -3,9 +3,9 @@ title: CCOM
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,20 +18,20 @@ Benutzerdefinierte Komponente
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="Benutzerdefinierte Komponente"
->abstract="CCOM identifiziert benutzerdefinierte Komponenten, die auf AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
+>abstract="CCOM identifiziert benutzerdefinierte Komponenten, die in AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
 
-`CCOM` Identifiziert benutzerdefinierte Komponenten, die auf AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CCOM` identifiziert benutzerdefinierte Komponenten, die in AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Ein Untertyp wird mit diesem Code verwendet, um die Kategorie der Komponente zu unterscheiden:
 
-* `custom.core`: Ein Supertyp in der Kette der Supertypen der Komponente enthält `core/wcm/components/`, was angibt, dass es von einer Kernkomponente erbt.
-* `custom.foundation`: Ein Supertyp in der Kette der Supertypen der Komponente enthält &quot;`core/wcm/components/`, was angibt, dass es von einer Kernkomponente erbt.
-* `custom.overlay.foundation`: Der Komponentenpfad enthält `wcm/foundation/components/` oder `foundation/components/`, wodurch angegeben wird, dass eine Foundation-Komponente überlagert wird.
+* `custom.core`: Ein Supertyp in der Kette der Supertypen der Komponente enthält `core/wcm/components/` und zeigt damit an, dass er Daten von einer Kernkomponente übernimmt.
+* `custom.foundation`: Ein Supertyp in der Kette der Supertypen der Komponente enthält `core/wcm/components/` und zeigt damit an, dass er Daten von einer Kernkomponente übernimmt.
+* `custom.overlay.foundation`: Der Komponentenpfad enthält `wcm/foundation/components/` oder `foundation/components/` und zeigt damit an, dass eine Foundation-Komponente überlagert wird.
 * `custom`: Die benutzerdefinierte Komponente übernimmt oder überlagert keine Kern- oder Basiskomponente.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Best Practice ist, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu verwenden und Kernkomponenten mit dem Stilsystem zu verwenden, damit Sie technische Schulden reduzieren können.
+* Best Practice ist es, die Anzahl der benutzerdefinierten Komponenten zu minimieren, Kernkomponenten zu nutzen und Kernkomponenten mit dem Stilsystem zu verwenden, um technische Schwierigkeiten zu vermeiden.
 
 ## Mögliche Lösungen {#solutions}
 

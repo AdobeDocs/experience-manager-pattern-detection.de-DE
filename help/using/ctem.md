@@ -3,9 +3,9 @@ title: CTEM
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Benutzerdefinierte Vorlage
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Benutzerdefinierte Vorlage"
->abstract="CTEM identifiziert benutzerdefinierte Komponenten, die auf AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
+>abstract="CTEM identifiziert benutzerdefinierte Komponenten, die in AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt"
 
-`CTEM`  Identifiziert benutzerdefinierte Vorlagen, die auf AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CTEM` identifiziert benutzerdefinierte Vorlagen, die in AEM installiert sind. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
-Vorlagen haben den primären Typwert von `cq:Template`, was bei der Identifizierung hilft. Um die Kategorien der Vorlage zu unterscheiden, werden Untertypen mit diesen Codes verwendet:
+Vorlagen haben einen primären Typwert von `cq:Template`, was bei ihrer Identifizierung hilft. Um die Kategorien der Vorlage zu unterscheiden, werden Untertypen mit diesen Codes verwendet:
 
 * `custom.editable.template`: Der Pfad der Vorlage beginnt nicht mit `/apps`.
 * `custom.static.template`: Der Pfad der Vorlage beginnt mit `/apps`.
@@ -32,11 +32,11 @@ Vorlagen haben den primären Typwert von `cq:Template`, was bei der Identifizier
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="Implementierungsleitlinien"
->abstract="Es empfiehlt sich, alle statischen Vorlagen in bearbeitbare Vorlagen zu verschieben. Kundinnen und Kunden können vorhandene AEM-Modernisierungs-Tools verwenden, um statische Vorlagen zu bearbeitbaren Vorlagen zu migrieren."
+>abstract="Best Practice ist es, alle statischen Vorlagen in bearbeitbare Vorlagen zu verschieben. Kundinnen und Kunden können vorhandene AEM-Modernisierungs-Tools verwenden, um statische Vorlagen zu bearbeitbaren Vorlagen zu migrieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Bearbeitbare Vorlagen"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM-Modernisierungs-Tools"
 
-* Es empfiehlt sich, alle statischen Vorlagen in bearbeitbare Vorlagen zu verschieben.
+* Best Practice ist es, alle statischen Vorlagen in bearbeitbare Vorlagen zu verschieben.
 
 ## Mögliche Lösungen {#solutions}
 
