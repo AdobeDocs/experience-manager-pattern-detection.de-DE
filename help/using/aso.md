@@ -2,10 +2,10 @@
 title: ASO
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 * `data.store`: Der Speicherimplementierungstyp der Daten (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Eine Wartungsaufgabe.
 * `slow.query`: Eine langsame Abfrage.
-* `group.membership`: Die Anzahl der Benutzenden und Untergruppen (nur direkte/deklarierte Mitglieder) in einer Gruppe.
+* `group.membership`: Die Anzahl der Benutzer und Untergruppen (nur direkte/deklarierte Mitglieder) in einer Gruppe.
 * `cqtag.count`: Die Anzahl der mit CQ-Tags versehenen Assets.
 * `smarttag.count`: Die Anzahl der mit Smart-Tags versehenen Assets.
 * `ccom.version`: Die Version des Kernkomponenten-Pakets.
@@ -46,10 +46,10 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version, der AEM-Instanztyp und die Zahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
-* Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
+* Die höhere Anzahl von Vanity-URLs (>1000) kann bei teuren Abfragen den Dispatcher und die Veröffentlichungs-Server belasten.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
-* Eine hohe Anzahl von Author-Workflows im laufenden oder veralteten Zustand könnte die Leistung beeinträchtigen.
+* Eine hohe Anzahl von Autoren-Workflows in einem laufenden oder veralteten Zustand könnte die Leistung beeinträchtigen.
 * Langsame Abfragen können die Systemleistung beeinträchtigen.
 
 ## Mögliche Lösungen {#solutions}
@@ -61,7 +61,7 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * AEM-Upgrades mit nicht unterstützten Produkten oder Funktionen werden nicht empfohlen und möglicherweise nicht unterstützt.
-* Die unverarbeiteten Assets müssen verarbeitet werden und die Eigenschaft `dam:assetState` auf dem Knoten `jcr:content` des Assets muss auf „verarbeitet“ festgelegt werden. Alternativ sollten Sie diese Assets aus dem Migrationssatz entfernen, bevor Sie zu AEMaaCS migrieren.
+* Die nicht verarbeiteten Assets müssen verarbeitet werden und die `dam:assetState` -Eigenschaft auf `jcr:content` -Knoten des Assets muss auf &quot;verarbeitet&quot;eingestellt sein. Alternativ sollten Sie diese Assets aus dem Migrationssatz entfernen, bevor Sie zu AEMaaCS migrieren.
 * Vanity-URLs können durch Apache-Neuschreibungen ersetzt werden.
 * Siehe die [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) zur Fehlerbehebung bei langsamen Abfragen.
 * Weitere Informationen finden Sie in den [Versionshinweisen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current), wenn Sie mehr über die neuesten Änderungen in AEM as a Cloud Service erfahren möchten.
