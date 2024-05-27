@@ -3,9 +3,9 @@ title: INST
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Installiertes Artefakt
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installiertes Artefakt"
->abstract="INST identifiziert benutzerdefinierte Pakete und Pakete von Drittanbietern, die vom Kunden in AEM installiert wurden. Solche Pakete und Pakete sollen dazu beitragen, den Zustand des Systems und den allgemeinen Umfang eines Aktualisierungsvorgangs zu charakterisieren. Pakete von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die Entwicklung und Bündelung einhalten."
+>abstract="INST kennzeichnet benutzerdefinierte Pakete und Bundles von Drittanbietern, die von der Kundschaft in AEM installiert wurden. Diese Pakete und Bundles helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren. Pakete von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die Entwicklung und Bündelung einhalten."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Entwicklungsrichtlinien – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Bündelungsrichtlinien – AEM as a Cloud Service"
 
-`INST`  Identifiziert benutzerdefinierte Pakete und Pakete von Drittanbietern, die vom Kunden in AEM installiert wurden. Solche Pakete und Pakete sollen dazu beitragen, den Zustand des Systems und den allgemeinen Umfang eines Aktualisierungsvorgangs zu charakterisieren.
+`INST` identifiziert benutzerdefinierte Pakete und Bundles von Drittanbietern, die von der Kundschaft in AEM installiert wurden. Diese Pakete und Bundles helfen, den Zustand des Systems und den allgemeinen Umfang eines Upgrades zu charakterisieren.
 
 Wenn mehrere Versionen eines Package installiert wurden, wird nur die neueste Version gemeldet.
 
@@ -51,7 +51,7 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen Sie das Projekt WKND-legacy, um zu verstehen, wie INST-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel einer INST-Verletzung auf GitHub an, um zu verstehen, wie dieses Problem behoben und as a Cloud Service AEM bereitgestellt werden kann."
+>abstract="Überprüfen Sie das Projekt WKND-legacy, um zu verstehen, wie INST-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Schauen Sie sich außerdem das Beispiel für INST-Verletzungen auf GitHub an, um zu überblicken, wie dieses Problem korrigiert und die Bereitstellung in AEM as a Cloud Service erfolgen kann."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Beispiel für INST-Verletzungen – GitHub"
 

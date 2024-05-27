@@ -2,9 +2,9 @@
 title: VORLAGE
 description: Vorlage für die Hilfeseite zum Mustererkennungs-Code
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Beantworten Sie die Frage: „Was ist das?“
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken, die auftreten können, wenn nichts dagegen unternommen wird.
+Geben Sie eine Beschreibung der potenziellen Auswirkungen und Risiken an, die entstehen, wenn nichts dagegen unternommen wird.
 Beantworten Sie die Frage: „Warum sollte es mir wichtig sein?“
 
 * Implikation oder Risiko 1

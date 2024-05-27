@@ -3,9 +3,9 @@ title: CCL
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Benutzerdefinierte Client-Bibliothek
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Benutzerdefinierte Client-Bibliothek"
->abstract="CCL identifiziert Client-Bibliotheken, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt."
+>abstract="CCL kennzeichnet Client-Bibliotheken, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt."
 
-`CCL` Identifiziert Client-Bibliotheken, die auf AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
+`CCL` identifiziert Client-Bibliotheken, die in AEM installiert wurden. Diese Informationen werden zum Zweck der Bewertung von Best Practices bereitgestellt.
 
 Mit diesem Code wird ein Untertyp verwendet:
 
@@ -28,7 +28,7 @@ Mit diesem Code wird ein Untertyp verwendet:
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Die zu AEM hinzugefügten Client-Bibliotheken sollten überprüft werden, um sicherzustellen, dass keine Duplizierung erfolgt und die neuesten Versionen verwendet werden.
+* Die Client-Bibliotheken, die zu AEM hinzugefügt wurden, sollten überprüft werden, um sicherzustellen, dass es keine Duplikate gibt und dass die neuesten Versionen verwendet werden.
 
 ## Mögliche Lösungen {#solutions}
 

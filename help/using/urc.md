@@ -3,9 +3,9 @@ title: URC
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Nicht unterstützte Konfiguration des Ausführungsmodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist, zu überprüfen, ob alle in Ihrer Anwendung verwendeten Ausführungsmodi unterstützt werden. Und stellen Sie sicher, dass sie den Richtlinien für die Ausführungsmodusauflösung entsprechen"
->additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlinien für die Auflösung des Ausführungsmodus"
+>abstract="Es empfiehlt sich, zu überprüfen, ob alle in Ihrer Anwendung verwendeten Ausführungsmodi unterstützt werden. Stellen Sie außerdem sicher, dass sie den Richtlinien zur Auflösung für den Ausführungsmodus entsprechen."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlinien zur Auflösung für den Ausführungsmodus"
 
 * Die Menge der Namen, die für die Ausführung verschiedener Modi in AEM as a Cloud Service verwendet werden können, ist begrenzt.
 * Konfigurationen, die auf nicht unterstützten Namen für Ausführungsmodi basieren, haben keinen Effekt, wenn sie in AEM as a Cloud Service bereitgestellt werden.
@@ -40,7 +40,7 @@ Nicht unterstützte Konfiguration des Ausführungsmodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Tools und Ressourcen"
->abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie URC-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Sehen Sie sich auch das Beispiel für eine URL-Verletzung auf GitHub an, um zu verstehen, wie benutzerdefinierte Run-Modus-basierte OSGi-Konfigurationen aktualisiert werden können, um AEM as a Cloud Service einzuhalten."
+>abstract="Überprüfen Sie das Projekt WKND-legacy und verstehen Sie, wie URC-Verletzungen korrigiert und mit AEM Cloud Service kompatibel gemacht werden können. Lesen Sie auch das Beispiel für eine URC-Verletzung auf GitHub, um zu überblicken, wie benutzerdefinierte Ausführungsmodus-basierte OSGi-Konfigurationen aktualisiert werden können, damit sie mit AEM as a Cloud Service kompatibel sind."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-Legacy-Projekt"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Beispiel für URC-Verstoß – Github"
 
