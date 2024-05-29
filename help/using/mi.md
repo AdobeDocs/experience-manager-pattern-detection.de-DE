@@ -3,9 +3,9 @@ title: MI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Fehlerhafte Konfiguration
 Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter anderem folgende Untertypen verwendet:
 
 * `sling.job.max.parallel`: Identifizieren Sie die Sling-Aufträge, bei denen die maximale parallele Konfiguration auf -1 festgelegt ist.
-* `missing.maintenance.configuration`: Identifizieren Sie fehlende Wartungsaufgaben-Konfigurationen.
+* `missing.maintenance.configuration`: Ermitteln von fehlenden Konfigurationen für Wartungsaufgaben.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * Der Wert -1 wird durch die Anzahl der verfügbaren Prozessoren ersetzt. Daher kann dies Leistungsprobleme in einer AEM-Instanz verursachen.
+   * Der Wert -1 wird durch die Anzahl der verfügbaren Prozessoren ersetzt. Dies kann zu Leistungsproblemen in einer AEM-Instanz führen.
 * `missing.maintenance.configuration`
-   * Fehlende Wartungsaufgaben-Konfigurationen können zu Leistungseinbußen oder zu Beschädigungen der Instanz führen.
+   * Fehlende Konfigurationen für Wartungsaufgaben können zu Leistungseinbußen oder zu Beschädigungen der Instanz führen.
 
 ## Mögliche Lösungen {#solutions}
 

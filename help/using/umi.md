@@ -3,9 +3,9 @@ title: UMI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ Die folgenden Konfigurationen werden auf Änderungen überprüft:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : Identifizieren Sie, ob die Variable `org.apache.sling.commons.log.file` -Eigenschaft der benutzerdefinierten Logger auf etwas Anderes als `logs/error.log` -Datei.
+* `org.apache.sling.commons.log.LogManager.factory.config`: Ermitteln Sie, ob die Eigenschaft `org.apache.sling.commons.log.file` der benutzerdefinierten Protokollierung auf eine andere Datei als `logs/error.log` verweist.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Das Ändern oder Entfernen von Konfigurationen kann die folgenden Probleme verursachen:
+* Das Ändern oder Entfernen von Konfigurationen kann zu folgenden Problemen führen:
    * Das Upgrade kann hängen bleiben (zum Beispiel `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` fehlt, ist aber in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` vorhanden).
    * Autorisierungsprobleme können nach dem Upgrade auftreten (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Bestimmte Funktionen arbeiten möglicherweise nicht wie erwartet. Die Änderung von `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kann z. B. dazu führen, dass einige JSP-Dateien nicht kompiliert werden, was letztendlich zu einem Verlust der Funktionalität führt.
-   * Die Werte der Externalizer-Konfiguration `com.day.cq.commons.impl.ExternalizerImpl` werden mit Cloud Manager-Umgebungsvariablen in AEM as a Cloud Service festgelegt.
+   * Die Werte der Externalizer-Konfiguration `com.day.cq.commons.impl.ExternalizerImpl` werden in AEM as a Cloud Service von Cloud Manager-Umgebungsvariablen festgelegt.
    * AEM as a Cloud Service unterstützt keine benutzerdefinierten Protokolldateien. Auf Protokolle, die in Protokollen mit benutzerdefinierten Namen geschrieben werden, kann von AEM as a Cloud Service nicht zugegriffen werden.
 
 ## Mögliche Lösungen {#solutions}

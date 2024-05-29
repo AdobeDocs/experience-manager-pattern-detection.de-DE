@@ -3,9 +3,9 @@ title: PCX
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementierungsleitlinien"
->abstract="Es empfiehlt sich, die Inhaltsstruktur zu überprüfen, um die Seitenkomplexität zu reduzieren. Dies kann wiederum dazu beitragen, die Leistung beim Rendern von Seiten zu verbessern. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Als Best Practice empfiehlt es sich, die Inhaltsstruktur zu überprüfen, um die Seitenkomplexität zu reduzieren. Dies kann wiederum dazu beitragen, die Performance beim Rendern von Seiten zu verbessern. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Reduzieren Sie die Gesamtzahl der Knoten auf einer Seite durch die folgenden Schritte:

@@ -3,9 +3,9 @@ title: NCC
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Nicht kompatible Änderungen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Nicht kompatible Änderungen"
->abstract="NCC identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. "
+>abstract="NCC identifiziert die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. "
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Wesentliche Änderungen – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Versionshinweise – AEM as a Cloud Service"
 
-`NCC`  Identifiziert die Situation, in der einige JCR-Knoten oder -Bundles auf nicht kompatible Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. 
+`NCC` identifiziert die Situation, in der einige JCR-Knoten oder -Bundles in einer nicht kompatiblen Weise geändert werden. Es kann sein, dass die Kundin bzw. der Kunde vor einem Upgrade nichts von dieser Änderung weiß. 
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
@@ -39,5 +39,5 @@ Nicht kompatible Änderungen
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Überlagern oder referenzieren Sie nur kompatible Sling-Komponenten.
-* Überlegen Sie, welche Ressourcen aus `/libs` oder Bundles nach einem AEM.
+* Erwägen Sie die Anpassung von Ressourcen, die nach einem AEM-Upgrade aus `/libs` oder aus Bundles stammen.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

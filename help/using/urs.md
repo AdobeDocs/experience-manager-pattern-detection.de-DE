@@ -3,9 +3,9 @@ title: URS
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ Nicht unterstützte Repository-Struktur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Nicht unterstützte Repository-Struktur"
->abstract="URS identifiziert Fälle von URS (Nicht unterstützte Repository-Struktur) und Knoteneigenschaften. Auf dieser Seite werden Informationen erläutert, um Konflikte zwischen AEM Produkt-Code und Kundencode zu vermeiden, wobei Inhalte aus `/etc` zu anderen Ordnern im Repository und mehr."
+>abstract="URS (Unsupported Repository Structure) identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Dadurch werden Informationen zur Vermeidung von Konflikten zwischen AEM-Produkt-Code und Kunden-Code, zur Umstrukturierung von Inhalten aus `/etc` in andere Ordner im Repository und mehr angezeigt."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repository-Neustrukturierung"
 
 ## Hintergrund {#background}
 
-`URS`  Identifiziert Fälle von URS (Nicht unterstützte Repository-Struktur) und Knoteneigenschaften. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Indem Sie Hierarchien für AEM Produkt-Code und Kundencode klar definieren und Konflikte zwischen ihnen alle vermeiden, werden Inhalte aus `/etc` in andere Ordner im Repository. Befolgen Sie dabei die folgenden allgemeinen Regeln:
+`URS` URS identifiziert Fälle nicht unterstützter Repository-Struktur sowie Knotencharakteristika. Ab AEM 6.4 wurden Leitlinien für die Umstrukturierung von Repository-Inhalten festgelegt. Durch die klare Abgrenzung von Hierarchien für AEM-Produkt-Code und Kunden-Code und die Vermeidung von Konflikten zwischen ihnen werden Inhalte aus `/etc` in anderen Ordnern im Repository in umstrukturierter Form abgelegt. Befolgen Sie dabei die folgenden allgemeinen Regeln:
 
-* AEM Produktcode wird immer in `/libs` dass benutzerdefinierter Code nicht überschreiben darf.
+* AEM-Produkt-Code befindet sich immer in `/libs` und darf nicht durch benutzerdefinierten Code überschrieben werden.
 * Benutzerdefinierter Code sollte in `/apps`, `/content` und `/conf` eingefügt werden.
 * Es wird dringend empfohlen, dass diese Richtlinien für AEM as a Cloud Service befolgt werden.
 
@@ -46,7 +46,7 @@ Um die spezifischen Arten von Repository-Problemen, die behandelt werden sollten
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementierungsleitlinien"
->abstract="Best Practice ist es, Ihr Code-Projekt zu überprüfen. Vergewissern Sie sich, dass die AEM Richtlinien für die Projektstruktur eingehalten wird, und vermeiden Sie Code, der auf ältere oder nicht unterstützte Repository-Pfade angewiesen ist, was in AEM as a Cloud Service zu unerwünschtem Verhalten führen kann. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Best Practice ist es, Ihr Code-Projekt zu überprüfen. Stellen Sie sicher, dass es den Richtlinien für die AEM-Projektstruktur entspricht und dass Code nicht auf älteren oder nicht unterstützten Repository-Pfaden basiert, was unerwünschtes Verhalten in AEM as a Cloud Service verursachen kann. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlinien zur Struktur von AEM-Projekten"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
