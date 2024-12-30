@@ -5,7 +5,7 @@ exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ NICHT MEHR UNTERSTÜTZT: Verwendung fremder Inhalte (ersetzt durch CAV, Content 
 
 `ECU` identifiziert das Muster, bei dem verschiedene Inhaltsbereiche in einer Weise verwendet werden, die gegen die Regeln der Inhaltsklassifizierung verstößt.
 
-Die Verarbeitung von Sling-Anfragen definiert, wie der Inhalt einer Ressource, insbesondere deren Eigenschaft `sling:resourceType`, zur Bestimmung des Skripts verwendet wird, das zum Rendern des Inhalts genutzt wird. (Weitere Informationen finden Sie unter [Auffinden des Skripts](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script).) Sling bietet auch Techniken für den Zugriff auf und das Zusammenführen von Ressourcen durch Überlagerungen und Überschreibungen. Diese Techniken werden als Teil von [Sling Resource Merger](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) und in [Überlagerungen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/overlays) beschrieben.
+Die Verarbeitung von Sling-Anfragen definiert, wie der Inhalt einer Ressource, insbesondere deren Eigenschaft `sling:resourceType`, zur Bestimmung des Skripts verwendet wird, das zum Rendern des Inhalts genutzt wird. (Weitere Informationen finden [ unter „Auffinden ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) Skripts“.) Sling bietet außerdem Techniken zum Zugreifen auf und Zusammenführen von Ressourcen durch Überlagerungen und Überschreibungen. Diese Techniken werden als Teil von [Sling Resource Merger](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) und in [Überlagerungen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/overlays) beschrieben.
 
 Um es sicherer und für die Kundschaft verständlicher zu machen, welche Bereiche von `/libs` sicher verwendet und überlagert werden können, wurde der Inhalt in `/libs` mit „Mixin“-Eigenschaften klassifiziert:
 

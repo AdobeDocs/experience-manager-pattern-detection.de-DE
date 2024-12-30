@@ -2,12 +2,12 @@
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-# Adobe Experience Manager Mustererkennung
+# Mustererkennung durch Adobe Experience Manager
 
-Dieses Repository für die Adobe Experience Manager-Mustererkennung.
+Dies ist das Repository für die Mustererkennung durch Adobe Experience Manager.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 
