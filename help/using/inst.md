@@ -2,10 +2,10 @@
 title: INST
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 * Programme, die von Packages von Drittanbietern abhängig sind, funktionieren möglicherweise nicht wie erwartet, bis sie korrekt für die Arbeit mit AEM as a Cloud Service bereitgestellt wurden.
 * Packages von Drittanbietern, die nicht für AEM as a Cloud Service optimiert sind, können zu unerwünschtem Verhalten führen.
 
+Erwägen Sie außerdem, auf diese speziellen Untertypen zu achten:
+
+* `guava.bundle` - Guava wird in AEM 6.5 LTS nicht standardmäßig unterstützt und das Bundle ist nach dem Upgrade nicht mehr verfügbar.
+
 ## Mögliche Lösungen {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 * Packages von Drittanbietern müssen die Richtlinien von AEM as a Cloud Service für die [Entwicklung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) und [Bündelung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) einhalten.
 * Überprüfen Sie das Projekt [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) und verstehen Sie, wie [INST-Verletzungen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) korrigiert und mit AEM as a Cloud Service kompatibel gemacht werden können.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Für den `guava.bundle`-Untertyp installieren Sie entweder Guava oder entfernen Sie die Verwendung, wenn Guava in Ihrem benutzerdefinierten Code verwendet wird.

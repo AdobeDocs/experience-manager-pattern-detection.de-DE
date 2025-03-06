@@ -2,10 +2,10 @@
 title: DG
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,10 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `unsupported.asset.api`: Die Verwendung nicht unterstützter Asset Manager-APIs im Programm-Code.
 * `javax.jcr.observation.EventListener`: Die Verwendung des Ereignis-Listeners im Programm-Code.
 * `custom.guava.cache`: Die Verwendung von Guava-Cache im Programm-Code.
+* `java.api`: Einige Java-APIs wurden von Java 11 zu Java 17 entfernt.
+* `configuration.admin`: Benutzerdefinierter Code, der auf Konfigurationen zugreift, wird gekennzeichnet.
+* `guava.api`: Guava wird in AEM 6.5 LTS nicht standardmäßig unterstützt.
+* `com.day.cq.dam.scene7.api.model`: Es gibt eine größere Versionsänderung für `package com.day.cq.dam.scene7.api.model`.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
@@ -59,6 +63,18 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 
 * `custom.guava.cache`
    * Die Verwendung von Guava-Cache kann zu Leistungsproblemen bei AEM führen.
+
+* `java.api`
+   * Mit AEM 6.5 LTS auf JRE17 sind diese entfernten Java-APIs nicht verfügbar und ihre Verwendung schlägt fehl.
+
+* `configuration.admin`
+   * Sie sollten sich Ihre Nutzung ansehen, um sicherzustellen, dass Sie keine nicht unterstützten Konfigurationen wie Social verwenden.
+
+* `guava.api`
+   * Da Guava in AEM 6.5 LTS nicht unterstützt wird, ist der benutzerdefinierte Code, der Guava verwendet, nicht aktiv.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Importierte Paket-`com.day.cq.dam.scene7.api.model` in benutzerdefinierten Paketen werden aufgrund einer größeren Versionsänderung nicht aufgelöst.
 
 
 ## Mögliche Lösungen {#solutions}
@@ -91,3 +107,12 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 * `custom.guava.cache`
    * Falls erforderlich, sollten Caches außerhalb von AEM erstellt werden. Es sollte eine externe Caching-Lösung in Betracht gezogen werden.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+
+* `configuration.admin`
+   * Entfernen Sie alle Konfigurationsverwendungen von nicht unterstützten Funktionen wie Social Media.
+
+* `guava.api`
+   * Entweder Guava installieren oder Verwendung entfernen, wenn Guava in Ihrem benutzerdefinierten Code verwendet wird.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Aktualisieren Sie den Versionsbereich für das importierte Paket `com.day.cq.dam.scene7.api.model` auf **3.0.4**.

@@ -2,10 +2,10 @@
 title: CIF
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 76%
 
 ---
 
@@ -50,3 +50,16 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 * Um Projekte mit CIF-Bereitstellung zu unterstützen, stellt Adobe die [AEM CIF-Kernkomponenten](https://github.com/adobe/aem-core-cif-components) bereit.
 * Das CIF-Add-on ist auch für AEM 6.5 über das [Software-Verteilungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) verfügbar. Es ist kompatibel und bietet dieselben Funktionen wie das CIF-Add-on für Experience Manager as a Cloud Service. Es sind keine Anpassungen erforderlich.
 * Das klassische CIF mit seinen Abhängigkeiten ist nicht mehr verfügbar. Code, der auf dieser CIF-Version basiert und die Java™-APIs com.adobe.cq.commerce.api verwendet, muss an das CIF-Add-On und seine Regeln angepasst werden.
+
+Finden Sie auch die möglichen Lösungen für die verschiedenen Untertypen unten:
+
+* `commerce.bundles.detected` - Diese Bundles werden während des Upgrades deinstalliert
+* `commerce.packages.detected`: Diese Pakete werden während des Upgrades gelöscht
+* `commerce.packages.dependency` - Entfernen von Abhängigkeiten von Commerce aus benutzerdefinierten Paketen
+* `commerce.nodes.detected` - Benutzerdefinierten Code aktualisieren, um keine CQ-Commerce-Knoten zu erstellen
+* `commerce.configs.detected` - Verwenden Sie keine CQ Commerce-Konfigurationseigenschaften in benutzerdefiniertem Code
+* `commerce.users.detected` - Verwenden Sie keine CQ Commerce-Dienstbenutzer in benutzerdefiniertem Code
+* `commerce.overlays.detected` - Verwendung von CQ Commerce-Überlagerungen entfernen
+* `commerce.paths.detected` - Entfernen Sie Commerce-Pfade, nachdem Sie sichergestellt haben, dass diese Pfade nicht in AEM verwendet werden.
+* `commerce.resource.type.detected` - Verwendung von Commerce-Ressourcen entfernen
+* `commerce.usage`: Entfernen von CQ Commerce-APIs in Ihrem benutzerdefinierten Code.
