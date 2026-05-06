@@ -1,16 +1,10 @@
 ---
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: b766ec44ce5d52669d0fd782a7c88475c5f740a9
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '7'
+ht-degree: 0%
 
 ---
-# Mustererkennung durch Adobe Experience Manager
+# ARCHIVIERT
 
-Dies ist das Repository für die Mustererkennung durch Adobe Experience Manager.
-
-Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
-
-* [contributing.md](contributing.md) Ein Überblick darüber, wie Sie zur Dokumentation beitragen.
-* [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
-* [code-of-conduct.md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die Adobe erwartet, wenn Sie zu diesem Dokumentationsprojekt beitragen.
+Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.en> migriert.
