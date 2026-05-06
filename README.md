@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVIERT
 
-Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.en> migriert.
+Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.de-DE> migriert.
