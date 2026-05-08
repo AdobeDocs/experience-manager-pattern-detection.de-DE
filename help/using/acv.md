@@ -4,7 +4,7 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -55,4 +55,4 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 * Bei einer fehlenden Original-Ausgabedarstellung von Teil-Assets ist keine Aktion erforderlich.
 * Wenn es Konfliktknoten gibt, sollten diese vor der Migration zu AEM as a Cloud Service aufgelöst oder gelöscht werden.
 * Wenden Sie sich an den Adobe-Support, wenn Sie viele große PSD- oder PSB-Dateien verarbeiten möchten. Experience Manager verarbeitet möglicherweise keine PSB-Dateien mit hoher Auflösung, die mehr als 30.000 x 23.000 Pixel umfassen. [Siehe Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Wenden Sie sich an unser [Experience Manager-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Wenden Sie sich an unser [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

@@ -4,8 +4,8 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -27,19 +27,19 @@ Um die verschiedenen Arten von Elementen der Benutzeroberfläche zu unterscheide
 
 * `legacy.dialog.classic`: Dialogfelder aus der klassischen Benutzeroberfläche, die auf ExtJS basieren, müssen auf Coral umgestellt werden.
    * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds `dialog` oder `design_dialog` ist und wenn
-die Eigenschaft `jcr:primaryType` oder die Eigenschaft `xtype` den Wert `cq:Dialog` aufweist.
+Der Wert der `jcr:primaryType` oder der Wert der `xtype` ist `cq:Dialog`.
 * `legacy.dialog.coral2`: `Coral 2`-Dialogfelder sollten aktualisiert werden, damit sie `Coral 3` benutzen.
    * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds und die Namen der untergeordneten Inhaltsknoten
       * `cq:dialog/content`,
       * `cq:design_dialog/content`,
       * `cq:dialog.coral2/content`,
       * oder `cq:design_dialog.coral2/content`
-sind und der Wert der Eigenschaft `sling:resourceType` nicht `granite/ui/components/coral/foundation` enthält.
+und der Wert der `sling:resourceType`-Eigenschaft enthält keine `granite/ui/components/coral/foundation`.
 * `legacy.custom.component`: Komponenten, die von `foundation/components` erben, sollten auf die Verwendung von Kernkomponenten aktualisiert werden.
    * Dieser Untertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Component` aufweist und
      die Eigenschaft `sling:resourceSuperType` den Wert „foundation/components“ enthält. Oder wenn einer der
-     Eigenschaftswerte von `sling:resourceSuperType` der Kette vom Supertyp „Komponenten“
-„foundation/components“ enthält.
+     `sling:resourceSuperType` Eigenschaftswerte der Kette von Supertyp-Komponenten enthalten
+„Foundation/Komponenten.“
 * `legacy.static.template`: Statische Vorlagen sollten in bearbeitbare Vorlagen aktualisiert werden.
    * Dieser Supertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Template` aufweist.
 * `content.fragment.template`: Inhaltsfragmentvorlagen sollten Fragmentmodelle erstellen, um die Fragmentvorlagen zu ersetzen.
@@ -59,7 +59,7 @@ sind und der Wert der Eigenschaft `sling:resourceType` nicht `granite/ui/compone
 
 * Die klassische Benutzeroberfläche ist in AEM as a Cloud Service nicht mehr verfügbar. Die Standardoberfläche für das Authoring ist die Touch-optimierte Benutzeroberfläche.
 * Die weitere Verwendung von veralteten, kundenspezifischen Komponenten kann die Wartungskosten mit der Zeit erhöhen.
-* Inhaltsfragmentvorlagen wurden in AEM 6.3 durch Inhaltsfragmentmodelle abgelöst. Bei der Migration von Inhaltsfragmenten, die auf veralteten Vorlagen basieren, in AEM as a Cloud Service bleiben diese Fragmente funktionsfähig. Es ist jedoch nicht möglich, neue Fragmente auf der Basis der veralteten Vorlage zu erstellen. Es ist auch nicht möglich, diese Fragmente mit AEM GraphQL bereitzustellen, da dies Inhaltsfragmentmodelle als Schemata erfordert.
+* Inhaltsfragmentvorlagen haben in AEM 6.3 Inhaltsfragmentmodelle ersetzt. Bei der Migration von Inhaltsfragmenten, die auf veralteten Vorlagen in AEM as a Cloud Service basieren, werden diese Fragmente als funktional beibehalten. Es ist jedoch nicht möglich, Fragmente auf der Grundlage der veralteten Vorlage zu erstellen. Es ist auch nicht möglich, diese Fragmente mit AEM GraphQL bereitzustellen, da dies Inhaltsfragmentmodelle als Schemata erfordert.
 * „/apps“ ist zur Laufzeit unveränderlich und „translator.html“ wäre in AEM as a Cloud Service nicht mehr verfügbar. Daher müssen `I18n`-Wörterbücher unter Verwendung der CI/CD-Pipeline aus Git stammen.
 
 ## Mögliche Lösungen {#solutions}

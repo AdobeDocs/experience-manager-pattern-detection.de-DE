@@ -4,7 +4,7 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -49,5 +49,5 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
    * Lucene-Binärdateien-Bereinigung: Siehe [Vorgangs-Dashboard – Lucene-Binärdateien-Bereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
    * Datenspeicherbereinigung: Siehe [Datenspeicherbereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
    * Workflow-Bereinigung: Siehe [Regelmäßige Bereinigung von Workflow-Instanzen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
-   * AuditLog-Wartungsaufgabe: Siehe [AuditLog-Wartungsaufgabe](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* Wenden Sie sich an unser [Experience Manager-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+   * Auditprotokoll-Wartungsaufgabe: Siehe [Auditprotokoll-Wartungsaufgabe](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Wenden Sie sich an unser [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

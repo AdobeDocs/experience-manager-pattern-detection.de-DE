@@ -4,8 +4,8 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Die E-Mail-Unterstützung (SMTP-Port) ist standardmäßig deaktiviert. (EMAIL_SERVICE_CONFIGURATION)
 
-* Die Übermittlungsaktion **[!UICONTROL PDF per E-Mail senden]** ist nicht verfügbar.  (EMAIL_PDF_SUBMIT_ACTION)
+* Die Übermittlungsaktion **[!UICONTROL PDF per E-Mail senden]** ist nicht verfügbar. (EMAIL_PDF_SUBMIT_ACTION)
 
 * XFA-basierte adaptive Formulare werden noch nicht unterstützt. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -88,7 +88,7 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * In den monatlichen Versionshinweisen finden Sie Informationen zur Verfügbarkeit der Funktion „Interaktive Kommunikation“. Migrieren Sie Ihre interaktiven Kommunikationen, Briefe und zugehörigen Wörterbücher nicht in eine Cloud Service-Umgebung, solange die Funktion nicht verfügbar ist. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Es gibt keinen Ersatz für das Metadaten-Akkordeon. Entfernen Sie es aus Ihren Formularen, bevor Sie sie zu Cloud Service migrieren. (METADATA_ACCORDION_FORM_CONTAINER)
+* Es gibt keinen Ersatz für das Metadaten-Akkordeon. Entfernen Sie sie aus Ihren Formularen, bevor Sie sie zu Cloud Service migrieren. (METADATA_ACCORDION_FORM_CONTAINER)
 
 * Verwenden Sie das Google reCAPTCHA anstelle des von Adobe Experience Manager bereitgestellten CAPTCHA-Services. (FORMS_CAPTCHA)
 
@@ -96,6 +96,6 @@ Beheben Sie die folgenden Probleme, bevor Sie zu [!DNL Adobe Experience Manager 
 
 * Adaptive Formulare bieten ein responsives Design. Diese Formulare ändern Erscheinungsbild, Design und Interaktivität je nach zugrunde liegendem Gerät. Sie können adaptive Formulare weiterhin auf einem Mobilgerät verwenden. Achten Sie auf die monatlichen Versionshinweise für Informationen zur Verfügbarkeit der [!DNL AEM Forms]-App. (AEM_FORMS_APP)
 
-* Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie XFA-basierte adaptive Formulare verwenden möchten, wenden Sie sich mit den Details zu Ihrem Anwendungsfall und den spezifischen Anforderungen an den Adobe-Support.(XFA_BASED_FORM, XDP_BASED_FORM)
+* Die Unterstützung für XFA-basierte adaptive Formulare ist nicht standardmäßig. Wenn Sie beabsichtigen, XFA-basierte adaptive Forms zu verwenden, wenden Sie sich mit Details zu Ihrem Anwendungsfall und spezifischen Anforderungen an den Adobe-Support. (XFA_BASED_FORM, XDP_BASED_FORM)
 
 Sollten Sie Fragen oder Probleme haben, wenden Sie sich an den [Adobe-Support](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html).

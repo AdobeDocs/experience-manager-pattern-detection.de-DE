@@ -4,8 +4,8 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 90%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -38,11 +38,11 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Implementierungsleitlinien"
->abstract="Kundinnen und Kunden können keine Pakete von Drittanbietern mehr mit dem CRX Package Manager installieren. Diese installierten Artefakte sollten überprüft werden und müssen für das Funktionieren mit AEM as a Cloud Service strukturiert und optimiert werden. Überprüfen Sie jedes Paket von Drittanbietern entweder bei seiner Erstellerin bzw. seinem Ersteller oder bei Adobe auf Kompatibilität mit AEM as a Cloud Service."
+>abstract="Kundinnen und Kunden können keine Pakete von Drittanbietern mehr mit dem CRX-Paket-Manager installieren. Diese installierten Artefakte sollten überprüft werden und müssen für das Funktionieren mit AEM as a Cloud Service strukturiert und optimiert werden. Überprüfen Sie jedes Paket von Drittanbietern entweder bei seiner Erstellerin bzw. seinem Ersteller oder bei Adobe auf Kompatibilität mit AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Einbetten von Unterpaketen in das Container-Paket"
 
 
-* Die Installation von Packages von Drittanbietern mithilfe von CRX Package Manager ist in AEM as a Cloud Service nicht möglich.
+* Die Installation von Paketen von Drittanbietern mithilfe des CRX-Paket-Managers ist in AEM as a Cloud Service nicht möglich.
 * Programme, die von Packages von Drittanbietern abhängig sind, funktionieren möglicherweise nicht wie erwartet, bis sie korrekt für die Arbeit mit AEM as a Cloud Service bereitgestellt wurden.
 * Packages von Drittanbietern, die nicht für AEM as a Cloud Service optimiert sind, können zu unerwünschtem Verhalten führen.
 

@@ -4,7 +4,7 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Um die verschiedenen Arten von Informationen zu erkennen, werden folgende Untert
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* Die AEM-Version, die Anzahl der Knoten, die Gruppenmitgliedschaft, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version, der AEM-Instanztyp und die Zahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
+* Die AEM-Version, die Anzahl der Knoten, die Gruppenzugehörigkeit, der Knotenspeicher, die Implementierungstypen des Datenspeichers, die Anzahl der CQ-Tags, die Anzahl der Smart-Tags, die Kernkomponenten-Version, der AEM-Instanztyp und die Anzahl der nicht verarbeiteten Assets werden zu Informationszwecken bereitgestellt.
 * Die höhere Anzahl von Vanity-URLs (>1000) kann den Dispatcher und die Veröffentlichungs-Server mit teuren Abfragen belasten.
 * Das benutzerdefinierte Programm kann auf Produkte oder Funktionen zurückgreifen, die nicht in AEM as a Cloud Service verfügbar sind.
 * Ein Upgrade mit nicht unterstützten Funktionen kann zu einem fehlgeschlagenen Upgrade und einem nicht funktionsfähigen Programm führen.
