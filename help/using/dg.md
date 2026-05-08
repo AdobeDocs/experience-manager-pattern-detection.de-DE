@@ -4,8 +4,8 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 80%
+source-wordcount: '916'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
 >id="aemcloud_bpa_dg_guidance"
 >title="Implementierungsleitlinien"
 >abstract="Überprüfen Sie Ihre Implementierungen auf die Nutzung des Sling Commons Scheduler. Stellen Sie sie auf Sling-Aufträge um, strukturieren Sie ihre Systemwartungsaufgaben neu, überprüfen Sie das Streaming von Binärdaten und überarbeiten Sie ihren Code, damit er mit AEM as a Cloud Service kompatibel ist."
->additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling-Aufträge"
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/maintenance" text="Wartungsaufgaben in AEM as a Cloud Service"
 
 * `java.io.inputstream`
@@ -95,14 +95,14 @@ Um die verschiedenen Arten von erkannten Verstößen zu unterscheiden, werden fo
    * Stellen Sie sicher, dass die [Konfiguration der Wartungsaufgaben](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) in der Quell-Code-Verwaltung ist.
 
 * `sling.commons.scheduler`
-   * Ersetzen Sie die Verwendung von [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) durch [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die mindestens eine einmalige Ausführung garantieren.
+   * Ersetzen Sie die Verwendung von [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) durch [Sling-Aufträge](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die mindestens eine einmalige Ausführung garantieren.
    * Langlaufende Aufträge sollten vermieden werden.
 
 * `unsupported.asset.api`
    * Anstatt die nicht unterstützten APIs von Asset Manager zu nutzen, siehe [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
+   * Anstatt den Ereignis-Listener zu verwenden, wird empfohlen, den Mechanismus zum Umgang mit Ereignissen in [Sling-Aufträgen](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) zu refaktorieren, um die Verarbeitung zu garantieren.
 
 * `custom.guava.cache`
    * Falls erforderlich, sollten Caches außerhalb von AEM erstellt werden. Es sollte eine externe Caching-Lösung in Betracht gezogen werden.

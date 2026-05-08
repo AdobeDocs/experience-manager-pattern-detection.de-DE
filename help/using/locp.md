@@ -4,7 +4,7 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Implementierungsleitlinien"
->abstract="Kundinnen und Kunden sollten ihren benutzerdefinierten Code und ihre Pakete überprüfen, um festzustellen, ob Inhalte an `/libs` übermittelt werden.  Falls erforderlich, überarbeiten Sie ihn, um den Inhalt unter /apps zu überlagern, und machen Sie ihn mit AEM as a Cloud Service kompatibel. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
+>abstract="Kundinnen und Kunden sollten ihren benutzerdefinierten Code und ihre Pakete überprüfen, um festzustellen, ob Inhalte an `/libs` übermittelt werden. Falls erforderlich, überarbeiten Sie ihn, um den Inhalt unter /apps zu überlagern, und machen Sie ihn mit AEM as a Cloud Service kompatibel. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen oder Fragen haben."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Überlagerungen"
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 

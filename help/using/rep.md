@@ -4,7 +4,7 @@ description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
