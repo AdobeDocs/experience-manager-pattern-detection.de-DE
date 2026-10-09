@@ -2,13 +2,17 @@
 title: MI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
-
 ---
-
 # MI {#mi}
 
 Fehlerhafte Konfiguration
@@ -30,9 +34,9 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * Der Wert -1 wird durch die Anzahl der verfügbaren Prozessoren ersetzt. Dies kann zu Leistungsproblemen in einer AEM-Instanz führen.
+  * Der Wert -1 wird durch die Anzahl der verfügbaren Prozessoren ersetzt. Dies kann zu Leistungsproblemen in einer AEM-Instanz führen.
 * `missing.maintenance.configuration`
-   * Fehlende Konfigurationen für Wartungsaufgaben können zu Leistungseinbußen oder zu Beschädigungen der Instanz führen.
+  * Fehlende Konfigurationen für Wartungsaufgaben können zu Leistungseinbußen oder zu Beschädigungen der Instanz führen.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -43,11 +47,11 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden unter ande
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * `sling.job.max.parallel`
-   * Adobe empfiehlt, den Wert auf 0,5 festzulegen, um die Hälfte der verfügbaren Prozessoren zu nutzen.
+  * Adobe empfiehlt, den Wert auf 0,5 festzulegen, um die Hälfte der verfügbaren Prozessoren zu nutzen.
 * `missing.maintenance.configuration`
-   * Revisionsbereinigung: Siehe [Revisionsbereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Den wichtigen Teil zur Konfiguration finden Sie hier: [Revisionsbereinigung – Konfigurieren der Longtail- und vollständigen Komprimierung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
-   * Lucene-Binärdateien-Bereinigung: Siehe [Vorgangs-Dashboard – Lucene-Binärdateien-Bereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
-   * Datenspeicherbereinigung: Siehe [Datenspeicherbereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
-   * Workflow-Bereinigung: Siehe [Regelmäßige Bereinigung von Workflow-Instanzen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
-   * Auditprotokoll-Wartungsaufgabe: Siehe [Auditprotokoll-Wartungsaufgabe](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+  * Revisionsbereinigung: Siehe [Revisionsbereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Den wichtigen Teil zur Konfiguration finden Sie hier: [Revisionsbereinigung – Konfigurieren der Longtail- und vollständigen Komprimierung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+  * Lucene-Binärdateien-Bereinigung: Siehe [Vorgangs-Dashboard – Lucene-Binärdateien-Bereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+  * Datenspeicherbereinigung: Siehe [Datenspeicherbereinigung](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+  * Workflow-Bereinigung: Siehe [Regelmäßige Bereinigung von Workflow-Instanzen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+  * Auditprotokoll-Wartungsaufgabe: Siehe [Auditprotokoll-Wartungsaufgabe](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
 * Wenden Sie sich an unser [Experience Manager-Kundenunterstützungs-Team](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

@@ -2,13 +2,17 @@
 title: LUI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '799'
 ht-degree: 89%
-
 ---
-
 # LUI {#lui}
 
 Alte Benutzeroberfläche
@@ -26,28 +30,28 @@ Alte Benutzeroberfläche
 Um die verschiedenen Arten von Elementen der Benutzeroberfläche zu unterscheiden, die aktualisiert werden sollen oder müssen, werden folgende Untertypen verwendet:
 
 * `legacy.dialog.classic`: Dialogfelder aus der klassischen Benutzeroberfläche, die auf ExtJS basieren, müssen auf Coral umgestellt werden.
-   * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds `dialog` oder `design_dialog` ist und wenn
-Der Wert der `jcr:primaryType` oder der Wert der `xtype` ist `cq:Dialog`.
+  * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds `dialog` oder `design_dialog` ist und wenn
+    Der Wert der `jcr:primaryType` oder der Wert der `xtype` ist `cq:Dialog`.
 * `legacy.dialog.coral2`: `Coral 2`-Dialogfelder sollten aktualisiert werden, damit sie `Coral 3` benutzen.
-   * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds und die Namen der untergeordneten Inhaltsknoten
-      * `cq:dialog/content`,
-      * `cq:design_dialog/content`,
-      * `cq:dialog.coral2/content`,
-      * oder `cq:design_dialog.coral2/content`
-und der Wert der `sling:resourceType`-Eigenschaft enthält keine `granite/ui/components/coral/foundation`.
+  * Dieser Untertyp wird erkannt, wenn der Name des Dialogfelds und die Namen der untergeordneten Inhaltsknoten
+    * `cq:dialog/content`,
+    * `cq:design_dialog/content`,
+    * `cq:dialog.coral2/content`,
+    * oder `cq:design_dialog.coral2/content`
+      und der Wert der `sling:resourceType`-Eigenschaft enthält keine `granite/ui/components/coral/foundation`.
 * `legacy.custom.component`: Komponenten, die von `foundation/components` erben, sollten auf die Verwendung von Kernkomponenten aktualisiert werden.
-   * Dieser Untertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Component` aufweist und
-     die Eigenschaft `sling:resourceSuperType` den Wert „foundation/components“ enthält. Oder wenn einer der
-     `sling:resourceSuperType` Eigenschaftswerte der Kette von Supertyp-Komponenten enthalten
-„Foundation/Komponenten.“
+  * Dieser Untertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Component` aufweist und
+    die Eigenschaft `sling:resourceSuperType` den Wert „foundation/components“ enthält. Oder wenn einer der
+    `sling:resourceSuperType` Eigenschaftswerte der Kette von Supertyp-Komponenten enthalten
+    „Foundation/Komponenten.“
 * `legacy.static.template`: Statische Vorlagen sollten in bearbeitbare Vorlagen aktualisiert werden.
-   * Dieser Supertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Template` aufweist.
+  * Dieser Supertyp wird erkannt, wenn die Eigenschaft `jcr:primaryType` den Wert `cq:Template` aufweist.
 * `content.fragment.template`: Inhaltsfragmentvorlagen sollten Fragmentmodelle erstellen, um die Fragmentvorlagen zu ersetzen.
-   * Inhaltsfragmentvorlagen befinden sich in den folgenden Speicherorten:
-      * Vorkonfigurierte Inhaltsfragmentvorlagen werden in `/libs/settings/dam/cfm/templates` gespeichert.
-      * Sie können in `/apps/settings/dam/cfm/templates` oder `/conf/.../settings/dam/cfm/templates`(... = global oder „tenant“) überlagert werden.
+  * Inhaltsfragmentvorlagen befinden sich in den folgenden Speicherorten:
+    * Vorkonfigurierte Inhaltsfragmentvorlagen werden in `/libs/settings/dam/cfm/templates` gespeichert.
+    * Sie können in `/apps/settings/dam/cfm/templates` oder `/conf/.../settings/dam/cfm/templates`(... = global oder „tenant“) überlagert werden.
 * `translation.dictionary`: `I18n`-Wörterbuch, das unter `/apps` vorhanden ist.
-   * `/apps` ist zur Laufzeit unveränderlich und „translator.html“ wäre in AEM as a Cloud Service nicht mehr verfügbar.
+  * `/apps` ist zur Laufzeit unveränderlich und „translator.html“ wäre in AEM as a Cloud Service nicht mehr verfügbar.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
@@ -72,10 +76,10 @@ und der Wert der `sling:resourceType`-Eigenschaft enthält keine `granite/ui/com
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/introduction" text="Kernkomponenten"
 
 * Um den für die Modernisierung Ihrer AEM Sites-Implementierungen erforderlichen Aufwand zu reduzieren, verwenden Sie die [Suite an AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/). Diese Tools umfassen die Konvertierung von:
-   * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
-   * Basiskomponenten zu Kernkomponenten
-   * statischen Vorlagen und Spaltensteuerung zu bearbeitbaren Vorlagen und responsivem Raster
-   * Designs und Design-Dialogfeldern zu Richtlinien für bearbeitbare Vorlagen
+  * Dialogen der klassischen Oberfläche (ExtJS) zu Coral-Dialogenn
+  * Basiskomponenten zu Kernkomponenten
+  * statischen Vorlagen und Spaltensteuerung zu bearbeitbaren Vorlagen und responsivem Raster
+  * Designs und Design-Dialogfeldern zu Richtlinien für bearbeitbare Vorlagen
 * Überprüfen Sie die Bibliothek der benutzerdefinierten Komponenten Ihres Projekts und wechseln Sie, wenn möglich, zum Satz der standardisierten [Kernkomponenten](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/introduction), um die Entwicklungszeit zu beschleunigen und die Wartungskosten für Ihre Programme zu reduzieren.
 * Erstellen Sie Inhaltsfragmentmodelle mit entsprechenden Funktionen für die älteren Vorlagen und verwenden Sie diese Modelle für die zukünftige Erstellung von Inhaltsfragmenten. Weitere Informationen finden Sie unter [Inhaltsfragmentmodelle](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models).
 * `I18n`-Wörterbücher müssen unter Verwendung der CI/CD-Pipeline aus Git stammen. [Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)

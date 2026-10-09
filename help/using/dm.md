@@ -2,13 +2,17 @@
 title: DM
 description: Erfahren Sie, wie der Mustererkennungs-Code die Verwendung von AEM Assets – Dynamic Media identifiziert.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
-
 ---
-
 # DM {#dm}
 
 Dynamic Media
@@ -27,13 +31,13 @@ Dynamic Media
 Bei diesem Code wird ein Untertyp verwendet:
 
 * `dynamic.media.runmode`: Der zugehörige Wert dieses Untertyps, sofern vorhanden, lautet entweder:
-   * `dynamicmedia`: Dynamic Media – Hybridmodus oder
-   * `dynamicmedia_scene7`: Dynamic Media – Scene7-Modus
+  * `dynamicmedia`: Dynamic Media – Hybridmodus oder
+  * `dynamicmedia_scene7`: Dynamic Media – Scene7-Modus
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * `dynamic.media.runmode`
-   * Bei Upgrades kann es Probleme im Zusammenhang mit Dynamic Media geben.
+  * Bei Upgrades kann es Probleme im Zusammenhang mit Dynamic Media geben.
 
 ## Mögliche Lösungen {#solutions}
 
@@ -46,6 +50,6 @@ Bei diesem Code wird ein Untertyp verwendet:
 
 
 * `dynamic.media.runmode`
-   * Weitere Informationen finden Sie unter [Einrichten von Dynamic Media](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
+  * Weitere Informationen finden Sie unter [Einrichten von Dynamic Media](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

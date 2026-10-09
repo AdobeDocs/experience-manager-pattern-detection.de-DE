@@ -2,13 +2,17 @@
 title: PCX
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 Seitenkomplexität
@@ -42,9 +46,9 @@ Um die verschiedenen Arten von Informationen zu unterscheiden, werden folgende U
 >additional-url="https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html" text="Support für Experience Cloud"
 
 * Reduzieren Sie die Gesamtzahl der Knoten auf einer Seite durch die folgenden Schritte:
-   * Stellen Sie sicher, dass es keine unnötigen Container gibt.
-   * Testen Sie, ob dasselbe Layout mit weniger Containern erreicht werden kann.
-   * Vereinfachen Sie den Seiteninhalt.
-   * Verringern Sie die Tiefe der Knotenstruktur.
-   * Refaktorisieren Sie der Einfachheit halber alle enthaltenen Experience Fragments.
+  * Stellen Sie sicher, dass es keine unnötigen Container gibt.
+  * Testen Sie, ob dasselbe Layout mit weniger Containern erreicht werden kann.
+  * Vereinfachen Sie den Seiteninhalt.
+  * Verringern Sie die Tiefe der Knotenstruktur.
+  * Refaktorisieren Sie der Einfachheit halber alle enthaltenen Experience Fragments.
 * Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.

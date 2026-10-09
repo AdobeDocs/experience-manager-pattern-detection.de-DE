@@ -2,13 +2,17 @@
 title: REP
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 Replikationsagent
@@ -36,9 +40,9 @@ AEM as a Cloud Service verwendet [Sling Content Distribution](https://sling.apac
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
 * Die Konfiguration der Replikation hat sich mit AEM as a Cloud Service geändert. Alle aktuellen Replikationsagenten sollten überprüft werden. Die Überprüfung hilft Ihnen, Folgendes zu erkennen:
-   * welche durch diese Standardfunktionalität ersetzt werden können,
-   * welche Konfigurationen in Code umgesetzt werden müssen
-   * und welche nicht unterstützt werden.
+  * welche durch diese Standardfunktionalität ersetzt werden können,
+  * welche Konfigurationen in Code umgesetzt werden müssen
+  * und welche nicht unterstützt werden.
 * Jede Verwendung von Replikationsagenten in benutzerdefiniertem Code oder Workflows sollte beim Upgrade auf AEM as a Cloud Service überprüft werden.
 * Die umgekehrte Replikation wird in AEM as a Cloud Service zunächst nicht unterstützt.
 * Es ist nicht erforderlich, einen separaten Dispatcher-Flush-Agenten zu konfigurieren. Dieser wird automatisch in der AEM as a Cloud Service-Umgebung konfiguriert.

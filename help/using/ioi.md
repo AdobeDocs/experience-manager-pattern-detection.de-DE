@@ -2,13 +2,17 @@
 title: IOI
 description: Hilfeseite zum Mustererkennungs-Code.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # IOI {#ioi}
 
 Interner Oak-Import
@@ -18,14 +22,14 @@ Interner Oak-Import
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Interner Oak-Import"
->abstract="IOI-Code identifiziert die Verwendung interner Oak-Packages durch die Kundschaft und den Import über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Bundles oder AEM-Services auf niedriger Ebene nutzen sie nur."
+>abstract="IOI-Code identifiziert die Verwendung interner Oak-Packages durch die Kundschaft und den Import über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Pakete oder AEM-Services auf untergeordnetem Niveau nutzen nur diese."
 
-`IOI` identifiziert die Verwendung von internen Oak-Packages durch Kundinnen und Kunden und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Bundles oder AEM-Services auf niedriger Ebene nutzen sie nur.
-Einige dieser Bereiche werden von `com.adobe.granite.repository` verwendet, das während des Starts ein Repository für AEM einrichtet. Ein weiteres Beispiel ist das Adobe-Bundle `com.adobe.granite.maintenance.oak`, das Oak-Wartungsaufgaben umfasst und bereitstellt.
+`IOI` identifiziert die Verwendung von internen Oak-Packages durch Kundinnen und Kunden und importiert sie über OSGi. Sie werden ohne eine bestimmte Version exportiert. Oak-Pakete oder AEM-Services auf untergeordnetem Niveau nutzen nur diese.
+Einige dieser Bereiche werden von `com.adobe.granite.repository` verwendet, das während des Starts ein Repository für AEM einrichtet. Ein weiteres Beispiel ist das Adobe-Paket `com.adobe.granite.maintenance.oak`, das Oak-Wartungsaufgaben umfasst und bereitstellt.
 
 ## Mögliche Auswirkungen und Risiken {#implications-and-risks}
 
-* In einer zukünftigen AEM-Version könnten interne Exporte entfernt werden, was zu unterbrochenen Abhängigkeiten und inaktiven Bundles führt, die direkt von Oak abhängen.
+* In einer zukünftigen AEM-Version könnten interne Exporte entfernt werden, was zu unterbrochenen Abhängigkeiten und inaktiven Paketen führt, die direkt von Oak abhängen.
 * Die API in internen Exporten kann sich ändern.
 
 ## Mögliche Lösungen {#solutions}
