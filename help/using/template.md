@@ -1,13 +1,14 @@
 ---
 title: VORLAGE
 description: Vorlage für die Hilfeseite zum Mustererkennungs-Code
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -33,4 +34,4 @@ Beantworten Sie die Frage: „Was kann ich dagegen tun?“
 
 * Mögliche Lösung Nr. 1
 * Mögliche Lösung Nr. 2
-* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
+* Wenden Sie sich an unser [AEM-Supportteam](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html), um weitere Informationen zu erhalten oder um Anliegen vorzubringen.
